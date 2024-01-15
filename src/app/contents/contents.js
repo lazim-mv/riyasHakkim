@@ -10,19 +10,19 @@ const container2Data = {
   sectionTitle: "create websites that help get more",
   imgData: [
     {
-      img: "/container2/1(1).svg",
+      img: "/Container2/1(1).svg",
       cardHeading: "Brannd Building",
       description:
         "Careful planning makespractices so that the project can bewe always shipped can be maintained.",
     },
     {
-      img: "/container2/1(2).svg",
+      img: "/Container2/1(2).svg",
       cardHeading: "Brannd Building",
       description:
         "Careful planning makespractices so that the project can bewe always shipped can be maintained.",
     },
     {
-      img: "/container2/1(3).svg",
+      img: "/Container2/1(3).svg",
       cardHeading: "Brannd Building",
       description:
         "Careful planning makespractices so that the project can bewe always shipped can be maintained.",
@@ -31,7 +31,7 @@ const container2Data = {
 };
 
 const container3Data = {
-  img: " /container2/aboutImage.png",
+  img: " /Container2/aboutImage.png",
   sectionTitle: "create websites that help get more",
   description:
     "As a UI/UX design agency, we're committed to creating digital products that convert and engage customers. We go beyond mobile apps, web applications, and multi-platform experiences to develop user-friendly's personality.As a UI/UX design agency, we're committed to creating digital products that convert and engage customers. web applications, and multi-platform experiences to develop user-friendly's personality.",
@@ -102,7 +102,7 @@ const container4Data = {
 };
 
 const container5Data = {
-  img: " /container2/container5.png",
+  img: " /Container2/container5.png",
   sectionTitle: "create websites that help get more",
   description:
     "As a UI/UX design agency, we're committed to creating digital products that convert and engage customers. We go beyond mobile apps, web applications, and multi-platform experiences to develop user-friendly's personality.As a UI/UX design agency, we're committed to creating digital products that convert and engage customers. web applications, and multi-platform experiences to develop user-friendly's personality.",
@@ -110,8 +110,8 @@ const container5Data = {
 };
 
 const container6Data = {
-  img: "/container2/container6.png",
-  playIcon: "/container2/yt.png",
+  img: "/Container2/container6.png",
+  playIcon: "/Container2/yt.png",
   sectionTitle: "create websites that help get more",
   description:
     "Careful planning makes us confident, developed with best practices so that the project can be maintained. We always test projects before they are shipped.",
