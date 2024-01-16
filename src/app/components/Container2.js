@@ -13,7 +13,7 @@ const Container2 = () => {
       <div className="container2">
       <SectionTitle 
         sectionText={container2Data.sectionTitle}
-        width="32.73809523809524vw"
+        // width="32.73809523809524vw"
         padding="0 0 4.62962962962963vw 0"
         textAllign="center"
         margin="auto"

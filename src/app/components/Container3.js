@@ -19,10 +19,9 @@ const Container3 = () => {
       <div className="container3Contents">
         <SectionTitle
           sectionText={container3Data.sectionTitle}
-          width="32.73809523809524vw"
           padding="0 0 1.3227513227513228vw 0"
           textAllign="left"
-          wordIndex={1}
+          wordIndex={0}
           secondaryWordColor="#96202A"
         />
         <SectionDescription

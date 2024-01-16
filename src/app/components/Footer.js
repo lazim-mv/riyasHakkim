@@ -23,7 +23,7 @@ const Footer = () => {
           unoptimized
         />
         <SectionDescription
-          sectionText="I have been taking gym and fitness training here since a long time and I found here so much easy, comfort and flexibility."
+          sectionText="Guiding you through the nuances of emotional sales, transform your professional goals into achievements with expert ease and insight."
           width="24.933862433862434vw"
         />
       </div>

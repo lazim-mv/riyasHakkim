@@ -42,7 +42,7 @@ const Container4 = ({
     <>
       <div className={`${classNameMainContainer} container4`} id="container4">
         <div className={`${classNametopContainer} topContainer4`}>
-          <div>
+          <div className="topContainer4Contents">
             <SectionTitle
               sectionText={content.sectionTitle}
               width="32.73809523809524vw"

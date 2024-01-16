@@ -9,14 +9,14 @@ import { container5Data } from "../contents/contents";
 
 const Container5 = () => {
   return (
-    <div className="container3">
+    <div className="container3 container5">
       <div className="container3Contents">
         <SectionTitle
           sectionText={container5Data.sectionTitle}
           width="32.73809523809524vw"
           padding="0 0 1.3227513227513228vw 0"
           textAllign="left"
-          wordIndex={1}
+          wordIndex={0}
           secondaryWordColor="#96202A"
         />
         <SectionDescription

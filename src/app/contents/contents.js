@@ -1,138 +1,125 @@
 const heroData = {
   img: "",
-  heroTitle: "create websites that help get more",
-  description:
-    "Careful planning makes us confident, developed with best practices so that the project can be maintained. We always test projects before they are shipped.",
+  heroTitle: "Beyond the Sale: A Journey with Riyas Hakkim",
   buttonText: "Contact Us",
+  description:
+    "Venture into the depths of connection with Riyas Hakkim, where every interaction is more than a transaction. It's where stories unfold, trust builds, and success is a shared chapter.",
 };
 
 const container2Data = {
-  sectionTitle: "create websites that help get more",
+  sectionTitle: "The Sales Empowerment Suite",
   imgData: [
     {
-      img: "/Container2/1(1).svg",
-      cardHeading: "Brannd Building",
-      description:
-        "Careful planning makespractices so that the project can bewe always shipped can be maintained.",
+      img: "/Container2/2(1).svg",
+      cardHeading: "Sales Mastery",
+      description: "Harness emotional insights for impactful sales results.",
     },
     {
-      img: "/Container2/1(2).svg",
-      cardHeading: "Brannd Building",
-      description:
-        "Careful planning makespractices so that the project can bewe always shipped can be maintained.",
+      img: "/Container2/2(2).svg",
+      cardHeading: "Leadership Coaching",
+      description: "Lead with empathy and inspire team success.",
     },
     {
-      img: "/Container2/1(3).svg",
-      cardHeading: "Brannd Building",
-      description:
-        "Careful planning makespractices so that the project can bewe always shipped can be maintained.",
+      img: "/Container2/2(3).svg",
+      cardHeading: "Workshop Series",
+      description: "Interactive sessions to sharpen your sales acumen.",
     },
   ],
 };
 
 const container3Data = {
   img: " /Container2/aboutImage.png",
-  sectionTitle: "create websites that help get more",
+  sectionTitle: "Accelerate Your Impact",
   description:
-    "As a UI/UX design agency, we're committed to creating digital products that convert and engage customers. We go beyond mobile apps, web applications, and multi-platform experiences to develop user-friendly's personality.As a UI/UX design agency, we're committed to creating digital products that convert and engage customers. web applications, and multi-platform experiences to develop user-friendly's personality.",
+    "Riyas Hakkim doesn't just coach; he catalyzes change. With a focus on emotional intelligence and strategic sales mastery, our programs are meticulously crafted to empower you to forge meaningful connections and achieve remarkable sales growth. Elevate your presence, enrich customer interactions, and witness the transformation in your sales trajectory. Dive into the world of empathetic leadership with us.",
   buttonText: "Know More",
 };
 
 const container4Data = {
-  sectionTitle: "create websites that help get more",
+  sectionTitle: "Training Programs",
   buttonText: "Know More",
   imgData: [
     {
-      img: "/Container4/1(1).png",
-      cardHeading: "Brannd Building",
+      img: "/Container4/1.png",
+      cardHeading: "Sales Leadership Accelerator",
       overlayText: "1Day",
       description:
-        "Careful planning makespractices so that the project can bewe always shipped can be maintained.",
+        "Gain a competitive edge with our Sales Leadership Accelerator, designed for visionary thinking and strategic sales excellence in a dynamic half or full-day format.",
     },
     {
-      img: "/Container4/1(2).png",
-      cardHeading: "Brannd Building",
+      img: "/Container4/2.png",
+      cardHeading: "Emotional Selling Workshop",
       overlayText: "1Day",
       description:
-        "Careful planning makespractices so that the project can bewe always shipped can be maintained.",
+        "Master the art of connection with our one-day Emotional Selling Workshop, where advanced selling techniques meet emotional insight for transformative results.",
     },
     {
-      img: "/Container4/1(3).png",
-      cardHeading: "Brannd Building",
+      img: "/Container4/3.png",
+      cardHeading: "Sales Leadership Coaching",
       overlayText: "1Day",
       description:
-        "Careful planning makespractices so that the project can bewe always shipped can be maintained.",
+        "Our Sales Leadership Coaching hones your natural leadership abilities with a focus on emotional intelligence and strategic communication, in half or full-day sessions.",
     },
     {
-      img: "/Container4/1(4).png",
-      cardHeading: "Brannd Building",
+      img: "/Container4/4.png",
+      cardHeading: "Sales Goal Setting Workshop",
       overlayText: "1Day",
       description:
-        "Careful planning makespractices so that the project can bewe always shipped can be maintained.",
+        "Set and surpass sales targets with our practical one-day Sales Goal Setting Workshop, leveraging global best practices for maximum efficiency.",
     },
     {
-      img: "/Container4/1(1).png",
-      cardHeading: "Brannd Building",
+      img: "/Container4/5.png",
+      cardHeading: "Soul of Selling",
       overlayText: "1Day",
       description:
-        "Careful planning makespractices so that the project can bewe always shipped can be maintained.",
+        "Explore a deeper dimension of sales with the Soul of Selling program, where spiritual insights and sales strategies merge for profound professional growth.",
     },
     {
-      img: "/Container4/1(2).png",
-      cardHeading: "Brannd Building",
+      img: "/Container4/6.png",
+      cardHeading: "Sales Re-Engineering Program",
       overlayText: "1Day",
       description:
-        "Careful planning makespractices so that the project can bewe always shipped can be maintained.",
+        "Reinvent your sales approach with our tailored Sales Re-Engineering Program, offering in-depth strategy and skill development for long-term success.",
     },
     {
-      img: "/Container4/1(3).png",
-      cardHeading: "Brannd Building",
+      img: "/Container4/7.png",
+      cardHeading: "Team Building & Outbound Training Activities",
       overlayText: "1Day",
       description:
-        "Careful planning makespractices so that the project can bewe always shipped can be maintained.",
+        "Elevate your team dynamics with our engaging outdoor activities designed to boost communication, leadership, and sales skills in a thrilling setting.",
     },
     {
-      img: "/Container4/1(4).png",
-      cardHeading: "Brannd Building",
+      img: "/Container4/8.png",
+      cardHeading: "21 Days Online Sales Coaching & Training",
       overlayText: "1Day",
       description:
-        "Careful planning makespractices so that the project can bewe always shipped can be maintained.",
+        "Transform your sales skills with our comprehensive 21 Days Online Coaching & Training, an immersive experience for individual and corporate growth.",
     },
   ],
 };
 
 const container5Data = {
   img: " /Container2/container5.png",
-  sectionTitle: "create websites that help get more",
+  sectionTitle: "Celebrating Success and Connection",
   description:
-    "As a UI/UX design agency, we're committed to creating digital products that convert and engage customers. We go beyond mobile apps, web applications, and multi-platform experiences to develop user-friendly's personality.As a UI/UX design agency, we're committed to creating digital products that convert and engage customers. web applications, and multi-platform experiences to develop user-friendly's personality.",
-  buttonText: "Know More",
+    "Riyas Hakkim energizes every milestone, transforming achievements into a celebration of the deep bonds and shared aspirations that define his team's journey. It's a collaborative movement towards collective excellence and personal growth, embodying the spirit of unity in every success. Together, they navigate towards a future rich with triumphs and the powerful synergy of united purpose..",
 };
 
 const container6Data = {
   img: "/Container2/container6.png",
   playIcon: "/Container2/yt.png",
-  sectionTitle: "create websites that help get more",
+  sectionTitle: "Embark on this journey with Riyas Hakkim",
   description:
-    "Careful planning makes us confident, developed with best practices so that the project can be maintained. We always test projects before they are shipped.",
+    "where strategic foresight, emotional intelligence, and genuine connections converge to create not just sales, but stories of success and unity",
   buttonText: "Know More",
 };
 
 const container7Data = {
-  sectionTitle: "create websites that help get more",
+  sectionTitle: "Gallery of Achievement",
   buttonText: "Know More",
   imgData: [
     {
-      img: "/Container7/1(1).png",
-    },
-    {
-      img: "/Container7/1(2).png",
-    },
-    {
-      img: "/Container7/1(3).png",
-    },
-    {
-      img: "/Container7/1(4).png",
+      img: "/Container7/1.png",
     },
     {
       img: "/Container7/1(1).png",
@@ -182,33 +169,33 @@ const container9Data = {
   faqData: [
     {
       number: "01",
-      question: "How long do you work with your clients?",
+      question: "How does emotional intelligence impact sales performance?",
       answer:
-        "As a UI/UX design agency, we're committed to creating digital products that convert and engage customers. We go beyond mobile apps, web applications, and multi-platform experiences to develop usersonality.",
+        "Emotional intelligence is crucial in sales as it helps in understanding and responding to clients' emotions, leading to stronger relationships and better sales outcomes.",
     },
     {
       number: "02",
-      question: "How long do you work with your clients?",
+      question: "Can emotional sales techniques work in any industry?",
       answer:
-        "As a UI/UX design agency, we're committed to creating digital products that convert and engage customers. We go beyond mobile apps, web applications, and multi-platform experiences to develop usersonality.",
+        "Absolutely, emotional sales techniques are versatile and can be adapted to any industry to enhance customer engagement and drive sales.",
     },
     {
       number: "03",
-      question: "How long do you work with your clients?",
+      question: "What are the key components of Riyas Hakkim's sales coaching?",
       answer:
-        "As a UI/UX design agency, we're committed to creating digital products that convert and engage customers. We go beyond mobile apps, web applications, and multi-platform experiences to develop usersonality.",
+        "Riyas Hakkim's sales coaching focuses on emotional intelligence, strategic thinking, and personalized engagement to help sales professionals achieve their goals.",
     },
     {
       number: "04",
-      question: "How long do you work with your clients?",
+      question: "How do Riyas Hakkim's workshops differ from traditional sales training?",
       answer:
-        "As a UI/UX design agency, we're committed to creating digital products that convert and engage customers. We go beyond mobile apps, web applications, and multi-platform experiences to develop usersonality.",
+        "His workshops are unique, emphasizing emotional connections and personalized strategies over standard sales tactics.",
     },
     {
       number: "05",
-      question: "How long do you work with your clients?",
+      question: "What results can I expect from participating in Riyas Hakkim's programs?",
       answer:
-        "As a UI/UX design agency, we're committed to creating digital products that convert and engage customers. We go beyond mobile apps, web applications, and multi-platform experiences to develop usersonality.",
+        "Participants can expect improved sales skills, a deeper understanding of emotional dynamics in sales, and ultimately, better sales performance.",
     },
   ],
 };

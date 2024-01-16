@@ -45,9 +45,9 @@ const BtnComponent = ({
               quality={100}
               priority={true}
               unoptimized
-            //   style={{
-            //     filter: arrowColor ? "brightness(1000%)" : "",
-            //   }}
+              //   style={{
+              //     filter: arrowColor ? "brightness(1000%)" : "",
+              //   }}
             />
           ) : (
             ""
@@ -117,7 +117,7 @@ const SectionTitle = ({
   wordIndex,
   margin,
 }) => {
-  const words = sectionText.split(' ');
+  const words = sectionText.split(" ");
 
   return (
     <h2
@@ -127,12 +127,23 @@ const SectionTitle = ({
         padding: padding,
         width: width,
         textAlign: textAllign,
-        margin:margin,
+        margin: margin,
       }}
     >
       {words.map((word, index) => (
-        <span key={index} style={{ color: index === wordIndex ? secondaryWordColor : 'inherit' }}>
-          {word}{' '}
+        <span
+          key={index}
+          style={{
+            color: Array.isArray(wordIndex)
+              ? wordIndex.includes(index)
+                ? secondaryWordColor
+                : "inherit"
+              : index === wordIndex
+              ? secondaryWordColor
+              : "inherit",
+          }}
+        >
+          {word}{" "}
         </span>
       ))}
     </h2>
@@ -140,32 +151,29 @@ const SectionTitle = ({
 };
 
 const CardHeading = ({
-    sectionText,
-    color,
-    weight,
-    padding,
-    width,
-    textAllign,
-    margin
-  }) => {
-    return (
-      <h3
-        style={{
-          color: color,
-          fontWeight: weight,
-          padding: padding,
-          width: width,
-          textAlign: textAllign,
-          margin:margin,
-        }}
-      >
-        {sectionText}
-      </h3>
-    );
-  };
-  
-
-
+  sectionText,
+  color,
+  weight,
+  padding,
+  width,
+  textAllign,
+  margin,
+}) => {
+  return (
+    <h3
+      style={{
+        color: color,
+        fontWeight: weight,
+        padding: padding,
+        width: width,
+        textAlign: textAllign,
+        margin: margin,
+      }}
+    >
+      {sectionText}
+    </h3>
+  );
+};
 
 const SectionDescription = ({
   sectionText,
@@ -174,7 +182,7 @@ const SectionDescription = ({
   padding,
   width,
   textAllign,
-  margin
+  margin,
 }) => {
   return (
     <p
@@ -184,7 +192,7 @@ const SectionDescription = ({
         paddingBottom: padding,
         width: width,
         textAlign: textAllign,
-        margin:margin,
+        margin: margin,
       }}
     >
       {sectionText}
@@ -192,4 +200,10 @@ const SectionDescription = ({
   );
 };
 
-export { BtnComponent, SectionTitle, SectionName, SectionDescription, CardHeading };
+export {
+  BtnComponent,
+  SectionTitle,
+  SectionName,
+  SectionDescription,
+  CardHeading,
+};

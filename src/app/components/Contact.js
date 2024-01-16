@@ -6,7 +6,7 @@ const Contact = () => {
     <div className="contactContainer">
       <div className="contactContentContainer">
         <SectionTitle
-          sectionText="create websites that get more Creative Mind"
+          sectionText="Ready to elevate your sales journey?"
           color="#fff"
           textAllign="center"
           width="33.92857142857143vw"

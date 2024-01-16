@@ -10,12 +10,14 @@ import Container9 from "./components/Container9";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import MobileHeader from "./components/MobileHeader";
 import { container4Data, container7Data } from "./contents/contents";
 
 export default function Home() {
   return (
     <main className="">
       <Header />
+      <MobileHeader />
       <Hero />
       <Container2 />
       <Container3 />

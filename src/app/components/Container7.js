@@ -40,7 +40,7 @@ const Container7 = ({
 
   return (
     <>
-      <div className={`${classNameMainContainer} container4`} id="container4">
+      <div className={`${classNameMainContainer} container4 container7`} id="container4">
         <div className={`${classNametopContainer} topContainer4`}>
           <div>
             <SectionTitle
@@ -48,7 +48,7 @@ const Container7 = ({
               width="32.73809523809524vw"
               padding="0 0 1.3227513227513228vw 0"
               textAllign="left"
-              wordIndex={1}
+              wordIndex={0}
               secondaryWordColor="#96202A"
             />
           </div>

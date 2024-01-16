@@ -36,10 +36,10 @@ const Container6 = () => {
       <div className="container6Contents">
         <SectionTitle
           sectionText={container6Data.sectionTitle}
-          width="32.73809523809524vw"
+          width="37.10317460317461vw"
           padding="0 0 1.3227513227513228vw 0"
           textAllign="left"
-          wordIndex={1}
+          wordIndex={[5,6]}
           secondaryWordColor="#96202A"
         />
         <SectionDescription
