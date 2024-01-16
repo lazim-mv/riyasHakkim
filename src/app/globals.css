@@ -1108,19 +1108,18 @@ a {
     padding: var(--mobileContainerPadding);
     width: 100vw;
     grid-template-rows: 1fr 1fr 16.53333333333333vw;
-    grid-template-columns: 45vw 45vw;
+    grid-template-columns: 40vw 40vw;
     gap: 8vw;
   }
 
   .footerLogo {
     grid-column: 1/3;
     grid-row: 1/1;
+    width: 100%;
     margin-top: 10.666666666666668vw;
   }
 
   .footerLogo img{
-    /* grid-column: 1/3;
-    grid-row: 2/2; */
     width: 34vw;
     height: 4vw;
   }

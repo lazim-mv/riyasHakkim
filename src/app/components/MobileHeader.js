@@ -1,4 +1,3 @@
-
 "use client";
 import Image from "next/image";
 import React, { useState } from "react";
@@ -52,23 +51,15 @@ function MobileHeader() {
         className="mHeaderContainer"
       >
         <a href="/">
-          <div
-            style={{
-              fontSize: "1.25rem",
-              fontWeight: 600,
-              color: "#333",
-              width: "22.666666666666664vw",
-              height: "13.333333333333334vw",
-            }}
-          >
+          <div>
             <Image
               src="/logo.svg"
               width={120}
               height={30}
               alt="ImageHeader"
               style={{
-                width: "22.666666666666664vw",
-                height: "13.333333333333334vw",
+                width: "34vw",
+                height: "4vw",
               }}
             />
           </div>
@@ -120,7 +111,11 @@ function MobileHeader() {
                     : ""
                 }`}
                 href={item.href}
-                style={{ transform: isMenuOpen ? "translateY(0)" : "translateY(-100vw)" }}
+                style={{
+                  transform: isMenuOpen
+                    ? "translateY(0)"
+                    : "translateY(-100vw)",
+                }}
               >
                 {item.text}
               </a>
