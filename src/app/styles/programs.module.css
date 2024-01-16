@@ -70,6 +70,10 @@
     font-size: 2.380952380952381vw;
 }
 
+.cardContent p{
+  margin-bottom: 1.3227513227513228vw;
+}
+
 
 @media only screen and (max-width: 767px) {
   .container1 {
