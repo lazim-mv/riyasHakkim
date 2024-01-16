@@ -1,0 +1,132 @@
+.container {
+  --font-Jakarta: "Plus Jakarta Sans", sans-serif;
+  --containerPadding: 0 9.920634920634921vw;
+  --containerMarginTop: 9.920634920634921vw;
+  --backgroundContainerPadding: 6.510416666666667vw 9.765625vw;
+  --mobileContainerMarginTop: 16vw;
+  --mobileContainerPadding: 0 6.4vw;
+  --mobileBackgroundContainerPadding: 10.666666666666668vw 6.4vw;
+  --borderRadius: 0.6613756613756614vw;
+}
+
+.container1 {
+  padding: var(--containerPadding);
+  background-color: #181818;
+  height: 20.8994708994709vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards {
+  margin-top: 6.613756613756613vw;
+  padding: var(--containerPadding);
+
+  display: flex;
+  flex-direction: column;
+  gap: 6.613756613756613vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.card:nth-child(even) .cardContent {
+  order: -1;
+}
+
+.card:nth-child(even) .purpleSquare {
+  right: -1.953125vw;
+  left: auto;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4.62962962962963vw;
+  position: relative;
+}
+
+.imageContainer {
+  width: 38.095238095238095vw;
+  height: 33.06878306878307vw;
+}
+
+.imageContainer img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 66.13756613756614vw 0.6613756613756614vw 0.6613756613756614vw
+    66.13756613756614vw;
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  width: 37.43386243386244vw;
+}
+
+.cardContent h2{
+    margin-bottom: 1.3227513227513228vw;
+    font-size: 2.380952380952381vw;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .container1 {
+    margin-top: calc(var(--mobileContainerMarginTop) );
+    padding: var(--mobileContainerPadding);
+
+    height: 36.8vw;
+  }
+  .container1 h2{
+    width: 87.2vw !important;
+  }
+
+  .cards {
+    flex-direction: column;
+    margin-top: 10.666666666666668vw;
+    gap: 10.666666666666668vw;
+    padding: var(--mobileContainerPadding);
+  }
+
+  .card:nth-child(even) .cardContent {
+    order: 1;
+  }
+
+  .card {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .imageContainer {
+    width: auto;
+    height: auto;
+    margin-bottom: 8vw;
+  }
+
+  .imageContainer img {
+    width: 87.2vw;
+    height: 74.66666666666667vw;
+  }
+
+  .cardContent {
+    width: auto;
+    height: auto;
+    text-align: left;
+  }
+  
+
+  .card:nth-child(even) .purpleSquare {
+    right: auto;
+    left: -5.333333333333334vw;
+  }
+
+  .cardContent h2{
+    font-size: 6.4vw;
+    margin-bottom: 2.666666666666667vw;
+  }
+
+  .cardContent p{
+    margin-bottom: 4vw;
+  }
+}

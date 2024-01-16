@@ -10,8 +10,6 @@ import Image from "next/image";
 
 const Container4 = ({
   content,
-  extraContent,
-  className,
   classNametopContainer,
   classNameMainContainer,
   href,

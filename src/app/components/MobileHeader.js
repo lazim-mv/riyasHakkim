@@ -23,7 +23,7 @@ function MobileHeader() {
   const menuList = [
     { text: "Home", href: "/" },
     { text: "About", href: "/pages/About" },
-    { text: "Services", href: "/pages/Services" },
+    { text: "Programs", href: "/pages/Programs" },
   ];
 
   return (
@@ -121,7 +121,7 @@ function MobileHeader() {
               </a>
             ))}
             <a
-              href="tel:971 568 352 250"
+              href="/pages/Contact"
               style={{ display: isMenuOpen ? "block" : "none" }}
             >
               <BtnComponent

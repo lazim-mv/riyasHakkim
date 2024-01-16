@@ -10,7 +10,7 @@ function Header() {
   const menuList = [
     { text: "Home", href: "/" },
     { text: "About", href: "/pages/About" },
-    { text: "Services", href: "/pages/Services" },
+    { text: "Programs", href: "/pages/Programs" },
   ];
 
 
@@ -51,7 +51,7 @@ function Header() {
                 </div>
               ))}
           </div>
-        <a href="/">
+        <a href="/pages/Contact">
           <BtnComponent
             bg="#96202A"
             color="#ffffff"

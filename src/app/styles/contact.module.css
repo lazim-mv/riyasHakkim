@@ -1,0 +1,219 @@
+.container {
+  --font-Jakarta: "Plus Jakarta Sans", sans-serif;
+  --containerPadding: 0 9.920634920634921vw;
+  --containerMarginTop: 9.920634920634921vw;
+  --backgroundContainerPadding: 6.510416666666667vw 9.765625vw;
+  --mobileContainerMarginTop: 16vw;
+  --mobileContainerPadding: 0 6.4vw;
+  --mobileBackgroundContainerPadding: 10.666666666666668vw 6.4vw;
+  --borderRadius: 0.6613756613756614vw;
+  --mobileBorderRadius: 2.666666666666667vw;
+}
+
+.container1 {
+  padding: var(--containerPadding);
+  background-color: #181818;
+  height: 20.8994708994709vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container1 h2 {
+  width: 32.67195767195767vw !important;
+}
+
+.container2 {
+  margin-top: 6.613756613756613vw;
+  padding: var(--containerPadding);
+  background-color: #000;
+}
+
+.formContainer {
+  background: #000;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1.984126984126984vw;
+}
+
+.formContainer div {
+  width: 39.08730158730159vw;
+  height: 4.9603174603174605vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.formContainer div:nth-child(5) {
+  height: auto;
+}
+
+.formContainer input {
+  width: 39.08730158730159vw;
+  height: 4.9603174603174605vw;
+  border-radius: var(--borderRadius);
+  background-color: #000;
+  border: 0.5px solid rgba(255, 255, 255, 0.6);
+  padding: 1.6534391534391533vw 0 1.6534391534391533vw 2.6455026455026456vw;
+}
+
+.formContainer input::placeholder {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.formContainer textarea::placeholder {
+  font-size: 1.1904761904761905vw;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.formContainer .textBox {
+  width: 100%;
+}
+
+.textBox textarea {
+  background-color: #000;
+
+  border: 0.5px solid rgba(255, 255, 255, 0.6);
+  padding: 1.6534391534391533vw 0 1.6534391534391533vw 2.6455026455026456vw;
+  height: 14.880952380952381vw;
+  border-radius: var(--borderRadius);
+}
+
+.formContainer .formSubmit {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.formSubmit button {
+  width: 15.476190476190476vw;
+  height: 3.6375661375661372vw;
+
+  border-radius: 3.1084656084656084vw;
+  background: #96202a;
+
+  color: #fff;
+  font-size: 1.1904761904761905vw;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2698412698412698vw;
+  text-transform: uppercase;
+}
+
+.container3 {
+  margin-top: var(--containerMarginTop);
+  padding: var(--containerPadding);
+  display: flex;
+  flex-direction: column;
+}
+
+.container3 img {
+  width: 3.3068783068783065vw;
+  height: 3.3068783068783065vw;
+}
+
+.container3 h2 {
+  margin-bottom: 3.968253968253968vw;
+}
+
+.socialContainer {
+  display: flex;
+  align-items: center;
+  gap: 2.6455026455026456vw;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.3227513227513228vw;
+}
+
+@media only screen and (max-width: 767px) {
+  .container1 {
+    margin-top: calc(var(--mobileContainerMarginTop));
+    padding: var(--mobileContainerPadding);
+    height: 36.8vw;
+  }
+
+  .container1 h2 {
+    width: 64.53333333333333vw !important;
+  }
+  .container2 {
+    margin-top: 10.666666666666668vw;
+    padding: var(--mobileContainerPadding);
+  }
+
+  .formContainer {
+    gap: 5.333333333333334vw;
+    flex-direction: column;
+  }
+
+  .formContainer div {
+    height: 13.333333333333334vw;
+    width: 87.2vw;
+  }
+
+  .formContainer div:nth-child(5) {
+    height: 40vw;
+  }
+
+  .formContainer input::placeholder {
+    font-size: 3.733333333333334vw;
+  }
+
+  .formContainer textarea::placeholder {
+    font-size: 3.733333333333334vw;
+  }
+
+  .formContainer input {
+    height: 13.333333333333334vw;
+    width: 87.2vw;
+    border-radius: var(--mobileBorderRadius);
+  }
+
+  .formContainer textarea {
+    height: 40vw;
+    width: 87.2vw;
+    border-radius: var(--mobileBorderRadius);
+  }
+
+  .formSubmit button {
+    width: 42.66666666666667vw;
+    height: 10.666666666666668vw;
+    font-size: 3.733333333333334vw;
+    border-radius: 12.533333333333333vw;
+  }
+
+  .container3 {
+    margin-top: var(--mobileContainerMarginTop);
+    padding: var(--mobileContainerPadding);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container3 img {
+    width: 8vw;
+    height: 8vw;
+  }
+
+  .container3 h2 {
+    margin-bottom: 8vw;
+  }
+
+  .socialContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5.333333333333334vw;
+  }
+
+  .social {
+    display: flex;
+    align-items: center;
+    gap: 2.666666666666667vw;
+  }
+}

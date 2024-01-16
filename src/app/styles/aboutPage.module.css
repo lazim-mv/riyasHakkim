@@ -1,0 +1,124 @@
+.container {
+  --font-Jakarta: "Plus Jakarta Sans", sans-serif;
+  --containerPadding: 0 9.920634920634921vw;
+  --containerMarginTop: 9.920634920634921vw;
+  --backgroundContainerPadding: 6.510416666666667vw 9.765625vw;
+  --mobileContainerMarginTop: 16vw;
+  --mobileContainerPadding: 0 6.4vw;
+  --mobileBackgroundContainerPadding: 10.666666666666668vw 6.4vw;
+  --borderRadius: 0.6613756613756614vw;
+}
+
+.container1 {
+  padding: var(--containerPadding);
+  background-color: #181818;
+  height: 20.8994708994709vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container2 {
+  padding: var(--mobileContainerPadding);
+  margin-top: 6.613756613756613vw;
+  display: flex;
+  align-items: center;
+  gap: 5.291005291005291vw;
+}
+
+.container2Img img {
+  width: 37.43386243386244vw;
+  height: 37.43386243386244vw;
+}
+
+.container2Contents {
+  width: 37.43386243386244vw;
+}
+
+.container2 h2 {
+  margin-bottom: 1.984126984126984vw;
+}
+
+.aboutContainerCard5 {
+  width: 24.933862433862434vw;
+  height: 16.534391534391535vw;
+  object-fit: cover;
+  position: relative;
+}
+
+.aboutContainerCard5 .ytIcon {
+  width: 3.968253968253968vw;
+  height: 3.968253968253968vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.aboutContainerCard5 .aboutCardImg {
+  width: 24.933862433862434vw;
+  height: 16.534391534391535vw;
+}
+
+@media only screen and (max-width: 767px) {
+  .container1 {
+    margin-top: calc(var(--mobileContainerMarginTop));
+    padding: var(--mobileContainerPadding);
+
+    height: 36.8vw;
+  }
+
+  .container1 h2{
+    width: auto !important;
+  }
+
+  .container2{
+    padding: var(--mobileContainerPadding);
+    flex-direction: column;
+    margin-top: 10.666666666666668vw;
+  }
+
+  .container2Contents{
+    width: auto;
+  }
+  
+  .container2Contents h2{
+    margin-bottom: 2.666666666666667vw;
+  }
+
+  .container2Img{
+    width: 87.2vw;
+    height: 87.2vw;
+    margin-bottom: 8vw;
+  }
+
+  .container2 img{
+    width: 87.2vw;
+    height: 87.2vw;
+  }
+
+  .aboutContainer3Cards{
+    grid-template-rows: auto;
+  }
+
+  .aboutContainer3Card {
+    height: 65.33333333333333vw;
+  }
+
+  .aboutContainerCard5 {
+    width: 66.66666666666666vw;
+    height:44.208533333333335vw;
+    object-fit: cover;
+    position: relative;
+  }
+  
+  .aboutContainerCard5 .ytIcon {
+    width: 10.666666666666668vw;
+    height: 10.666666666666668vw;
+  }
+  
+  .aboutContainerCard5 .aboutCardImg {
+    width: 66.66666666666666vw;
+    height:44.208533333333335vw;
+  }
+}
