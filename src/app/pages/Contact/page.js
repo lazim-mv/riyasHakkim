@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import styles from "../../Styles/contact.module.css";
+import styles from "../../styles/contact.module.css";
 import Image from "next/image";
 // import emailjs from "@emailjs/browser";
 // import emailjsConfig from "../../../../emailjs.config";

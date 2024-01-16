@@ -4,20 +4,17 @@ import styles from "../../styles/aboutPage.module.css";
 import Image from "next/image";
 import {
   container1,
-  container2,
   container3,
   container4,
   container5,
 } from "@/app/contents/aboutPage";
 import {
-  BtnComponent,
   CardHeading,
   SectionDescription,
   SectionTitle,
 } from "@/app/components/ButtonComponent";
 import Header from "@/app/components/Header";
 import MobileHeader from "@/app/components/MobileHeader";
-import Container2 from "@/app/components/Container2";
 import Contact from "@/app/components/Contact";
 import Footer from "@/app/components/Footer";
 
