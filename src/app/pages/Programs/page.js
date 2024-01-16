@@ -47,12 +47,14 @@ const page = () => {
             <div className={styles.cardContent}>
               <SectionTitle sectionText={data.title} />
               <SectionDescription sectionText={data.description} />
+             <a href="/pages/Contact">
               <BtnComponent
                 buttonText={programPage.buttonText}
                 bg="#96202A"
                 color="#fff"
                 arrow={true}
               />
+              </a>
             </div>
           </div>
         ))}
