@@ -18,7 +18,7 @@ import MobileHeader from "@/app/components/MobileHeader";
 import Contact from "@/app/components/Contact";
 import Footer from "@/app/components/Footer";
 
-const page = () => {
+const Page = () => {
   const cardData = container5.imgData;
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -217,4 +217,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
