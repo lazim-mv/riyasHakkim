@@ -28,6 +28,7 @@ const Container3 = () => {
           sectionText={container3Data.description}
           width="37.43386243386244vw"
         />
+        <a href="/pages/Programs">
         <BtnComponent
           buttonText={container3Data.buttonText}
           bg="#96202A"
@@ -35,6 +36,7 @@ const Container3 = () => {
           arrow={true}
           margin="1.984126984126984vw 0 0 0"
         />
+        </a>
       </div>
     </div>
   );

@@ -14,14 +14,15 @@ const Hero = () => {
           margin="1.3227513227513228vw 0 0 0"
           width="37.63227513227513vw"
         />
-
-        <BtnComponent
-          buttonText={heroData.buttonText}
-          bg="#96202A"
-          color="#fff"
-          arrow={true}
-          margin="1.984126984126984vw 0 0 0"
-        />
+        <a href="/pages/Contact">
+          <BtnComponent
+            buttonText={heroData.buttonText}
+            bg="#96202A"
+            color="#fff"
+            arrow={true}
+            margin="1.984126984126984vw 0 0 0"
+          />
+        </a>
       </div>
       <Image
         className="hImage"

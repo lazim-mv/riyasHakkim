@@ -11,6 +11,7 @@ const Contact = () => {
           textAllign="center"
           width="33.92857142857143vw"
         />
+        <a href="/pages/Contact">
         <BtnComponent
           buttonText="Contact Us"
           bg="#96202A"
@@ -18,6 +19,7 @@ const Contact = () => {
           arrow={true}
           margin="1.984126984126984vw 0 0 0"
         />
+        </a>
       </div>
     </div>
   );

@@ -23,6 +23,7 @@ const Container5 = () => {
           sectionText={container5Data.description}
           width="37.43386243386244vw"
         />
+        <a href="/pages/About">
         <BtnComponent
           buttonText={container5Data.buttonText}
           bg="#96202A"
@@ -30,6 +31,7 @@ const Container5 = () => {
           arrow={true}
           margin="1.984126984126984vw 0 0 0"
         />
+        </a>
       </div>
       <Image
         className="container3Image"

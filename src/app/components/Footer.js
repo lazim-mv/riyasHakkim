@@ -33,9 +33,12 @@ const Footer = () => {
           sectionText="Quick Links"
           margin="0 0 2.380952380952381vw 0"
         />
-        <SectionDescription sectionText="About" />
-        <SectionDescription sectionText="Services" />
-        <SectionDescription sectionText="Contact Us" />
+        <a href="/pages/About">
+        <SectionDescription sectionText="About" /></a>
+        <a href="/pages/Programs">
+        <SectionDescription sectionText="Programs" /></a>
+        <a href="/pages/Contact">
+        <SectionDescription sectionText="Contact Us" /></a>
       </div>
       <div className="social">
         <CardHeading sectionText="Social Media" />

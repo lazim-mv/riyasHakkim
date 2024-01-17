@@ -101,6 +101,7 @@ const container4Data = {
 const container5Data = {
   img: " /Container2/container5.png",
   sectionTitle: "Celebrating Success and Connection",
+  buttonText: "Know More",
   description:
     "Riyas Hakkim energizes every milestone, transforming achievements into a celebration of the deep bonds and shared aspirations that define his team's journey. It's a collaborative movement towards collective excellence and personal growth, embodying the spirit of unity in every success. Together, they navigate towards a future rich with triumphs and the powerful synergy of united purpose..",
 };
