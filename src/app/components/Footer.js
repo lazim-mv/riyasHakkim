@@ -41,10 +41,7 @@ const Footer = () => {
       </div>
 
       <div className="quickLinks">
-        <CardHeading
-          sectionText="Quick Links"
-          margin="0 0 1.1vw 0"
-        />
+        <CardHeading sectionText="Quick Links" margin="0 0 1.1vw 0" />
         <div>
           <a href="/pages/About">About</a>
         </div>
@@ -59,9 +56,8 @@ const Footer = () => {
         <CardHeading sectionText="Social Media" />
         <div className="socialIcons">
           {socialIcons.map((data, index) => (
-            <a href={data.href} target="_blank">
+            <a href={data.href} target="_blank" key={index}>
               <Image
-                key={index}
                 src={data.img}
                 width={130}
                 height={101}
