@@ -986,9 +986,14 @@ a {
     border-bottom-right-radius: var(--mobileBorderRadius);
   }
 
-  .container4Card img {
+  .container4imgContainer{
     width: 66.66666666666666vw;
     height: 42.66666666666667vw;
+  }
+
+  .container4Card img {
+    width: 100%;
+    height: 100%;
     border-top-left-radius: var(--mobileBorderRadius);
     border-top-right-radius: var(--mobileBorderRadius);
   }
@@ -1096,7 +1101,8 @@ a {
     height: 70.73386666666667vw;
   }
 
-  .container7Card img {
+
+  .container7Card .container4imgContainer {
     width: 66.66666666666666vw;
     height: 70.73386666666667vw;
     border-radius: var(--mobileBorderRadius);
