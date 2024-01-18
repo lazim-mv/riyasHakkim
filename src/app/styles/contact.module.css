@@ -100,7 +100,11 @@
   font-weight: 500;
   line-height: 1.2698412698412698vw;
   text-transform: uppercase;
+  border: none;
+  cursor: pointer;
 }
+
+
 
 .container3 {
   margin-top: var(--containerMarginTop);

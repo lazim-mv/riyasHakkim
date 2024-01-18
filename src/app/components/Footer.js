@@ -4,10 +4,22 @@ import Image from "next/image";
 
 const Footer = () => {
   const socialIcons = [
-    "/Footer/1(1).png",
-    "/Footer/1(2).png",
-    "/Footer/1(3).png",
-    "/Footer/1(4).png",
+    {
+      img: "/Footer/1(1).png",
+      href: "https://www.linkedin.com/in/riyashakkim/",
+    },
+    {
+      img: "/Footer/1(2).png",
+      href: "https://www.instagram.com/riyasbinhakkim/",
+    },
+    {
+      img: "/Footer/1(3).png",
+      href: "https://www.linkedin.com/in/riyashakkim/",
+    },
+    {
+      img: "/Footer/1(4).png",
+      href: "https://www.tiktok.com/@riyas.hakkim?lang=en",
+    },
   ];
 
   return (
@@ -31,38 +43,44 @@ const Footer = () => {
       <div className="quickLinks">
         <CardHeading
           sectionText="Quick Links"
-          margin="0 0 2.380952380952381vw 0"
+          margin="0 0 1.1vw 0"
         />
-        <a href="/pages/About">
-        <SectionDescription sectionText="About" /></a>
-        <a href="/pages/Programs">
-        <SectionDescription sectionText="Programs" /></a>
-        <a href="/pages/Contact">
-        <SectionDescription sectionText="Contact Us" /></a>
+        <div>
+          <a href="/pages/About">About</a>
+        </div>
+        <div>
+          <a href="/pages/Programs">Programs</a>
+        </div>
+        <div>
+          <a href="/pages/Contact">Contact Us</a>
+        </div>
       </div>
       <div className="social">
         <CardHeading sectionText="Social Media" />
         <div className="socialIcons">
           {socialIcons.map((data, index) => (
-            <Image
-              key={index}
-              src={data}
-              width={130}
-              height={101}
-              alt={`Social Icon ${index + 1}`}
-              quality={100}
-              priority={true}
-              unoptimized
-            />
+            <a href={data.href} target="_blank">
+              <Image
+                key={index}
+                src={data.img}
+                width={130}
+                height={101}
+                alt={`Social Icon ${index + 1}`}
+                quality={100}
+                priority={true}
+                unoptimized
+              />
+            </a>
           ))}
         </div>
       </div>
-      <div className="copyRightContainer">
+      <div className="copyRight">
         <hr />
         <SectionDescription
-          textAllign="center"
           sectionText="©2023 RiyasHakkim. All rights reserved."
+          color="rgba(255, 255, 255, 0.60)"
           margin="1.984126984126984vw 0"
+          textAllign="center"
         />
       </div>
     </div>
