@@ -8,7 +8,7 @@ const Container6 = () => {
     <div className="container6">
       <div className="videoContainerBackground"></div>
       <div className="videoContainer">
-        <a href="https://www.youtube.com/@riyashr">
+        <a href="https://youtu.be/kCCtQp8y_xQ?si=qjcZSnOJ2iKpqEzZ" target="_blank">
           <Image
             className="container3Image"
             src={container6Data.img}

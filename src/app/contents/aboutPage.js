@@ -31,30 +31,34 @@ const container3 = {
 };
 
 const container4 = {
-    img: " /aboutPage/2.png",
-    sectionTitle: "Nurturing Success Together",
-    description:
-      "At the heart of every achievement lies the spirit of collaboration. I take pride in fostering partnerships that celebrate mutual success. Each award and accolade is a shared victory, a symbol of our collective commitment to excellence and innovation in every endeavor.",
-    buttonText: "Know More",
-  };
+  img: " /aboutPage/2.png",
+  sectionTitle: "Nurturing Success Together",
+  description:
+    "At the heart of every achievement lies the spirit of collaboration. I take pride in fostering partnerships that celebrate mutual success. Each award and accolade is a shared victory, a symbol of our collective commitment to excellence and innovation in every endeavor.",
+  buttonText: "Know More",
+};
 
-  const container5 = {
-    sectionTitle: "Riyas Hakkim Speaks ",
-    buttonText: "Know More",
-    imgData: [
-      {
-        img: "/aboutPage/1(4).png",
-      },
-      {
-        img: "/aboutPage/1(2).png",
-      },
-      {
-        img: "/aboutPage/1(3).png",
-      },
-      {
-        img: "/aboutPage/1(1).png",
-      },
-    ],
-  };
+const container5 = {
+  sectionTitle: "Riyas Hakkim Speaks ",
+  buttonText: "Know More",
+  imgData: [
+    {
+      img: "/aboutPage/1(4).png",
+      href: "https://youtu.be/gvmomKDqs-s?si=m8mIYhGlWSIUP08O",
+    },
+    {
+      img: "/aboutPage/1(2).png",
+      href: "https://youtu.be/coMrsI25Pi4?si=QVV8wd1ctzrr7drG",
+    },
+    {
+      img: "/aboutPage/1(3).png",
+      href: "https://youtu.be/kCCtQp8y_xQ?si=5Ts5rqYtNTWcAXx8",
+    },
+    {
+      img: "/aboutPage/1(1).png",
+      href: "https://www.youtube.com/@riyashr",
+    },
+  ],
+};
 
 export { container1, container3, container4, container5 };

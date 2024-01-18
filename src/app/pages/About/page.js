@@ -196,6 +196,7 @@ const Page = () => {
                 unoptimized
                 className={styles.ytIcon}
               />
+              <a href={data.href} target="_blank" >
               <Image
                 className={styles.aboutCardImg}
                 src={data.img}
@@ -206,6 +207,7 @@ const Page = () => {
                 priority={true}
                 unoptimized
               />
+              </a>
             </div>
           ))}
         </div>
