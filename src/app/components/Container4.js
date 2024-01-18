@@ -1,5 +1,5 @@
 "use client";
-import React, {  useState } from "react";
+import React, { useState } from "react";
 import {
   BtnComponent,
   CardHeading,
@@ -86,19 +86,21 @@ const Container4 = ({
                 transform: currentIndex
                   ? `translateX(-${currentIndex * 27.5793650794}vw)`
                   : "",
-                  transition:"transform .8s ease"
+                transition: "transform .8s ease",
               }}
             >
-              <Image
-                className=""
-                src={data.img}
-                alt="Asian Engineer"
-                width={100}
-                height={100}
-                quality={100}
-                priority={true}
-                unoptimized
-              />
+              <div className="container4imgContainer">
+                <Image
+                  className=""
+                  src={data.img}
+                  alt="Asian Engineer"
+                  width={100}
+                  height={100}
+                  quality={100}
+                  priority={true}
+                  unoptimized
+                />
+              </div>
               <div className="container4CardContent">
                 <CardHeading
                   sectionText={data.cardHeading}
@@ -113,13 +115,13 @@ const Container4 = ({
           ))}
         </div>
         <a href={href ? href : "/pages/Programs"}>
-        <BtnComponent
-          buttonText={content.buttonText}
-          bg="#96202A"
-          color="#fff"
-          arrow={true}
-          margin="4.62962962962963vw auto 0 auto"
-        />
+          <BtnComponent
+            buttonText={content.buttonText}
+            bg="#96202A"
+            color="#fff"
+            arrow={true}
+            margin="4.62962962962963vw auto 0 auto"
+          />
         </a>
       </div>
     </>

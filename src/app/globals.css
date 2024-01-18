@@ -422,11 +422,22 @@ a {
   border-bottom-right-radius: var(--borderRadius);
 }
 
-.container4Card img {
+.container4imgContainer{
   width: 24.933862433862434vw;
   height: 16.534391534391535vw;
   border-top-left-radius: var(--borderRadius);
   border-top-right-radius: var(--borderRadius);
+  overflow: hidden;
+}
+
+.container4imgContainer img:hover{
+  transform: scale(1.1);
+}
+
+.container4Card img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease;
 }
 
 .container4CardContent {
@@ -497,7 +508,7 @@ a {
   height: 26.455026455026452vw;
 }
 
-.container7Card img {
+.container7Card .container4imgContainer {
   height: 26.455026455026452vw;
   border-radius: var(--borderRadius);
 }

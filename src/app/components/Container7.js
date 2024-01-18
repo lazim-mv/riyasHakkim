@@ -40,7 +40,10 @@ const Container7 = ({
 
   return (
     <>
-      <div className={`${classNameMainContainer} container4 container7`} id="container4">
+      <div
+        className={`${classNameMainContainer} container4 container7`}
+        id="container4"
+      >
         <div className={`${classNametopContainer} topContainer4`}>
           <div>
             <SectionTitle
@@ -91,16 +94,18 @@ const Container7 = ({
                 transition: "transform .8s ease",
               }}
             >
-              <Image
-                className=""
-                src={data.img}
-                alt="Asian Engineer"
-                width={100}
-                height={100}
-                quality={100}
-                priority={true}
-                unoptimized
-              />
+              <div className="container4imgContainer">
+                <Image
+                  className=""
+                  src={data.img}
+                  alt="Asian Engineer"
+                  width={100}
+                  height={100}
+                  quality={100}
+                  priority={true}
+                  unoptimized
+                />
+              </div>
             </div>
           ))}
         </div>
