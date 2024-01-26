@@ -2,8 +2,8 @@
 import React, { useState } from "react";
 import styles from "../../styles/contact.module.css";
 import Image from "next/image";
-// import emailjs from "@emailjs/browser";
-// import emailjsConfig from "../../../../emailjs.config";
+import emailjs from "@emailjs/browser";
+import emailjsConfig from "../../../../emailjs.config";
 import dynamic from "next/dynamic";
 import {
   SectionDescription,
@@ -29,29 +29,29 @@ function Contact() {
   };
 
   const handleSubmit = (e) => {
-    // e.preventDefault();
+    e.preventDefault();
 
-    // emailjs
-    //   .sendForm(
-    //     emailjsConfig.serviceId,
-    //     emailjsConfig.templateId,
-    //     e.target,
-    //     emailjsConfig.userId
-    //   )
-    //   .then((response) => {
-    //     console.log("Email sent successfully!", response);
+    emailjs
+      .sendForm(
+        emailjsConfig.serviceId,
+        emailjsConfig.templateId,
+        e.target,
+        emailjsConfig.userId
+      )
+      .then((response) => {
+        console.log("Email sent successfully!", response);
 
-    //     setFormData({
-    //       name: "",
-    //       email: "",
-    //       phone: "",
-    //       subject: "",
-    //       message: "",
-    //     });
-    //   })
-    //   .catch((error) => {
-    //     console.error("Email could not be sent:", error);
-    //   });
+        setFormData({
+          name: "",
+          email: "",
+          phone: "",
+          subject: "",
+          message: "",
+        });
+      })
+      .catch((error) => {
+        console.error("Email could not be sent:", error);
+      });
 
     console.log(formData);
   };
@@ -145,7 +145,9 @@ function Contact() {
               priority={true}
               unoptimized
             />
-            <SectionDescription sectionText="+91 9645013281 ,+91 9645013281" />
+            <a href="tel:+971521057169">
+            <SectionDescription sectionText="+971 521 057 169" />
+            </a>
           </div>
           <div className={styles.social}>
             <Image
@@ -157,7 +159,9 @@ function Contact() {
               priority={true}
               unoptimized
             />
-            <SectionDescription sectionText="riyasHakkim@gmail.com" />
+            <a href="mailto:reach@riyashakkim.com">
+            <SectionDescription sectionText="reach@riyashakkim.com" />
+            </a>
           </div>
         </div>
       </div>

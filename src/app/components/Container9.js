@@ -9,7 +9,6 @@ import {
 import { container9Data } from "../contents/contents";
 import Image from "next/image";
 
-// ... (import statements)
 
 const Container9 = () => {
   const cardData = container9Data.faqData;

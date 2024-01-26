@@ -17,6 +17,7 @@ import Header from "@/app/components/Header";
 import MobileHeader from "@/app/components/MobileHeader";
 import Contact from "@/app/components/Contact";
 import Footer from "@/app/components/Footer";
+import Testimonial from "@/app/components/Testimonial";
 
 const Page = () => {
   const cardData = container5.imgData;
@@ -83,7 +84,10 @@ const Page = () => {
         />
         <div className={`${styles.aboutContainer3Cards} cardsContainer`}>
           {container3.imgData.map((data, index) => (
-            <div className={`${styles.aboutContainer3Card} cardContainer`} key={index}>
+            <div
+              className={`${styles.aboutContainer3Card} cardContainer`}
+              key={index}
+            >
               <Image
                 className="cardIcon"
                 src={data.img}
@@ -186,7 +190,7 @@ const Page = () => {
                 transition: "transform .8s ease",
               }}
             >
-            <Image
+              <Image
                 src="/aboutPage/yt.png"
                 alt="Asian Engineer"
                 width={100}
@@ -196,23 +200,23 @@ const Page = () => {
                 unoptimized
                 className={styles.ytIcon}
               />
-              <a href={data.href} target="_blank" >
-              <Image
-                className={styles.aboutCardImg}
-                src={data.img}
-                alt="Asian Engineer"
-                width={100}
-                height={100}
-                quality={100}
-                priority={true}
-                unoptimized
-              />
+              <a href={data.href} target="_blank">
+                <Image
+                  className={styles.aboutCardImg}
+                  src={data.img}
+                  alt="Asian Engineer"
+                  width={100}
+                  height={100}
+                  quality={100}
+                  priority={true}
+                  unoptimized
+                />
               </a>
             </div>
           ))}
         </div>
       </div>
-
+      <Testimonial />
       <Contact />
       <Footer />
     </>

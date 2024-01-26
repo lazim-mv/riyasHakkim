@@ -11,6 +11,7 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import MobileHeader from "./components/MobileHeader";
+import Testimonial from "./components/Testimonial";
 import { container4Data, container7Data } from "./contents/contents";
 
 export default function Home() {
@@ -26,6 +27,7 @@ export default function Home() {
       <Container6 />
       <Container7 content={container7Data}/>
       <Container8 />
+      <Testimonial />
       <Container9 />
       <Contact />
       <Footer />

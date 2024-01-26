@@ -55,6 +55,7 @@
   background-color: #000;
   border: 0.5px solid rgba(255, 255, 255, 0.6);
   padding: 1.6534391534391533vw 0 1.6534391534391533vw 2.6455026455026456vw;
+  color: #fff;
 }
 
 .formContainer input::placeholder {
@@ -78,6 +79,7 @@
   padding: 1.6534391534391533vw 0 1.6534391534391533vw 2.6455026455026456vw;
   height: 14.880952380952381vw;
   border-radius: var(--borderRadius);
+  color: #fff;
 }
 
 .formContainer .formSubmit {

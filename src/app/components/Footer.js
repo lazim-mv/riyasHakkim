@@ -4,10 +4,10 @@ import Image from "next/image";
 
 const Footer = () => {
   const socialIcons = [
-    {
-      img: "/Footer/1(1).png",
-      href: "https://www.linkedin.com/in/riyashakkim/",
-    },
+    // {
+    //   img: "/Footer/1(1).png",
+    //   href: "https://www.linkedin.com/in/riyashakkim/",
+    // },
     {
       img: "/Footer/1(2).png",
       href: "https://www.instagram.com/riyasbinhakkim/",
@@ -16,10 +16,10 @@ const Footer = () => {
       img: "/Footer/1(3).png",
       href: "https://www.linkedin.com/in/riyashakkim/",
     },
-    {
-      img: "/Footer/1(4).png",
-      href: "https://www.tiktok.com/@riyas.hakkim?lang=en",
-    },
+    // {
+    //   img: "/Footer/1(4).png",
+    //   href: "https://www.tiktok.com/@riyas.hakkim?lang=en",
+    // },
   ];
 
   return (

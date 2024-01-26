@@ -188,15 +188,35 @@ const container9Data = {
     },
     {
       number: "04",
-      question: "How do Riyas Hakkim's workshops differ from traditional sales training?",
+      question:
+        "How do Riyas Hakkim's workshops differ from traditional sales training?",
       answer:
         "His workshops are unique, emphasizing emotional connections and personalized strategies over standard sales tactics.",
     },
     {
       number: "05",
-      question: "What results can I expect from participating in Riyas Hakkim's programs?",
+      question:
+        "What results can I expect from participating in Riyas Hakkim's programs?",
       answer:
         "Participants can expect improved sales skills, a deeper understanding of emotional dynamics in sales, and ultimately, better sales performance.",
+    },
+  ],
+};
+
+const testimonial = {
+  sectionTitle: "Client Success Stories",
+  testimonialData: [
+    {
+      img: "/Testimonial/1.jpg",
+      cardHeading: "Ashraf Thayyil",
+      description:
+        "Riyas's sessions create a profound emotional connection, guiding us to appreciate the importance of empathy and gratitude. His ability to reach the depths of our hearts revives our childlike curiosity, proactivity, and fearlessness. Mastering his teachings ensures genuine success.",
+    },
+    {
+      img: "/Testimonial/2.jpg",
+      cardHeading: "Dhouha Khaldi",
+      description:
+        "Working with Ryias can literally change your mindset, way of thinking, your vision, your faith and will definitely double your self confidence and positivity. I was blessed to meet Ryias personally and professionally. He is a LIFE EXPERIENCE and a POSIYIVITY BOOSTER. Wish you all the fully deserved success.",
     },
   ],
 };
@@ -211,4 +231,5 @@ export {
   container7Data,
   container8Data,
   container9Data,
+  testimonial,
 };

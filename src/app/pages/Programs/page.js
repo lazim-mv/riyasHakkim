@@ -12,6 +12,7 @@ import Footer from "@/app/components/Footer";
 import Contact from "@/app/components/Contact";
 import Container9 from "@/app/components/Container9";
 import { programPage } from "@/app/contents/programsPage";
+import Testimonial from "@/app/components/Testimonial";
 
 const page = () => {
   const cardData = programPage.imageCard;
@@ -47,18 +48,19 @@ const page = () => {
             <div className={styles.cardContent}>
               <SectionTitle sectionText={data.title} />
               <SectionDescription sectionText={data.description} />
-             <a href="/pages/Contact">
-              <BtnComponent
-                buttonText={programPage.buttonText}
-                bg="#96202A"
-                color="#fff"
-                arrow={true}
-              />
+              <a href="/pages/Contact">
+                <BtnComponent
+                  buttonText={programPage.buttonText}
+                  bg="#96202A"
+                  color="#fff"
+                  arrow={true}
+                />
               </a>
             </div>
           </div>
         ))}
       </div>
+      <Testimonial /> 
       <Container9 />
       <Contact />
       <Footer />
