@@ -204,7 +204,7 @@ const container9Data = {
 };
 
 const testimonial = {
-  sectionTitle: "Client Success Stories",
+  sectionTitle: "Testimonials",
   testimonialData: [
     {
       img: "/Testimonial/1.jpg",
