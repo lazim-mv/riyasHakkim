@@ -1243,6 +1243,7 @@ a {
     padding-top: 1.3333333333333335vw;
     width: 56.00000000000001vw;
     height: 66.66666666666666vw;
+    text-align: justify !important;
   }
 
   .dotsContainer {
