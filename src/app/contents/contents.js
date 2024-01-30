@@ -218,6 +218,12 @@ const testimonial = {
       description:
         "Working with Ryias can literally change your mindset, way of thinking, your vision, your faith and will definitely double your self confidence and positivity. I was blessed to meet Ryias personally and professionally. He is a LIFE EXPERIENCE and a POSIYIVITY BOOSTER. Wish you all the fully deserved success.",
     },
+    {
+      img: "/Testimonial/3.jpg",
+      cardHeading: "Dr.Thomas George K",
+      description:
+        "As someone who's attended multiple sales workshops, I can assert that Riyas Hakkim's sessions are truly a cut above the rest. His ability to blend emotional intelligence with sales tactics is not just innovative but incredibly effective. It's an experience that's not only educational but genuinely transformative.",
+    },
   ],
 };
 
