@@ -1216,9 +1216,10 @@ a {
   .testimonialCards {
     overflow: scroll;
     padding-bottom: 0;
-    padding-left: 50vw;
+    /* padding-left: 107vw; */
     margin-top: 8vw;
     gap: 4vw;
+    justify-content: flex-start;
   }
 
   .testimonialCard {
@@ -1226,6 +1227,10 @@ a {
     height: auto;
     padding: 5.333333333333334vw;
     border-radius: 2.666666666666667vw;
+  }
+
+  .activeCard{
+    transform: scale(1);
   }
 
   .testimonialCard img {
