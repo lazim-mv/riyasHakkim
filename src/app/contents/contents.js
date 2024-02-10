@@ -216,7 +216,7 @@ const testimonial = {
       img: "/Testimonial/2.jpg",
       cardHeading: "Dhouha Khaldi",
       description:
-        "Working with Ryias can literally change your mindset, way of thinking, your vision, your faith and will definitely double your self confidence and positivity. I was blessed to meet Ryias personally and professionally. He is a LIFE EXPERIENCE and a POSIYIVITY BOOSTER. Wish you all the fully deserved success.",
+        "Working with Riyas can literally change your mindset, way of thinking, your vision, your faith and will definitely double your self confidence and positivity. I was blessed to meet Riyas personally and professionally. He is a LIFE EXPERIENCE and a POSIYIVITY BOOSTER. Wish you all the fully deserved success.",
     },
     {
       img: "/Testimonial/3.jpg",

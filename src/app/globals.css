@@ -621,18 +621,16 @@ a {
 }
 
 .fortestimonialCardsandIndicator {
-  /* display: flex;
-  flex-direction: column; */
   height: 38.955026455026456vw;
 }
 
 .testimonialCards {
   display: flex;
-  justify-content: center;
   gap: 2.6455026455026456vw;
-
+  justify-content: flex-start;
   padding-bottom: 3.968253968253968vw;
   margin-top: 3.968253968253968vw;
+  width: 100vw;
 }
 
 .testimonialCards::-webkit-scrollbar {
@@ -1211,12 +1209,13 @@ a {
 
   .fortestimonialCardsandIndicator {
     height: auto;
+    overflow: hidden;
   }
 
   .testimonialCards {
     overflow: scroll;
     padding-bottom: 0;
-    /* padding-left: 107vw; */
+    padding-right: 15vw;
     margin-top: 8vw;
     gap: 4vw;
     justify-content: flex-start;

@@ -1,7 +1,7 @@
 const container1 = {
   sectionTitle: "Know Riyas Hakkim",
   img: "/aboutPage/1.png",
-  name: "Hi, I’m Ryas Hakkim",
+  name: "Hi, I’m Riyas Hakkim",
   description:
     "My path has been shaped by a simple truth: genuine connections fuel our lives. I've spent years learning how our emotions intertwine with our actions, guiding others to find clarity and purpose. It's a journey we're all on – finding our place, making a difference, touching lives. Let's walk this path together, discovering how our interactions can shape a better tomorrow.",
 };

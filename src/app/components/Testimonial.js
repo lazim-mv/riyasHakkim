@@ -30,7 +30,18 @@ const Testimonial = () => {
       <div className="fortestimonialCardsandIndicator">
         <div className="testimonialCards">
           {cardData.map((data, index) => (
-            <div               className={`testimonialCard ${index === activeIndex ? "activeCard" : ""}`} key={index}>
+            <div
+              className={`testimonialCard ${
+                index === activeIndex ? "activeCard" : ""
+              }`}
+              key={index}
+              // style={{
+              //   transform: activeIndex
+              //     ? `translateX(-${activeIndex * 27.5793650794}vw)`
+              //     : "",
+              //   transition: "transform .8s ease",
+              // }}
+            >
               <Image
                 className="cardIcon"
                 src={data.img}
