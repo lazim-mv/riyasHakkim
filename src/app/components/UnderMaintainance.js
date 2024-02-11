@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import underMaintainance from "../../../public/maintainance.json";
-import styles from "../../app/Styles/matainance.module.css";
+import styles from "../../app/styles/matainance.module.css";
 
 import dynamic from "next/dynamic";
 import { SectionTitle } from "./ButtonComponent";
