@@ -12,26 +12,29 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import MobileHeader from "./components/MobileHeader";
 import Testimonial from "./components/Testimonial";
+import UnderMaintainance from "./components/UnderMaintainance";
 import { container4Data, container7Data } from "./contents/contents";
+
 
 export default function Home() {
   return (
-    <main className="">
-      <Header />
-      <MobileHeader />
-      <Hero />
-      <Container2 />
-      <Container3 />
-      <Container4 content={container4Data} />
-      <Container5 />
-      <Container6 />
-      <Container7 content={container7Data}/>
-      <Container8 />
-      <Testimonial />
-      <Container9 />
-      <Contact />
-      <Footer />
-    </main>
+    <UnderMaintainance />
+    // <main className="">
+    //   <Header />
+    //   <MobileHeader />
+    //   <Hero />
+    //   <Container2 />
+    //   <Container3 />
+    //   <Container4 content={container4Data} />
+    //   <Container5 />
+    //   <Container6 />
+    //   <Container7 content={container7Data}/>
+    //   <Container8 />
+    //   <Testimonial />
+    //   <Container9 />
+    //   <Contact />
+    //   <Footer />
+    // </main>
   );
 }
 
