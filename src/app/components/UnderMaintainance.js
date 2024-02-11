@@ -22,13 +22,13 @@ const UnderMaintainance = () => {
             unoptimized
           />
           {/* <h1>Coming Soon</h1> */}
-          <SectionTitle 
+          <SectionTitle
             sectionText="Coming Soon"
             padding="0 0 0.3306878306878307vw 0"
           />
           <p>
-            Our Website is under Maintenance. We'll be here soon with our new
-            awesome site
+            Our Website is under Maintenance. We&apos;ll be here soon with our
+            new awesome site
           </p>
         </div>
 
