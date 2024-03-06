@@ -1,6 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
 :root {
+  --font-DmSans: "DM Sans", sans-serif;
+  --font-OpenSans: "Open Sans", sans-serif;
   --font-Jakarta: "Plus Jakarta Sans", sans-serif;
   --containerPadding: 0 9.920634920634921vw;
   --containerMarginTop: 9.920634920634921vw;
@@ -40,16 +43,16 @@ h1 {
   font-weight: 500;
   line-height: 5.079365079365079vw;
   color: #fff;
-  font-family: var(--font-Jakarta);
+  font-family: var(--font-DmSans);
   text-transform: capitalize;
 }
 
 h2 {
   font-size: 3.1746031746031744vw;
   font-weight: 500;
-  line-height: 3.8095238095238098vw;
+  line-height: 3.650793650793651vw;
   color: #fff;
-  font-family: var(--font-Jakarta);
+  font-family: var(--font-DmSans);
   text-transform: capitalize;
 }
 
@@ -58,7 +61,7 @@ h3 {
   font-weight: 400;
   line-height: 2.03125vw;
   color: #fff;
-  font-family: var(--font-Jakarta);
+  font-family: var(--font-OpenSans);
   text-transform: capitalize;
 }
 
@@ -74,9 +77,9 @@ h4 {
 p {
   font-size: 1.1904761904761905vw;
   font-weight: 400;
-  line-height: 1.9047619047619049vw;
+  line-height: 1.7857142857142856vw;
   color: rgba(255, 255, 255, 0.8);
-  font-family: var(--font-Jakarta);
+  font-family: var(--font-OpenSans);
   font-feature-settings: "liga" 0;
 }
 
@@ -89,7 +92,7 @@ span {
   font-size: 1.1904761904761905vw;
   font-weight: 400;
   line-height: 1.6666666666666667vw;
-  font-family: var(--font-Jakarta);
+  font-family: var(--font-OpenSans);
   font-feature-settings: "liga" 0;
 }
 
@@ -136,7 +139,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 3.2552083333333335vw;
+  /* border-radius: 3.2552083333333335vw; */
   position: relative;
   overflow: hidden;
 }
@@ -304,7 +307,7 @@ a {
 }
 
 .heroContianer img {
-  width: 42.32804232804233vw;
+  width: 31.878306878306876vw;
   height: 43.25396825396825vw;
   align-self: flex-end;
 }
@@ -321,6 +324,21 @@ a {
 .container2 {
   padding: var(--containerPadding);
   margin-top: 7.936507936507936vw;
+}
+
+.container2 .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6.15079365079365vw;
+}
+
+.container2 .title h2 {
+  width: 32.076719576719576vw;
+}
+
+.container2 .title p {
+  width: 31.746031746031743vw;
 }
 
 .cardsContainer {
@@ -353,17 +371,33 @@ a {
 
 .container3 {
   margin-top: var(--containerMarginTop);
-  padding: var(--containerPadding);
+  padding: 0 13.227513227513226vw;
 
   display: flex;
   gap: 4.62962962962963vw;
   align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.container3Bg{
+  position: absolute;
+  width: 100vw;
+  height: 92%;
+  bottom: 0;
+  left: 0;
+  background: #121212;
+  z-index: -1;
 }
 
 .container3Image {
-  width: 38.095238095238095vw;
-  height: 38.095238095238095vw;
+  width: 29.100529100529098vw;
+  height: 49.60317460317461vw;
   border-radius: var(--borderRadius);
+}
+
+.container3Contents{
+  width: 31.746031746031743vw;
 }
 
 /* Container3 end */
@@ -651,8 +685,8 @@ a {
   border-radius: 0.6613756613756614vw;
 }
 
-.activeCard{
-  transition: transform .8s ease;
+.activeCard {
+  transition: transform 0.8s ease;
   transform: scale(1.1);
 }
 
@@ -820,7 +854,7 @@ a {
     font-weight: 500;
     line-height: 10.239999999999998vw;
     color: #fff;
-    font-family: var(--font-Jakarta);
+    font-family: var(--font-DmSans);
     text-transform: capitalize;
   }
 
@@ -858,7 +892,7 @@ a {
     font-weight: 400;
     line-height: 5.973333333333334vw;
     color: rgba(255, 255, 255, 0.8);
-    font-family: var(--font-Jakarta);
+    font-family: var(--font-OpenSans);
     font-feature-settings: "liga" 0;
   }
 
@@ -952,7 +986,7 @@ a {
   .btnContainer {
     width: 36.242666666666665vw !important;
     height: 10.666666666666668vw !important;
-    border-radius: 13.333333333333334vw;
+    /* border-radius: 13.333333333333334vw; */
   }
 
   .heroContianer {
@@ -1228,7 +1262,7 @@ a {
     border-radius: 2.666666666666667vw;
   }
 
-  .activeCard{
+  .activeCard {
     transform: scale(1);
   }
 

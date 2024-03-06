@@ -6,6 +6,8 @@ import { container3Data } from "../contents/contents";
 const Container3 = () => {
   return (
     <div className="container3">
+    <div className="container3Bg"></div>
+
       <Image
         className="container3Image"
         src={container3Data.img}
@@ -23,10 +25,11 @@ const Container3 = () => {
           textAllign="left"
           wordIndex={0}
           secondaryWordColor="#96202A"
+          hrMargin="0 0 2.1164021164021163vw 0"
         />
         <SectionDescription
           sectionText={container3Data.description}
-          width="37.43386243386244vw"
+          // width="37.43386243386244vw"
         />
         <a href="/pages/Programs">
         <BtnComponent

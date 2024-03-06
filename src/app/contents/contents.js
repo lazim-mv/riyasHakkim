@@ -8,6 +8,8 @@ const heroData = {
 
 const container2Data = {
   sectionTitle: "The Sales Empowerment Suite",
+  description:
+    "Venture into the depths of connection with Riyas Hakkim, where every interaction is more than a transaction. It's where stories unfold, trust builds, and success is a shared chapter.",
   imgData: [
     {
       img: "/Container2/2(1).svg",
@@ -28,7 +30,7 @@ const container2Data = {
 };
 
 const container3Data = {
-  img: " /Container2/aboutImage.png",
+  img: " /Container2/aboutImage1.png",
   sectionTitle: "Accelerate Your Impact",
   description:
     "Riyas Hakkim doesn't just coach; he catalyzes change. With a focus on emotional intelligence and strategic sales mastery, our programs are meticulously crafted to empower you to forge meaningful connections and achieve remarkable sales growth. Elevate your presence, enrich customer interactions, and witness the transformation in your sales trajectory. Dive into the world of empathetic leadership with us.",

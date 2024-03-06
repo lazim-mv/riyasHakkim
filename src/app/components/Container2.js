@@ -11,14 +11,19 @@ const Container2 = () => {
   return (
     <>
       <div className="container2">
-      <SectionTitle 
-        sectionText={container2Data.sectionTitle}
-        padding="0 0 4.62962962962963vw 0"
-        textAllign="center"
-        margin="auto"
-        wordIndex={1}
-        secondaryWordColor="#96202A"
-      />
+        <div className="title">
+          <SectionTitle
+            sectionText={container2Data.sectionTitle}
+            padding="0 0 1.3227513227513228vw 0"
+            // textAllign="center"
+            margin="auto"
+            // wordIndex={1}
+            // secondaryWordColor="#96202A"
+          />
+          <SectionDescription 
+            sectionText={container2Data.description}
+          />
+        </div>
         <div className="cardsContainer">
           {container2Data.imgData.map((data, index) => (
             <div className="cardContainer" key={index}>
