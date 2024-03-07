@@ -58,6 +58,7 @@ const Container10 = () => {
       <div className={styles.cards}>
         {cardData.map((data, index) => (
           <div
+          key={index}
             className={styles.card}
             onClick={() => handleCardClick(index)}
             style={{
