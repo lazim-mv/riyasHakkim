@@ -51,8 +51,8 @@ const Container7 = ({
               width="32.73809523809524vw"
               padding="0 0 1.3227513227513228vw 0"
               textAllign="left"
-              wordIndex={0}
-              secondaryWordColor="#96202A"
+              // wordIndex={0}
+              // secondaryWordColor="#96202A"
             />
           </div>
           <div className="carouselButtonContainer">

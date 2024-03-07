@@ -23,9 +23,8 @@ const Container3 = () => {
           sectionText={container3Data.sectionTitle}
           padding="0 0 1.3227513227513228vw 0"
           textAllign="left"
-          wordIndex={0}
-          secondaryWordColor="#96202A"
           hrMargin="0 0 2.1164021164021163vw 0"
+          line={true}
         />
         <SectionDescription
           sectionText={container3Data.description}

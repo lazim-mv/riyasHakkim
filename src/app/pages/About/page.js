@@ -50,8 +50,8 @@ const Page = () => {
           sectionText={container1.sectionTitle}
           dashText={true}
           textAllign="center"
-          wordIndex={[1, 2]}
           width="58.46560846560847vw"
+          // wordIndex={[1, 2]}
         />
       </div>
       <div className={styles.container2}>
@@ -79,8 +79,8 @@ const Page = () => {
           padding="0 0 4.62962962962963vw 0"
           textAllign="center"
           margin="auto"
-          wordIndex={1}
-          secondaryWordColor="#96202A"
+          // wordIndex={1}
+          // secondaryWordColor="#96202A"
         />
         <div className={`${styles.aboutContainer3Cards} cardsContainer`}>
           {container3.imgData.map((data, index) => (
@@ -126,8 +126,8 @@ const Page = () => {
             sectionText={container4.sectionTitle}
             padding="0 0 1.3227513227513228vw 0"
             textAllign="left"
-            wordIndex={1}
-            secondaryWordColor="#96202A"
+            // wordIndex={1}
+            // secondaryWordColor="#96202A"
           />
           <SectionDescription
             sectionText={container4.description}

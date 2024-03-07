@@ -26,8 +26,8 @@ const page = () => {
           sectionText={programPage.sectionTitle}
           dashText={true}
           textAllign="center"
-          wordIndex={[5, 6]}
-          width="58.46560846560847vw"
+          // wordIndex={[5, 6]}
+          // width="58.46560846560847vw"
         />
       </div>
       <div className={styles.cards}>

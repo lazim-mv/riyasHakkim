@@ -32,8 +32,7 @@ const Container9 = () => {
             sectionText={container9Data.sectionTitle}
             padding="0 0 1.3227513227513228vw 0"
             textAllign="left"
-            wordIndex={2}
-            secondaryWordColor="#96202A"
+            line="15.939153439153438vw"
           />
         </div>
         <div className="secondCol">

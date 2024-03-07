@@ -1,0 +1,42 @@
+.container {
+  padding: 0 9.920634920634921vw;
+  margin-top: 14.550264550264549vw;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title h2 {
+  width: 32.076719576719576vw;
+}
+
+.title p {
+  width: 31.746031746031743vw;
+}
+
+.cards {
+  display: flex;
+  margin-top: 4.62962962962963vw;
+  gap: 1.984126984126984vw;
+  overflow: hidden;
+}
+
+.card {
+  position: relative;
+}
+
+.card img{
+    width: 25.396825396825395vw;
+    height: 26.455026455026452vw;
+}
+
+.card h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}

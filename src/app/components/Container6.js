@@ -10,7 +10,7 @@ const Container6 = () => {
       <div className="videoContainer">
         <a href="https://youtu.be/kCCtQp8y_xQ?si=qjcZSnOJ2iKpqEzZ" target="_blank">
           <Image
-            className="container3Image"
+            className="container3Image container6img"
             src={container6Data.img}
             alt="Asian Engineer"
             width={100}
@@ -39,8 +39,7 @@ const Container6 = () => {
           width="37.10317460317461vw"
           padding="0 0 1.3227513227513228vw 0"
           textAllign="left"
-          wordIndex={[5,6]}
-          secondaryWordColor="#96202A"
+          line="15.74074074074074vw"
         />
         <SectionDescription
           width="37.63227513227513vw"

@@ -1,4 +1,6 @@
+import Container11 from "./components/ArrowButton/Container11/Container11";
 import Contact from "./components/Contact";
+import Container10 from "./components/Container10/Container10";
 import Container2 from "./components/Container2";
 import Container3 from "./components/Container3";
 import Container4 from "./components/Container4";
@@ -15,7 +17,6 @@ import Testimonial from "./components/Testimonial";
 import UnderMaintainance from "./components/UnderMaintainance";
 import { container4Data, container7Data } from "./contents/contents";
 
-
 export default function Home() {
   return (
     // <UnderMaintainance />
@@ -25,10 +26,12 @@ export default function Home() {
       <Hero />
       <Container2 />
       <Container3 />
-      <Container4 content={container4Data} />
+      {/* <Container4 content={container4Data} /> */}
+      <Container10 />
       <Container5 />
       <Container6 />
-      <Container7 content={container7Data}/>
+      <Container11 />
+      {/* <Container7 content={container7Data} /> */}
       <Container8 />
       <Testimonial />
       <Container9 />

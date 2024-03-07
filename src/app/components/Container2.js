@@ -15,14 +15,10 @@ const Container2 = () => {
           <SectionTitle
             sectionText={container2Data.sectionTitle}
             padding="0 0 1.3227513227513228vw 0"
-            // textAllign="center"
             margin="auto"
-            // wordIndex={1}
-            // secondaryWordColor="#96202A"
+            line="20.767195767195766vw"
           />
-          <SectionDescription 
-            sectionText={container2Data.description}
-          />
+          <SectionDescription sectionText={container2Data.description} />
         </div>
         <div className="cardsContainer">
           {container2Data.imgData.map((data, index) => (

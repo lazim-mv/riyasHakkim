@@ -153,7 +153,7 @@ const SectionTitle = ({
         </h2>
         <hr
           style={{
-            width: line ? "8.796296296296296vw" : "20.767195767195766vw",
+            width: line ? line : "20.767195767195766vw",
             background: "#96202A",
             height: "0.3306878306878307vw",
             border: "none",

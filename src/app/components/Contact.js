@@ -8,8 +8,8 @@ const Contact = () => {
         <SectionTitle
           sectionText="Ready to elevate your sales journey?"
           color="#fff"
-          textAllign="center"
           width="33.92857142857143vw"
+          line="0"
         />
         <a href="/pages/Contact">
         <BtnComponent

@@ -65,8 +65,8 @@ function Contact() {
           sectionText="Have a Question ? Get in Touch with us"
           dashText={true}
           textAllign="center"
-          wordIndex={2}
-          width="58.46560846560847vw"
+          // wordIndex={2}
+          // width="58.46560846560847vw"
         />
       </div>
 
