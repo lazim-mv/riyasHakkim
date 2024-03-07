@@ -24,7 +24,7 @@ const Container3 = () => {
           padding="0 0 1.3227513227513228vw 0"
           textAllign="left"
           hrMargin="0 0 2.1164021164021163vw 0"
-          line={true}
+          line="8.796296296296296vw"
         />
         <SectionDescription
           sectionText={container3Data.description}
