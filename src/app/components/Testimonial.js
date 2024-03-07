@@ -6,7 +6,6 @@ import {
 } from "./ButtonComponent";
 import { testimonial } from "../contents/contents";
 import Image from "next/image";
-import { useWindowSize } from "../utils/windowSize";
 
 const Testimonial = ({mobile}) => {
   const cardData = testimonial.testimonialData;
