@@ -3,14 +3,14 @@ import React from "react";
 import { BtnComponent, SectionDescription, SectionTitle } from "./ButtonComponent";
 import { container3Data } from "../contents/contents";
 
-const Container3 = () => {
+const Container3 = ({mobile}) => {
   return (
     <div className="container3">
     <div className="container3Bg"></div>
 
       <Image
         className="container3Image"
-        src={container3Data.img}
+        src={mobile ? container3Data.mobileImg : container3Data.img}
         alt="Asian Engineer"
         width={100}
         height={100}
@@ -24,7 +24,7 @@ const Container3 = () => {
           padding="0 0 1.3227513227513228vw 0"
           textAllign="left"
           hrMargin="0 0 2.1164021164021163vw 0"
-          line="8.796296296296296vw"
+          line={mobile ? "26.666666666666668vw" : "8.796296296296296vw"}
         />
         <SectionDescription
           sectionText={container3Data.description}
@@ -35,7 +35,6 @@ const Container3 = () => {
           buttonText={container3Data.buttonText}
           bg="#96202A"
           color="#fff"
-          arrow={true}
           margin="1.984126984126984vw 0 0 0"
         />
         </a>

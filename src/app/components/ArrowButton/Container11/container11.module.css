@@ -31,8 +31,6 @@
   height: 16.534391534391535vw;
 }
 .container .imgContainer:nth-child(3) {
-  grid-column: span 2;
-  grid-row: span 1;
   object-fit: cover;
 
   position: absolute;
@@ -49,12 +47,83 @@
   height: 16.534391534391535vw;
 }
 .container .imgContainer:nth-child(5) {
-  grid-column: span 2;
-  grid-row: span 1;
   object-fit: cover;
   width: 18.51851851851852vw;
   height: 16.534391534391535vw;
   position: absolute;
   bottom: 0;
-  right: 0;
+  right: -1vw;
+}
+
+@media only screen and (max-width: 767px) {
+  .container {
+    padding: 0 6.4vw;
+    padding-right: 0;
+    margin-top: 16vw;
+    overflow: hidden;
+  }
+
+  .container h2{
+    padding-right: 6.4vw !important;
+  }
+
+  .cards {
+    position: relative;
+    height: 100%;
+    margin-top: 4.62962962962963vw;
+    display: flex;
+    gap: 4vw;
+    margin-top: 8vw;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+
+  .imgContainer .img {
+    width: 66.66666666666666vw;
+    height: 66.66666666666666vw;
+    position: relative !important; 
+  }
+
+
+  .container .imgContainer:nth-child(1) {
+    object-fit: cover;
+    position: relative;
+  
+    width: 66.66666666666666vw;
+    height: 66.66666666666666vw;
+  }
+  .container .imgContainer:nth-child(2) {
+    object-fit: cover;
+  
+    position: relative;
+    left: auto;
+  
+    width: 66.66666666666666vw;
+    height: 66.66666666666666vw;
+  }
+  .container .imgContainer:nth-child(3) {
+    object-fit: cover;
+  
+    position: relative;
+    left: auto;
+    width: 66.66666666666666vw;
+    height: 66.66666666666666vw;
+  }
+  .container .imgContainer:nth-child(4) {
+    object-fit: cover;
+    position: relative;
+    left: auto;
+    bottom: auto;
+    width: 66.66666666666666vw;
+    height: 66.66666666666666vw;
+  }
+  .container .imgContainer:nth-child(5) {
+    object-fit: cover;
+    width: 66.66666666666666vw;
+    height: 66.66666666666666vw;
+    position:relative;
+    bottom: auto;
+    right: auto;
+  }
 }

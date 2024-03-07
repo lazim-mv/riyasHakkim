@@ -7,7 +7,7 @@ import {
 } from "./ButtonComponent";
 import Image from "next/image";
 
-const Container2 = () => {
+const Container2 = ({mobile}) => {
   return (
     <>
       <div className="container2">
@@ -16,7 +16,7 @@ const Container2 = () => {
             sectionText={container2Data.sectionTitle}
             padding="0 0 1.3227513227513228vw 0"
             margin="auto"
-            line="20.767195767195766vw"
+            line={mobile ? "26.666666666666668vw" : "20.767195767195766vw"}
           />
           <SectionDescription sectionText={container2Data.description} />
         </div>

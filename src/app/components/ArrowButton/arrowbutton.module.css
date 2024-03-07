@@ -22,7 +22,7 @@
 
 .carouselButtonContainerLeft:hover,
 .carouselButtonContainerRight:hover {
-  background-color: #0063db;
+  background-color: #96202A;
   border: none;
   transition: all 0.3s ease;
 }

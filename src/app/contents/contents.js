@@ -30,7 +30,8 @@ const container2Data = {
 };
 
 const container3Data = {
-  img: " /Container2/aboutImage1.png",
+  img: "/Container2/aboutImage1.png",
+  mobileImg:"/Container2/mobileImage.png",
   sectionTitle: "About Riyas Hakkim",
   description:
     "Riyas Hakkim doesn't just coach; he catalyzes change. With a focus on emotional intelligence and strategic sales mastery, our programs are meticulously crafted to empower you to forge meaningful connections and achieve remarkable sales growth. Elevate your presence, enrich customer interactions, and witness the transformation in your sales trajectory. Dive into the world of empathetic leadership with us.",
@@ -220,25 +221,7 @@ const testimonial = {
       img: "/Testimonial/2.jpg",
       cardHeading: "Dhouha Khaldi",
       description:
-        "Working with Riyas can literally change your mindset, way of thinking, your vision, your faith and will definitely double your self confidence and positivity. I was blessed to meet Riyas personally and professionally. He is a LIFE EXPERIENCE and a POSIYIVITY BOOSTER. Wish you all the fully deserved success.",
-    },
-    {
-      img: "/Testimonial/3.jpg",
-      cardHeading: "Dr.Thomas George K",
-      description:
-        "As someone who's attended multiple sales workshops, I can assert that Riyas Hakkim's sessions are truly a cut above the rest. His ability to blend emotional intelligence with sales tactics is not just innovative but incredibly effective. It's an experience that's not only educational but genuinely transformative.",
-    },
-    {
-      img: "/Testimonial/1.jpg",
-      cardHeading: "Ashraf Thayyil",
-      description:
-        "Riyas's sessions create a profound emotional connection, guiding us to appreciate the importance of empathy and gratitude. His ability to reach the depths of our hearts revives our childlike curiosity, proactivity, and fearlessness. Mastering his teachings ensures genuine success.",
-    },
-    {
-      img: "/Testimonial/2.jpg",
-      cardHeading: "Dhouha Khaldi",
-      description:
-        "Working with Riyas can literally change your mindset, way of thinking, your vision, your faith and will definitely double your self confidence and positivity. I was blessed to meet Riyas personally and professionally. He is a LIFE EXPERIENCE and a POSIYIVITY BOOSTER. Wish you all the fully deserved success.",
+        "Working with Riyas can literally change your mindset, way of thinking, your vision, your faith and will definitely double your self confidence and positivity. I was blessed to meet Riyas personally and professionally. He is a life experience and a positivity booster. Wish you all the fully deserved success.",
     },
     {
       img: "/Testimonial/3.jpg",

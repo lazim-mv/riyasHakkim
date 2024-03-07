@@ -9,8 +9,7 @@ import {
 import { container9Data } from "../contents/contents";
 import Image from "next/image";
 
-
-const Container9 = () => {
+const Container9 = ({ mobile }) => {
   const cardData = container9Data.faqData;
   const initialVisibleState = Array(cardData.length).fill(false);
   initialVisibleState[0] = true;
@@ -32,12 +31,16 @@ const Container9 = () => {
             sectionText={container9Data.sectionTitle}
             padding="0 0 1.3227513227513228vw 0"
             textAllign="left"
-            line="15.939153439153438vw"
+            line={mobile ? "26.666666666666668vw" : "15.939153439153438vw"}
           />
         </div>
         <div className="secondCol">
           {cardData.map((data, index) => (
-            <div className="faqDataCard" key={index}>
+            <div
+              className="faqDataCard"
+              key={index}
+              onClick={() => handleClick(index)}
+            >
               <div className="countContianer">
                 <CardHeading sectionText={data.number} />
               </div>
@@ -49,7 +52,6 @@ const Container9 = () => {
                   />
                   <div
                     className="plussIcon"
-                    onClick={() => handleClick(index)}
                     style={{
                       transform: answerVisible[index]
                         ? "rotate(45deg)"

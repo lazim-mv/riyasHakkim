@@ -53,7 +53,6 @@ const page = () => {
                   buttonText={programPage.buttonText}
                   bg="#96202A"
                   color="#fff"
-                  arrow={true}
                 />
               </a>
             </div>

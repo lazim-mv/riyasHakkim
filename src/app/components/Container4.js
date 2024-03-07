@@ -119,7 +119,6 @@ const Container4 = ({
             buttonText={content.buttonText}
             bg="#96202A"
             color="#fff"
-            arrow={true}
             margin="4.62962962962963vw auto 0 auto"
           />
         </a>

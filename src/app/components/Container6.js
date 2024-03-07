@@ -1,9 +1,10 @@
+"use client"
 import React from "react";
 import { SectionDescription, SectionTitle } from "./ButtonComponent";
 import Image from "next/image";
 import { container6Data } from "../contents/contents";
 
-const Container6 = () => {
+const Container6 = ({mobile}) => {
   return (
     <div className="container6">
       <div className="videoContainerBackground"></div>
@@ -36,10 +37,10 @@ const Container6 = () => {
       <div className="container6Contents">
         <SectionTitle
           sectionText={container6Data.sectionTitle}
-          width="37.10317460317461vw"
+          width={mobile ? "auto" : "37.10317460317461vw"}
           padding="0 0 1.3227513227513228vw 0"
           textAllign="left"
-          line="15.74074074074074vw"
+          line={mobile ? "26.666666666666668vw" : "15.74074074074074vw"}
         />
         <SectionDescription
           width="37.63227513227513vw"

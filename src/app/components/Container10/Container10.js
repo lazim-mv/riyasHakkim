@@ -7,7 +7,7 @@ import Image from "next/image";
 import ArrowButtons from "../ArrowButton/ArrowButtons";
 import { useWindowSize } from "@/app/utils/windowSize";
 
-const Container10 = () => {
+const Container10 = ({mobile}) => {
   const cardData = container10Data.cardData;
 
   const [activeIndex, setActiveIndex] = useState(0);
@@ -51,6 +51,7 @@ const Container10 = () => {
           padding="0 0 1.3227513227513228vw 0"
           margin="auto"
           sectionText={container10Data.sectionTitle}
+          line={mobile ? "26.666666666666668vw" : ""}
         />
 
         <SectionDescription sectionText={container10Data.description} />

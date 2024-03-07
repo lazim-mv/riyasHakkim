@@ -4,7 +4,7 @@ import { container11Data } from "@/app/contents/contents";
 import Image from "next/image";
 import { SectionTitle } from "../../ButtonComponent";
 
-const Container11 = () => {
+const Container11 = ({ mobile }) => {
   return (
     <div className={styles.container}>
       <SectionTitle
@@ -13,7 +13,7 @@ const Container11 = () => {
         margin="auto"
         textAllign="center"
         hrMargin="0 auto"
-        line="13.227513227513226vw"
+        line={mobile ? "26.666666666666668vw" : "13.227513227513226vw"}
       />
       <div className={styles.cards}>
         {container11Data.cardData.map((data, index) => (

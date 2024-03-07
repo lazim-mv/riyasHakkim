@@ -1,10 +1,11 @@
 import Image from "next/image";
 import React from "react";
 import heroImg from "../../../public/hero1.png";
+import mobileHeroImg from "../../../public/mhero.png";
 import { BtnComponent, SectionDescription } from "./ButtonComponent";
 import { heroData } from "../contents/contents";
 
-const Hero = () => {
+const Hero = ({mobile}) => {
   return (
     <div className="heroContianer">
       <div className="heroContent">
@@ -19,14 +20,13 @@ const Hero = () => {
             buttonText={heroData.buttonText}
             bg="#96202A"
             color="#fff"
-            arrow={true}
             margin="1.984126984126984vw 0 0 0"
           />
         </a>
       </div>
       <Image
         className="hImage"
-        src={heroImg}
+        src={mobile ? mobileHeroImg :heroImg}
         alt="Asian Engineer"
         quality={100}
         priority={true}
