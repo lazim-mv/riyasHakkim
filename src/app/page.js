@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Container11 from "./components/ArrowButton/Container11/Container11";
 import Contact from "./components/Contact";
 import Container10 from "./components/Container10/Container10";
@@ -23,25 +23,25 @@ export default function Home() {
   const { windowSize, isSmallScreen } = useWindowSize();
 
   return (
-    // <UnderMaintainance />
-    <main className="">
-      <Header />
-      <MobileHeader />
-      <Hero mobile={isSmallScreen}/>
-      <Container2 mobile={isSmallScreen}/>
-      <Container3 mobile={isSmallScreen}/>
-      {/* <Container4 content={container4Data} /> */}
-      <Container10 mobile={isSmallScreen}/>
-      <Container5 mobile={isSmallScreen}/>
-      <Container6 mobile={isSmallScreen}/>
-      <Container11 mobile={isSmallScreen}/>
-      {/* <Container7 content={container7Data} /> */}
-      <Container8 />
-      <Testimonial mobile={isSmallScreen}/>
-      <Container9 mobile={isSmallScreen}/>
-      <Contact mobile={isSmallScreen}/>
-      <Footer />
-    </main>
+    <UnderMaintainance />
+    // <main className="">
+    //   <Header />
+    //   <MobileHeader />
+    //   <Hero mobile={isSmallScreen} />
+    //   <Container2 mobile={isSmallScreen} />
+    //   <Container3 mobile={isSmallScreen} />
+
+    //   <Container10 mobile={isSmallScreen} />
+    //   <Container5 mobile={isSmallScreen} />
+    //   <Container6 mobile={isSmallScreen} />
+    //   <Container11 mobile={isSmallScreen} />
+
+    //   <Container8 />
+    //   <Testimonial mobile={isSmallScreen} />
+    //   <Container9 mobile={isSmallScreen} />
+    //   <Contact mobile={isSmallScreen} />
+    //   <Footer />
+    // </main>
   );
 }
 
