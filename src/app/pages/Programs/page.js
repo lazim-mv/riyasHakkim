@@ -22,28 +22,7 @@ const Page = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [windowWidth, setWindowWidth] = useState("");
 
-  useEffect(() => {
-    // Check if we're in the browser environment
-    if (typeof window !== "undefined") {
-      // Update the state with the initial window width
-      setWindowWidth(window.innerWidth);
-
-      // Event listener to update the state when the window is resized
-      const handleResize = () => {
-        setWindowWidth(window.innerWidth);
-      };
-
-      // Attach the event listener
-      window.addEventListener("resize", handleResize);
-
-      // Cleanup: remove the event listener when the component unmounts
-      return () => {
-        window.removeEventListener("resize", handleResize);
-      };
-    }
-  }, []);
-
-  useEffect(() => {
+  const animationGsap = () => {
     gsap.registerPlugin(ScrollTrigger);
 
     let revealContainers = document.querySelectorAll(
@@ -80,7 +59,28 @@ const Page = () => {
     });
 
     // initializeAnimations();
-  }, []);
+  };
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      // Update the state with the initial window width
+      setWindowWidth(window.innerWidth);
+      animationGsap();
+
+      // Event listener to update the state when the window is resized
+      const handleResize = () => {
+        setWindowWidth(window.innerWidth);
+      };
+
+      // Attach the event listener
+      window.addEventListener("resize", handleResize);
+
+      // Cleanup: remove the event listener when the component unmounts
+      return () => {
+        window.removeEventListener("resize", handleResize);
+      };
+    }
+  }, [animationGsap]);
 
   return (
     <>
