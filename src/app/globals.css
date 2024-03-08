@@ -97,6 +97,10 @@ span {
   font-feature-settings: "liga" 0;
 }
 
+.sectionTitleHr {
+  height: 0.3306878306878307vw;
+}
+
 a {
   text-decoration: none;
   font-size: 1.1904761904761905vw;
@@ -266,7 +270,7 @@ a {
   position: fixed;
   top: 0;
   z-index: 11;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
 
 .hContainer .headerLine {
@@ -314,11 +318,10 @@ a {
   justify-content: space-between;
   padding: 0 7.2751322751322745vw 0 9.920634920634921vw;
   background: #121212;
-  
+
   height: auto;
   padding: 6.613756613756613vw 9.920634920634921vw;
   margin-top: 6.613756613756613vw;
-  
 }
 
 .heroContianer img {
@@ -798,7 +801,7 @@ a {
   margin-top: var(--containerMarginTop);
 }
 
-.contactContainer hr{
+.contactContainer hr {
   width: 80.15873015873017vw;
   margin: 0 auto;
   border: none;
@@ -991,6 +994,10 @@ a {
     text-transform: capitalize;
   }
 
+  .sectionTitleHr{
+    height: 1.3333333333333335vw;
+  }
+
   .buttonText {
     font-size: 3.733333333333334vw;
     font-weight: 400;
@@ -1076,7 +1083,7 @@ a {
     flex-direction: column;
     height: calc(221.39999999999998vw - 21.333333333333336vw);
     background: #0d0d0d;
-    padding-bottom: 0; 
+    padding-bottom: 0;
   }
 
   .heroContianer img {
@@ -1455,7 +1462,7 @@ a {
     margin-bottom: 0;
   }
 
-  .contactContainer hr{
+  .contactContainer hr {
     width: 87.2vw;
     height: 0.26666666666666666vw;
   }
@@ -1470,7 +1477,6 @@ a {
     align-items: normal;
 
     padding-top: 10.666666666666668vw;
-
   }
 
   .contactContentContainer h2 {
@@ -1486,7 +1492,7 @@ a {
     /* margin-top: var(--mobileContainerMarginTop); */
     padding: var(--mobileContainerPadding);
     width: 100vw;
-    grid-template-rows: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
     grid-template-columns: 40vw 40vw;
     gap: 8vw;
   }

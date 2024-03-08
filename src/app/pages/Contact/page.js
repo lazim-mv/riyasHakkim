@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "../../styles/contact.module.css";
 import Image from "next/image";
 import emailjs from "@emailjs/browser";
@@ -16,14 +16,28 @@ const MobileHeader = dynamic(() => import("@/app/components/MobileHeader"));
 const Footer = dynamic(() => import("@/app/components/Footer"));
 
 function Contact() {
-  const [windowWidth, setWindowWidth] = useState(() => {
-    // Your condition here
-    if (window.innerWidth !== undefined) {
-      return window.innerWidth;
-    } else {
-      return "";
+  const [windowWidth, setWindowWidth] = useState("");
+
+  useEffect(() => {
+    // Check if we're in the browser environment
+    if (typeof window !== "undefined") {
+      // Update the state with the initial window width
+      setWindowWidth(window.innerWidth);
+
+      // Event listener to update the state when the window is resized
+      const handleResize = () => {
+        setWindowWidth(window.innerWidth);
+      };
+
+      // Attach the event listener
+      window.addEventListener("resize", handleResize);
+
+      // Cleanup: remove the event listener when the component unmounts
+      return () => {
+        window.removeEventListener("resize", handleResize);
+      };
     }
-  });
+  }, []);
 
 
   const [formData, setFormData] = useState({

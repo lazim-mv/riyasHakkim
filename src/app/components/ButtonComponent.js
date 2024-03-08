@@ -155,12 +155,10 @@ const SectionTitle = ({
           ))}
         </h2>
         <hr
+          className="sectionTitleHr"
           style={{
             width: line ? line : "20.767195767195766vw",
             background: "#96202A",
-            height: isSmallScreen
-              ? "1.3333333333333335vw"
-              : "0.3306878306878307vw",
             border: "none",
             margin: hrMargin ? hrMargin : "",
           }}

@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "../../styles/aboutPage.module.css";
 import Image from "next/image";
 import {
@@ -20,14 +20,23 @@ import Footer from "@/app/components/Footer";
 import Testimonial from "@/app/components/Testimonial";
 
 const Page = () => {
-  const [windowWidth, setWindowWidth] = useState(() => {
-    // Your condition here
-    if (window.innerWidth !== undefined) {
-      return window.innerWidth;
-    } else {
-      return "";
+  const [windowWidth, setWindowWidth] = useState("");
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      setWindowWidth(window.innerWidth);
+
+      const handleResize = () => {
+        setWindowWidth(window.innerWidth);
+      };
+
+      window.addEventListener("resize", handleResize);
+
+      return () => {
+        window.removeEventListener("resize", handleResize);
+      };
     }
-  });
+  }, []);
 
   const cardData = container5.imgData;
   const [currentIndex, setCurrentIndex] = useState(0);
