@@ -20,7 +20,7 @@ const Container11 = ({ mobile }) => {
           <div className={styles.imgContainer} key={index}>
             <Image
               className={styles.img}
-              src={data.img}
+              src={mobile ? data.mImg : data.img}
               alt="Asian Engineer"
               width={100}
               height={100}

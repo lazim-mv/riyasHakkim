@@ -263,6 +263,10 @@ a {
   justify-content: space-between;
   padding: var(--containerPadding);
   position: relative;
+  position: fixed;
+  top: 0;
+  z-index: 11;
+  transition: all .3s ease;
 }
 
 .hContainer .headerLine {

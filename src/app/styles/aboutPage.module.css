@@ -36,7 +36,30 @@
 }
 
 .container2 h2 {
-  margin-bottom: 1.984126984126984vw;
+  margin-bottom: 2.1164021164021163vw;
+}
+
+.aboutContainer3Cards{
+  margin-top: 5.291005291005291vw;
+}
+
+.aboutContainer4{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 9.920634920634921vw;
+}
+
+.aboutContainer4 img{
+  height: 38.095238095238095vw;
+  width: 38.095238095238095vw;
+}
+
+.aboutContainer4Contents{
+  width: 33.92857142857143vw;
+}
+
+.aboutContainer4Contents p{
+  margin-top: 2.1164021164021163vw;
 }
 
 .aboutContainerCard5 {
@@ -97,12 +120,38 @@
     height: 87.2vw;
   }
 
+  .aboutContainer3{
+    padding: var(--mobileContainerPadding);
+  }
+
   .aboutContainer3Cards{
     grid-template-rows: auto;
+    margin-top: 8vw;
   }
 
   .aboutContainer3Card {
-    height: 65.33333333333333vw;
+    height: auto;
+  }
+
+  .aboutContainer4{
+    padding: var(--mobileContainerPadding);
+  }
+
+  .aboutContainer4Contents{
+    width: auto;
+  }
+
+  .aboutContainer4Contents p{
+    margin-top: 4vw;
+  }
+
+  .aboutContainer4 img{
+    width: 87.2vw;
+    height: 87.2vw;
+  }
+
+  .aboutContainer5Title h2{
+    width: auto !important;
   }
 
   .aboutContainerCard5 {

@@ -23,66 +23,68 @@
   padding: var(--containerPadding);
 
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
   gap: 6.613756613756613vw;
-  justify-content: center;
-  align-items: center;
-}
-
-.card:nth-child(even) .cardContent {
-  order: -1;
-}
-
-.card:nth-child(even) .purpleSquare {
-  right: -1.953125vw;
-  left: auto;
+  position: relative;
 }
 
 .card {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   gap: 4.62962962962963vw;
   position: relative;
+  width: 100%;
 }
 
 .imageContainer {
   width: 38.095238095238095vw;
-  height: 33.06878306878307vw;
+  height: 42.98941798941799vw;
+  position: sticky;
+  top: 15px;
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.imageContainer:nth-child(1) img{
+  opacity: 1 !important;
 }
 
 .imageContainer img {
   object-fit: cover;
   width: 100%;
   height: 100%;
-  border-radius: 66.13756613756614vw 0.6613756613756614vw 0.6613756613756614vw
-    66.13756613756614vw;
+  transition: all .2s ease-in;
+
 }
 
 .cardContent {
   display: flex;
   flex-direction: column;
-  width: 37.43386243386244vw;
+  justify-content: center;
+  width: 33.92857142857143vw;
+  height: 44.98941798941799vw;
 }
 
-.cardContent h2{
-    margin-bottom: 1.3227513227513228vw;
-    font-size: 2.380952380952381vw;
+.cardContent h2 {
+  margin-bottom: 1.3227513227513228vw;
+  font-size: 2.380952380952381vw;
 }
 
-.cardContent p{
+.cardContent p {
+  margin-top: 2.1164021164021163vw;
   margin-bottom: 1.3227513227513228vw;
 }
 
-
 @media only screen and (max-width: 767px) {
   .container1 {
-    margin-top: calc(var(--mobileContainerMarginTop) );
+    margin-top: calc(var(--mobileContainerMarginTop));
     padding: var(--mobileContainerPadding);
 
     height: 36.8vw;
   }
-  .container1 h2{
+  .container1 h2 {
     width: 87.2vw !important;
   }
 
@@ -118,19 +120,23 @@
     height: auto;
     text-align: left;
   }
-  
+
+  .right{
+    display: flex;
+    flex-direction: column;
+  }
 
   .card:nth-child(even) .purpleSquare {
     right: auto;
     left: -5.333333333333334vw;
   }
 
-  .cardContent h2{
+  .cardContent h2 {
     font-size: 6.4vw;
     margin-bottom: 2.666666666666667vw;
   }
 
-  .cardContent p{
+  .cardContent p {
     margin-bottom: 4vw;
   }
 }

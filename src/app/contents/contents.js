@@ -31,7 +31,7 @@ const container2Data = {
 
 const container3Data = {
   img: "/Container2/aboutImage1.png",
-  mobileImg:"/Container2/mobileImage.png",
+  mobileImg:"/Container2/mobileImage1.png",
   sectionTitle: "About Riyas Hakkim",
   description:
     "Riyas Hakkim doesn't just coach; he catalyzes change. With a focus on emotional intelligence and strategic sales mastery, our programs are meticulously crafted to empower you to forge meaningful connections and achieve remarkable sales growth. Elevate your presence, enrich customer interactions, and witness the transformation in your sales trajectory. Dive into the world of empathetic leadership with us.",
@@ -277,18 +277,23 @@ const container11Data = {
   cardData: [
     {
       img: "Container11/1.png",
+      mImg: "/Container11/11.png",
     },
     {
       img: "Container11/2.png",
+      mImg: "/Container11/12.png",
     },
     {
       img: "Container11/3.png",
+      mImg: "/Container11/13.png",
     },
     {
       img: "Container11/5.png",
+      mImg: "/Container11/14.png",
     },
     {
       img: "Container11/6.png",
+      mImg: "/Container11/15.png",
     },
   ],
 };

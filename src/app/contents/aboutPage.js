@@ -31,7 +31,7 @@ const container3 = {
 };
 
 const container4 = {
-  img: " /aboutPage/2.png",
+  img: " /aboutPage/container4.png",
   sectionTitle: "Nurturing Success Together",
   description:
     "At the heart of every achievement lies the spirit of collaboration. I take pride in fostering partnerships that celebrate mutual success. Each award and accolade is a shared victory, a symbol of our collective commitment to excellence and innovation in every endeavor.",

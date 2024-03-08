@@ -23,25 +23,25 @@ export default function Home() {
   const { windowSize, isSmallScreen } = useWindowSize();
 
   return (
-    <UnderMaintainance />
-    // <main className="">
-    //   <Header />
-    //   <MobileHeader />
-    //   <Hero mobile={isSmallScreen} />
-    //   <Container2 mobile={isSmallScreen} />
-    //   <Container3 mobile={isSmallScreen} />
+    // <UnderMaintainance />
+    <main className="">
+      <Header />
+      <MobileHeader />
+      <Hero mobile={isSmallScreen} />
+      <Container2 mobile={isSmallScreen} />
+      <Container3 mobile={isSmallScreen} />
 
-    //   <Container10 mobile={isSmallScreen} />
-    //   <Container5 mobile={isSmallScreen} />
-    //   <Container6 mobile={isSmallScreen} />
-    //   <Container11 mobile={isSmallScreen} />
+      <Container10 mobile={isSmallScreen} />
+      <Container5 mobile={isSmallScreen} />
+      <Container6 mobile={isSmallScreen} />
+      <Container11 mobile={isSmallScreen} />
 
-    //   <Container8 />
-    //   <Testimonial mobile={isSmallScreen} />
-    //   <Container9 mobile={isSmallScreen} />
-    //   <Contact mobile={isSmallScreen} />
-    //   <Footer />
-    // </main>
+      <Container8 />
+      <Testimonial mobile={isSmallScreen} />
+      <Container9 mobile={isSmallScreen} />
+      <Contact />
+      <Footer />
+    </main>
   );
 }
 

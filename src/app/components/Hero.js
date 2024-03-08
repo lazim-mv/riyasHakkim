@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import heroImg from "../../../public/hero1.png";
-import mobileHeroImg from "../../../public/mhero.png";
+import mobileHeroImg from "../../../public/mHero1.png";
 import { BtnComponent, SectionDescription } from "./ButtonComponent";
 import { heroData } from "../contents/contents";
 

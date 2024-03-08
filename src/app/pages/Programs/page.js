@@ -1,4 +1,5 @@
-import React from "react";
+"use client";
+import React, { useEffect } from "react";
 import styles from "../../styles/programs.module.css";
 import {
   BtnComponent,
@@ -13,9 +14,51 @@ import Contact from "@/app/components/Contact";
 import Container9 from "@/app/components/Container9";
 import { programPage } from "@/app/contents/programsPage";
 import Testimonial from "@/app/components/Testimonial";
+import { useWindowSize } from "@/app/utils/windowSize";
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/all";
 
-const page = () => {
+const Page = () => {
+  const { windowSize, isSmallScreen } = useWindowSize();
   const cardData = programPage.imageCard;
+
+  useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
+
+    let revealContainers = document.querySelectorAll(
+      ".programs_imageContainer__w6e5z"
+    );
+
+    revealContainers.forEach((container) => {
+      let trigger = container.querySelector(".programs_cards__Djnpl");
+      let image = container.querySelector(".programs_imageContainer__w6e5z img");
+      let tl = gsap.timeline({
+        scrollTrigger: {
+          trigger: container,
+          toggleActions: "restart none none reset",
+          start:"center 50%",
+          end:"center 50%",
+          // markers:true,
+        },
+      });
+
+      tl.set(container, { autoAlpha: 1 });
+      // tl.from(container,  {
+      //   opacity:1,
+      //   ease: "Power2.out",
+      // });
+      tl.from(image, {
+        opacity:0,
+        duration: .05,
+        ease: "Power2.out",
+      });
+      tl.to(image, {
+        duration: .05,
+        ease: "Power2.out",
+        opacity:1,
+      });
+    });
+  });
 
   return (
     <>
@@ -26,14 +69,33 @@ const page = () => {
           sectionText={programPage.sectionTitle}
           dashText={true}
           textAllign="center"
-          // wordIndex={[5, 6]}
-          // width="58.46560846560847vw"
+          padding={isSmallScreen ? "" : "0 0 1.3227513227513228vw 0"}
+          line={isSmallScreen ? "26.666666666666668vw" : "13.227513227513226vw"}
+          hrMargin="0 auto"
+          width={isSmallScreen ? "" : "48.74338624338625vw"}
         />
       </div>
       <div className={styles.cards}>
-        {cardData.map((data, index) => (
-          <div className={styles.card} key={index}>
-            <div className={styles.imageContainer}>
+        <div className={styles.left}>
+          {cardData.map((data, index) => (
+            <div className={styles.cardContent} key={index}>
+              <SectionTitle
+                sectionText={data.title}
+                // padding={isSmallScreen ? "" : "0 0 1.3227513227513228vw 0"}
+                line={
+                  isSmallScreen
+                    ? "26.666666666666668vw"
+                    : "15.939153439153438vw"
+                }
+              />
+              <SectionDescription sectionText={data.description} />
+            </div>
+          ))}
+        </div>
+        <div className={styles.right}>
+          {/* <div className={styles.card} key={index}> */}
+          {cardData.map((data, index) => (
+            <div className={styles.imageContainer} key={index}>
               <Image
                 className=""
                 src={data.img}
@@ -45,21 +107,11 @@ const page = () => {
                 height={100}
               />
             </div>
-            <div className={styles.cardContent}>
-              <SectionTitle sectionText={data.title} />
-              <SectionDescription sectionText={data.description} />
-              <a href="/pages/Contact">
-                <BtnComponent
-                  buttonText={programPage.buttonText}
-                  bg="#96202A"
-                  color="#fff"
-                />
-              </a>
-            </div>
-          </div>
-        ))}
+          ))}
+          {/* </div> */}
+        </div>
       </div>
-      <Testimonial /> 
+      <Testimonial />
       <Container9 />
       <Contact />
       <Footer />
@@ -67,4 +119,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

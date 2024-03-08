@@ -1,15 +1,18 @@
-"use client"
+"use client";
 import React from "react";
 import { SectionDescription, SectionTitle } from "./ButtonComponent";
 import Image from "next/image";
 import { container6Data } from "../contents/contents";
 
-const Container6 = ({mobile}) => {
+const Container6 = ({ mobile }) => {
   return (
     <div className="container6">
       <div className="videoContainerBackground"></div>
       <div className="videoContainer">
-        <a href="https://youtu.be/kCCtQp8y_xQ?si=qjcZSnOJ2iKpqEzZ" target="_blank">
+        <a
+          href="https://youtu.be/kCCtQp8y_xQ?si=qjcZSnOJ2iKpqEzZ"
+          target="_blank"
+        >
           <Image
             className="container3Image container6img"
             src={container6Data.img}

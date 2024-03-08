@@ -18,8 +18,11 @@ import MobileHeader from "@/app/components/MobileHeader";
 import Contact from "@/app/components/Contact";
 import Footer from "@/app/components/Footer";
 import Testimonial from "@/app/components/Testimonial";
+import { useWindowSize } from "@/app/utils/windowSize";
 
 const Page = () => {
+  const { windowSize, isSmallScreen } = useWindowSize();
+
   const cardData = container5.imgData;
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -50,8 +53,10 @@ const Page = () => {
           sectionText={container1.sectionTitle}
           dashText={true}
           textAllign="center"
-          width="58.46560846560847vw"
-          // wordIndex={[1, 2]}
+          width={isSmallScreen ? "auto" : "58.46560846560847vw"}
+          padding={isSmallScreen ? "" : "0 0 1.3227513227513228vw 0"}
+          line={isSmallScreen ? "26.666666666666668vw" : "13.227513227513226vw"}
+          hrMargin="0 auto"
         />
       </div>
       <div className={styles.container2}>
@@ -68,7 +73,7 @@ const Page = () => {
           />
         </div>
         <div className={styles.container2Contents}>
-          <SectionTitle sectionText={container1.name} />
+          <SectionTitle sectionText={container1.name} line="0" />
           <SectionDescription sectionText={container1.description} />
         </div>
       </div>
@@ -76,11 +81,11 @@ const Page = () => {
       <div className={`${styles.aboutContainer3} container2`}>
         <SectionTitle
           sectionText={container3.sectionTitle}
-          padding="0 0 4.62962962962963vw 0"
           textAllign="center"
           margin="auto"
-          // wordIndex={1}
-          // secondaryWordColor="#96202A"
+          padding={isSmallScreen ? "" : "0 0 1.3227513227513228vw 0"}
+          line={isSmallScreen ? "26.666666666666668vw" : "13.227513227513226vw"}
+          hrMargin="0 auto"
         />
         <div className={`${styles.aboutContainer3Cards} cardsContainer`}>
           {container3.imgData.map((data, index) => (
@@ -111,6 +116,20 @@ const Page = () => {
       </div>
 
       <div className={`${styles.aboutContainer4} container3`}>
+        <div className={`${styles.aboutContainer4Contents} container3Contents`}>
+          <SectionTitle
+            sectionText={container4.sectionTitle}
+            textAllign="left"
+            padding={isSmallScreen ? "" : "0 0 1.3227513227513228vw 0"}
+            line={
+              isSmallScreen ? "26.666666666666668vw" : "15.873015873015872vw"
+            }
+          />
+          <SectionDescription
+            sectionText={container4.description}
+            // width="37.43386243386244vw"
+          />
+        </div>
         <Image
           className="container3Image"
           src={container4.img}
@@ -121,34 +140,22 @@ const Page = () => {
           priority={true}
           unoptimized
         />
-        <div className="container3Contents">
-          <SectionTitle
-            sectionText={container4.sectionTitle}
-            padding="0 0 1.3227513227513228vw 0"
-            textAllign="left"
-            // wordIndex={1}
-            // secondaryWordColor="#96202A"
-          />
-          <SectionDescription
-            sectionText={container4.description}
-            width="37.43386243386244vw"
-          />
-        </div>
       </div>
 
       <div
         className={`${styles.aboutContainer5} container4 container7`}
         id="container4"
       >
-        <div className={`topContainer4`}>
+        <div className={`${styles.aboutContainer5Title} topContainer4`}>
           <div>
             <SectionTitle
               sectionText={container5.sectionTitle}
-              width="32.73809523809524vw"
+              width={isSmallScreen ? "auto" : "32.73809523809524vw"}
               padding="0 0 1.3227513227513228vw 0"
               textAllign="left"
               wordIndex={0}
               secondaryWordColor="#96202A"
+              hrMargin={isSmallScreen ? "auto" : ""}
             />
           </div>
           <div className="carouselButtonContainer">
