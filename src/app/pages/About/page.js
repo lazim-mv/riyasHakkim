@@ -18,10 +18,9 @@ import MobileHeader from "@/app/components/MobileHeader";
 import Contact from "@/app/components/ContactComponent";
 import Footer from "@/app/components/Footer";
 import Testimonial from "@/app/components/Testimonial";
-import { useWindowSize } from "@/app/utils/windowSize";
 
 const Page = () => {
-  const { windowSize, isSmallScreen } = useWindowSize();
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
   const cardData = container5.imgData;
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -53,9 +52,9 @@ const Page = () => {
           sectionText={container1.sectionTitle}
           dashText={true}
           textAllign="center"
-          width={isSmallScreen ? "auto" : "58.46560846560847vw"}
-          padding={isSmallScreen ? "" : "0 0 1.3227513227513228vw 0"}
-          line={isSmallScreen ? "26.666666666666668vw" : "13.227513227513226vw"}
+          width={windowWidth <= 768 ? "auto" : "58.46560846560847vw"}
+          padding={windowWidth <= 768 ? "" : "0 0 1.3227513227513228vw 0"}
+          line={windowWidth <= 768 ? "26.666666666666668vw" : "13.227513227513226vw"}
           hrMargin="0 auto"
         />
       </div>
@@ -83,8 +82,8 @@ const Page = () => {
           sectionText={container3.sectionTitle}
           textAllign="center"
           margin="auto"
-          padding={isSmallScreen ? "" : "0 0 1.3227513227513228vw 0"}
-          line={isSmallScreen ? "26.666666666666668vw" : "13.227513227513226vw"}
+          padding={windowWidth <= 768 ? "" : "0 0 1.3227513227513228vw 0"}
+          line={windowWidth <= 768 ? "26.666666666666668vw" : "13.227513227513226vw"}
           hrMargin="0 auto"
         />
         <div className={`${styles.aboutContainer3Cards} cardsContainer`}>
@@ -120,9 +119,9 @@ const Page = () => {
           <SectionTitle
             sectionText={container4.sectionTitle}
             textAllign="left"
-            padding={isSmallScreen ? "" : "0 0 1.3227513227513228vw 0"}
+            padding={windowWidth <= 768 ? "" : "0 0 1.3227513227513228vw 0"}
             line={
-              isSmallScreen ? "26.666666666666668vw" : "15.873015873015872vw"
+              windowWidth <= 768 ? "26.666666666666668vw" : "15.873015873015872vw"
             }
           />
           <SectionDescription
@@ -150,12 +149,12 @@ const Page = () => {
           <div>
             <SectionTitle
               sectionText={container5.sectionTitle}
-              width={isSmallScreen ? "auto" : "32.73809523809524vw"}
+              width={windowWidth <= 768 ? "auto" : "32.73809523809524vw"}
               padding="0 0 1.3227513227513228vw 0"
               textAllign="left"
               wordIndex={0}
               secondaryWordColor="#96202A"
-              hrMargin={isSmallScreen ? "auto" : ""}
+              hrMargin={windowWidth <= 768 ? "auto" : ""}
             />
           </div>
           <div className="carouselButtonContainer">

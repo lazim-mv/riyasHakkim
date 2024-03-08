@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "../../styles/programs.module.css";
 import {
   BtnComponent,
@@ -14,16 +14,15 @@ import Contact from "@/app/components/ContactComponent";
 import Container9 from "@/app/components/Container9";
 import { programPage } from "@/app/contents/programsPage";
 import Testimonial from "@/app/components/Testimonial";
-import { useWindowSize } from "@/app/utils/windowSize";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 
 const Page = () => {
-  const { windowSize, isSmallScreen } = useWindowSize();
   const cardData = programPage.imageCard;
+  const [isLoading, setIsLoading] = useState(true);
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
   useEffect(() => {
-    
     gsap.registerPlugin(ScrollTrigger);
 
     let revealContainers = document.querySelectorAll(
@@ -46,10 +45,7 @@ const Page = () => {
       });
 
       tl.set(container, { autoAlpha: 1 });
-      // tl.from(container,  {
-      //   opacity:1,
-      //   ease: "Power2.out",
-      // });
+
       tl.from(image, {
         opacity: 0,
         duration: 0.05,
@@ -61,7 +57,9 @@ const Page = () => {
         opacity: 1,
       });
     });
-  });
+
+    // initializeAnimations();
+  }, []);
 
   return (
     <>
@@ -70,16 +68,18 @@ const Page = () => {
 
       <div className={styles.container1}>
         <SectionTitle
+          width={windowWidth <= 768 ? "auto" : "48.74338624338625vw"}
           sectionText={programPage.sectionTitle}
           dashText={true}
           textAllign="center"
-          padding={isSmallScreen ? "" : "0 0 1.3227513227513228vw 0"}
-          line={isSmallScreen ? "26.666666666666668vw" : "13.227513227513226vw"}
+          padding={windowWidth <= 768 ? "" : "0 0 1.3227513227513228vw 0"}
+          line={
+            windowWidth <= 768 ? "26.666666666666668vw" : "13.227513227513226vw"
+          }
           hrMargin="0 auto"
-          width={isSmallScreen ? "" : "48.74338624338625vw"}
         />
       </div>
-      {!isSmallScreen ? (
+      {windowWidth >= 768 ? (
         <>
           <div className={styles.cards}>
             <div className={styles.left}>
@@ -89,7 +89,7 @@ const Page = () => {
                     sectionText={data.title}
                     // padding={isSmallScreen ? "" : "0 0 1.3227513227513228vw 0"}
                     line={
-                      isSmallScreen
+                      windowWidth <= 768
                         ? "26.666666666666668vw"
                         : "15.939153439153438vw"
                     }

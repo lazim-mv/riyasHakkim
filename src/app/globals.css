@@ -1076,8 +1076,7 @@ a {
     flex-direction: column;
     height: calc(221.39999999999998vw - 21.333333333333336vw);
     background: #0d0d0d;
-
-    
+    padding-bottom: 0; 
   }
 
   .heroContianer img {

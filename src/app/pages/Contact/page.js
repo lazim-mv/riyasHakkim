@@ -9,7 +9,6 @@ import {
   SectionDescription,
   SectionTitle,
 } from "@/app/components/ButtonComponent";
-import { useWindowSize } from "@/app/utils/windowSize";
 import ContactComponent from "@/app/components/ContactComponent";
 
 const Header = dynamic(() => import("@/app/components/Header"));
@@ -17,7 +16,8 @@ const MobileHeader = dynamic(() => import("@/app/components/MobileHeader"));
 const Footer = dynamic(() => import("@/app/components/Footer"));
 
 function Contact() {
-  const { windowSize, isSmallScreen } = useWindowSize();
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
 
   const [formData, setFormData] = useState({
     name: "",
@@ -71,11 +71,11 @@ function Contact() {
           textAllign="center"
           hrMargin="0 auto"
           padding={
-            isSmallScreen
+            windowWidth <= 768
               ? "0 0 2.666666666666667vw 0"
               : "0 0 1.3227513227513228vw 0"
           }
-          line={isSmallScreen ? "26.666666666666668vw" : "13.227513227513226vw"}
+          line={windowWidth <= 768 ? "26.666666666666668vw" : "13.227513227513226vw"}
         />
       </div>
 
@@ -145,11 +145,11 @@ function Contact() {
         <SectionTitle
           sectionText="Contact"
           padding={
-            isSmallScreen
+            windowWidth <= 768
               ? "0 0 2.666666666666667vw 0"
               : "0 0 1.3227513227513228vw 0"
           }
-          line={isSmallScreen ? "26.666666666666668vw" : "13.227513227513226vw"}
+          line={windowWidth <= 768 ? "26.666666666666668vw" : "13.227513227513226vw"}
         />
         <div className={styles.socialContainer}>
           <div className={styles.social}>
