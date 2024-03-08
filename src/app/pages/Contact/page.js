@@ -16,7 +16,14 @@ const MobileHeader = dynamic(() => import("@/app/components/MobileHeader"));
 const Footer = dynamic(() => import("@/app/components/Footer"));
 
 function Contact() {
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  const [windowWidth, setWindowWidth] = useState(() => {
+    // Your condition here
+    if (window.innerWidth !== undefined) {
+      return window.innerWidth;
+    } else {
+      return "";
+    }
+  });
 
 
   const [formData, setFormData] = useState({

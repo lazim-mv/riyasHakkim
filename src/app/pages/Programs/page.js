@@ -20,7 +20,14 @@ import { ScrollTrigger } from "gsap/all";
 const Page = () => {
   const cardData = programPage.imageCard;
   const [isLoading, setIsLoading] = useState(true);
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  const [windowWidth, setWindowWidth] = useState(() => {
+    // Your condition here
+    if (window.innerWidth !== undefined) {
+      return window.innerWidth;
+    } else {
+      return "";
+    }
+  });
 
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);

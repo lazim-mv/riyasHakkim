@@ -20,7 +20,14 @@ import Footer from "@/app/components/Footer";
 import Testimonial from "@/app/components/Testimonial";
 
 const Page = () => {
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  const [windowWidth, setWindowWidth] = useState(() => {
+    // Your condition here
+    if (window.innerWidth !== undefined) {
+      return window.innerWidth;
+    } else {
+      return "";
+    }
+  });
 
   const cardData = container5.imgData;
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -54,7 +61,9 @@ const Page = () => {
           textAllign="center"
           width={windowWidth <= 768 ? "auto" : "58.46560846560847vw"}
           padding={windowWidth <= 768 ? "" : "0 0 1.3227513227513228vw 0"}
-          line={windowWidth <= 768 ? "26.666666666666668vw" : "13.227513227513226vw"}
+          line={
+            windowWidth <= 768 ? "26.666666666666668vw" : "13.227513227513226vw"
+          }
           hrMargin="0 auto"
         />
       </div>
@@ -83,7 +92,9 @@ const Page = () => {
           textAllign="center"
           margin="auto"
           padding={windowWidth <= 768 ? "" : "0 0 1.3227513227513228vw 0"}
-          line={windowWidth <= 768 ? "26.666666666666668vw" : "13.227513227513226vw"}
+          line={
+            windowWidth <= 768 ? "26.666666666666668vw" : "13.227513227513226vw"
+          }
           hrMargin="0 auto"
         />
         <div className={`${styles.aboutContainer3Cards} cardsContainer`}>
@@ -121,7 +132,9 @@ const Page = () => {
             textAllign="left"
             padding={windowWidth <= 768 ? "" : "0 0 1.3227513227513228vw 0"}
             line={
-              windowWidth <= 768 ? "26.666666666666668vw" : "15.873015873015872vw"
+              windowWidth <= 768
+                ? "26.666666666666668vw"
+                : "15.873015873015872vw"
             }
           />
           <SectionDescription
