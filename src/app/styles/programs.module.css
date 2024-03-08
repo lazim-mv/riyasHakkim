@@ -16,6 +16,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  height: auto;
+  padding: 6.613756613756613vw 6.613756613756613vw;
+  margin-top: 6.613756613756613vw;
 }
 
 .cards {
@@ -82,7 +86,10 @@
     margin-top: calc(var(--mobileContainerMarginTop));
     padding: var(--mobileContainerPadding);
 
-    height: 36.8vw;
+    height: auto;
+    padding-top: 10.666666666666668vw;
+    padding-bottom: 10.666666666666668vw;
+    margin-top: 21.3333vw;
   }
   .container1 h2 {
     width: 87.2vw !important;
@@ -108,6 +115,7 @@
     width: auto;
     height: auto;
     margin-bottom: 8vw;
+    position: relative;
   }
 
   .imageContainer img {
@@ -133,10 +141,10 @@
 
   .cardContent h2 {
     font-size: 6.4vw;
-    margin-bottom: 2.666666666666667vw;
+    margin-bottom: 0;
   }
 
   .cardContent p {
-    margin-bottom: 4vw;
+    margin-top: 4vw;
   }
 }

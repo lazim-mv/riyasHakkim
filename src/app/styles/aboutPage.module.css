@@ -12,10 +12,13 @@
 .container1 {
   padding: var(--containerPadding);
   background-color: #121212;
-  height: 20.8994708994709vw;
   display: flex;
   justify-content: center;
   align-items: center;
+
+  height: auto;
+  padding: 6.613756613756613vw 6.613756613756613vw;
+  margin-top: 6.613756613756613vw;
 }
 
 .container2 {
@@ -88,7 +91,10 @@
     margin-top: calc(var(--mobileContainerMarginTop));
     padding: var(--mobileContainerPadding);
 
-    height: 36.8vw;
+    height: auto;
+    padding-top: 10.666666666666668vw;
+    padding-bottom: 10.666666666666668vw;
+    margin-top: 21.3333vw;
   }
 
   .container1 h2{

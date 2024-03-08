@@ -10,7 +10,7 @@ import Header from "@/app/components/Header";
 import MobileHeader from "@/app/components/MobileHeader";
 import Image from "next/image";
 import Footer from "@/app/components/Footer";
-import Contact from "@/app/components/Contact";
+import Contact from "@/app/components/ContactComponent";
 import Container9 from "@/app/components/Container9";
 import { programPage } from "@/app/contents/programsPage";
 import Testimonial from "@/app/components/Testimonial";
@@ -23,6 +23,7 @@ const Page = () => {
   const cardData = programPage.imageCard;
 
   useEffect(() => {
+    
     gsap.registerPlugin(ScrollTrigger);
 
     let revealContainers = document.querySelectorAll(
@@ -31,13 +32,15 @@ const Page = () => {
 
     revealContainers.forEach((container) => {
       let trigger = container.querySelector(".programs_cards__Djnpl");
-      let image = container.querySelector(".programs_imageContainer__w6e5z img");
+      let image = container.querySelector(
+        ".programs_imageContainer__w6e5z img"
+      );
       let tl = gsap.timeline({
         scrollTrigger: {
           trigger: container,
           toggleActions: "restart none none reset",
-          start:"center 50%",
-          end:"center 50%",
+          start: "center 50%",
+          end: "center 50%",
           // markers:true,
         },
       });
@@ -48,14 +51,14 @@ const Page = () => {
       //   ease: "Power2.out",
       // });
       tl.from(image, {
-        opacity:0,
-        duration: .05,
+        opacity: 0,
+        duration: 0.05,
         ease: "Power2.out",
       });
       tl.to(image, {
-        duration: .05,
+        duration: 0.05,
         ease: "Power2.out",
-        opacity:1,
+        opacity: 1,
       });
     });
   });
@@ -64,6 +67,7 @@ const Page = () => {
     <>
       <Header />
       <MobileHeader />
+
       <div className={styles.container1}>
         <SectionTitle
           sectionText={programPage.sectionTitle}
@@ -75,42 +79,67 @@ const Page = () => {
           width={isSmallScreen ? "" : "48.74338624338625vw"}
         />
       </div>
-      <div className={styles.cards}>
-        <div className={styles.left}>
+      {!isSmallScreen ? (
+        <>
+          <div className={styles.cards}>
+            <div className={styles.left}>
+              {cardData.map((data, index) => (
+                <div className={styles.cardContent} key={index}>
+                  <SectionTitle
+                    sectionText={data.title}
+                    // padding={isSmallScreen ? "" : "0 0 1.3227513227513228vw 0"}
+                    line={
+                      isSmallScreen
+                        ? "26.666666666666668vw"
+                        : "15.939153439153438vw"
+                    }
+                  />
+                  <SectionDescription sectionText={data.description} />
+                </div>
+              ))}
+            </div>
+            <div className={styles.right}>
+              {cardData.map((data, index) => (
+                <div className={styles.imageContainer} key={index}>
+                  <Image
+                    className=""
+                    src={data.img}
+                    alt="Asian Engineer"
+                    quality={100}
+                    priority={true}
+                    unoptimized
+                    width={100}
+                    height={100}
+                  />
+                </div>
+              ))}
+            </div>
+          </div>
+        </>
+      ) : (
+        <div className={styles.cards}>
           {cardData.map((data, index) => (
-            <div className={styles.cardContent} key={index}>
-              <SectionTitle
-                sectionText={data.title}
-                // padding={isSmallScreen ? "" : "0 0 1.3227513227513228vw 0"}
-                line={
-                  isSmallScreen
-                    ? "26.666666666666668vw"
-                    : "15.939153439153438vw"
-                }
-              />
-              <SectionDescription sectionText={data.description} />
+            <div className={styles.card} key={index}>
+              <div className={styles.imageContainer}>
+                <Image
+                  className=""
+                  src={data.img}
+                  alt="Asian Engineer"
+                  quality={100}
+                  priority={true}
+                  unoptimized
+                  width={100}
+                  height={100}
+                />
+              </div>
+              <div className={styles.cardContent}>
+                <SectionTitle sectionText={data.title} />
+                <SectionDescription sectionText={data.description} />
+              </div>
             </div>
           ))}
         </div>
-        <div className={styles.right}>
-          {/* <div className={styles.card} key={index}> */}
-          {cardData.map((data, index) => (
-            <div className={styles.imageContainer} key={index}>
-              <Image
-                className=""
-                src={data.img}
-                alt="Asian Engineer"
-                quality={100}
-                priority={true}
-                unoptimized
-                width={100}
-                height={100}
-              />
-            </div>
-          ))}
-          {/* </div> */}
-        </div>
-      </div>
+      )}
       <Testimonial />
       <Container9 />
       <Contact />

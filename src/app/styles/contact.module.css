@@ -11,12 +11,14 @@
 }
 
 .container1 {
-  padding: var(--containerPadding);
   background-color: #121212;
-  height: 20.8994708994709vw;
   display: flex;
   justify-content: center;
   align-items: center;
+
+  height: auto;
+  padding: 6.613756613756613vw 6.613756613756613vw;
+  margin-top: 6.613756613756613vw;
 }
 
 .container1 h2 {
@@ -38,7 +40,7 @@
 }
 
 .formContainer div {
-  width: 39.08730158730159vw;
+  width: 38vw;
   height: 4.9603174603174605vw;
   display: flex;
   flex-direction: column;
@@ -49,7 +51,7 @@
 }
 
 .formContainer input {
-  width: 39.08730158730159vw;
+  width: 38vw;
   height: 4.9603174603174605vw;
   border-radius: var(--borderRadius);
   background-color: #000;
@@ -106,8 +108,6 @@
   cursor: pointer;
 }
 
-
-
 .container3 {
   margin-top: var(--containerMarginTop);
   padding: var(--containerPadding);
@@ -121,10 +121,10 @@
 }
 
 .container3 h2 {
-  margin-bottom: 3.968253968253968vw;
 }
 
 .socialContainer {
+  margin-top: 3.968253968253968vw;
   display: flex;
   align-items: center;
   gap: 2.6455026455026456vw;
@@ -141,11 +141,15 @@
   .container1 {
     margin-top: calc(var(--mobileContainerMarginTop));
     padding: var(--mobileContainerPadding);
-    height: 36.8vw;
+    height: auto;
+
+    padding-top: 10.666666666666668vw;
+    padding-bottom: 10.666666666666668vw;
+    margin-top: 21.3333vw;
   }
 
   .container1 h2 {
-    width: 64.53333333333333vw !important;
+    width: 70.53333333333333vw !important;
   }
   .container2 {
     margin-top: 10.666666666666668vw;
@@ -206,10 +210,10 @@
   }
 
   .container3 h2 {
-    margin-bottom: 8vw;
   }
 
   .socialContainer {
+    margin-top: 8vw;
     display: flex;
     align-items: flex-start;
     justify-content: center;

@@ -15,7 +15,7 @@ import {
 } from "@/app/components/ButtonComponent";
 import Header from "@/app/components/Header";
 import MobileHeader from "@/app/components/MobileHeader";
-import Contact from "@/app/components/Contact";
+import Contact from "@/app/components/ContactComponent";
 import Footer from "@/app/components/Footer";
 import Testimonial from "@/app/components/Testimonial";
 import { useWindowSize } from "@/app/utils/windowSize";

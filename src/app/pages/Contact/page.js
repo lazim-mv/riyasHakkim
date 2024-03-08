@@ -9,12 +9,16 @@ import {
   SectionDescription,
   SectionTitle,
 } from "@/app/components/ButtonComponent";
+import { useWindowSize } from "@/app/utils/windowSize";
+import ContactComponent from "@/app/components/ContactComponent";
 
 const Header = dynamic(() => import("@/app/components/Header"));
 const MobileHeader = dynamic(() => import("@/app/components/MobileHeader"));
 const Footer = dynamic(() => import("@/app/components/Footer"));
 
 function Contact() {
+  const { windowSize, isSmallScreen } = useWindowSize();
+
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -65,8 +69,13 @@ function Contact() {
           sectionText="Have a Question ? Get in Touch with us"
           dashText={true}
           textAllign="center"
-          // wordIndex={2}
-          // width="58.46560846560847vw"
+          hrMargin="0 auto"
+          padding={
+            isSmallScreen
+              ? "0 0 2.666666666666667vw 0"
+              : "0 0 1.3227513227513228vw 0"
+          }
+          line={isSmallScreen ? "26.666666666666668vw" : "13.227513227513226vw"}
         />
       </div>
 
@@ -133,7 +142,15 @@ function Contact() {
       </div>
 
       <div className={styles.container3}>
-        <SectionTitle sectionText="Contact" />
+        <SectionTitle
+          sectionText="Contact"
+          padding={
+            isSmallScreen
+              ? "0 0 2.666666666666667vw 0"
+              : "0 0 1.3227513227513228vw 0"
+          }
+          line={isSmallScreen ? "26.666666666666668vw" : "13.227513227513226vw"}
+        />
         <div className={styles.socialContainer}>
           <div className={styles.social}>
             <Image
@@ -146,7 +163,7 @@ function Contact() {
               unoptimized
             />
             <a href="tel:+971521057169">
-            <SectionDescription sectionText="+971 521 057 169" />
+              <SectionDescription sectionText="+971 521 057 169" />
             </a>
           </div>
           <div className={styles.social}>
@@ -160,12 +177,13 @@ function Contact() {
               unoptimized
             />
             <a href="mailto:reach@riyashakkim.com">
-            <SectionDescription sectionText="reach@riyashakkim.com" />
+              <SectionDescription sectionText="reach@riyashakkim.com" />
             </a>
           </div>
         </div>
       </div>
 
+      <ContactComponent />
       <Footer />
     </>
   );

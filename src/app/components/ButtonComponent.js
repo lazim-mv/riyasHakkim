@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import { useWindowSize } from "../utils/windowSize";
 
 const BtnComponent = ({
   borderColor,
@@ -117,9 +118,11 @@ const SectionTitle = ({
   wordIndex,
   margin,
   line,
-  hrMargin
+  hrMargin,
 }) => {
   const words = (sectionText || "").split(" ");
+
+  const { windowSize, isSmallScreen } = useWindowSize();
 
   return (
     <>
@@ -155,7 +158,9 @@ const SectionTitle = ({
           style={{
             width: line ? line : "20.767195767195766vw",
             background: "#96202A",
-            height: "0.3306878306878307vw",
+            height: isSmallScreen
+              ? "1.3333333333333335vw"
+              : "0.3306878306878307vw",
             border: "none",
             margin: hrMargin ? hrMargin : "",
           }}

@@ -1,6 +1,6 @@
 "use client";
 import Container11 from "./components/ArrowButton/Container11/Container11";
-import Contact from "./components/Contact";
+import Contact from "./components/ContactComponent";
 import Container10 from "./components/Container10/Container10";
 import Container2 from "./components/Container2";
 import Container3 from "./components/Container3";

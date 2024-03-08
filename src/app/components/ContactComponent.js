@@ -3,7 +3,7 @@ import React from "react";
 import { BtnComponent, SectionTitle } from "./ButtonComponent";
 import { useWindowSize } from "../utils/windowSize";
 
-const Contact = () => {
+const ContactComponent = () => {
   const { windowSize, isSmallScreen } = useWindowSize();
 
   return (
@@ -33,4 +33,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default ContactComponent;

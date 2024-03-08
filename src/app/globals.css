@@ -314,6 +314,11 @@ a {
   justify-content: space-between;
   padding: 0 7.2751322751322745vw 0 9.920634920634921vw;
   background: #121212;
+  
+  height: auto;
+  padding: 6.613756613756613vw 9.920634920634921vw;
+  margin-top: 6.613756613756613vw;
+  
 }
 
 .heroContianer img {
@@ -1071,6 +1076,8 @@ a {
     flex-direction: column;
     height: calc(221.39999999999998vw - 21.333333333333336vw);
     background: #0d0d0d;
+
+    
   }
 
   .heroContianer img {
