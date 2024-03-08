@@ -277,23 +277,23 @@ const container11Data = {
   cardData: [
     {
       img: "Container11/1.png",
-      mImg: "/Container11/11.png",
+      mImg: "/Container11/mImage/11.png",
     },
     {
       img: "Container11/2.png",
-      mImg: "/Container11/12.png",
+      mImg: "/Container11/mImage/12.png",
     },
     {
       img: "Container11/3.png",
-      mImg: "/Container11/13.png",
+      mImg: "/Container11/mImage/13.png",
     },
     {
       img: "Container11/5.png",
-      mImg: "/Container11/14.png",
+      mImg: "/Container11/mImage/14.png",
     },
     {
       img: "Container11/6.png",
-      mImg: "/Container11/15.png",
+      mImg: "/Container11/mImage/15.png",
     },
   ],
 };
