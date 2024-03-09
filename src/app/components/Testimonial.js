@@ -28,12 +28,12 @@ const Testimonial = ({mobile}) => {
         return newState + 1; 
       } else {
         console.log("Maximum clicks reached.");
-        return newState - 1; 
+        return newState ; 
       }
     });
   };
 
-  console.log(currentIndex, "jjjjjjjjj"); // Initial state
+  console.log(currentIndex, "jjjjjjjjjtesti"); // Initial state
 
   useEffect(() => {
     const intervalId = setInterval(() => {
@@ -92,16 +92,6 @@ const Testimonial = ({mobile}) => {
             </div>
           ))}
         </div>
-
-        {/* <div className="dotsContainer">
-          {cardData.map((_, index) => (
-            <div
-              key={index}
-              className={`dot ${index === activeIndex ? "activeDot" : ""}`}
-              onClick={() => handleDotClick(index)}
-            ></div>
-          ))}
-        </div> */}
       </div>
     </div>
   );
