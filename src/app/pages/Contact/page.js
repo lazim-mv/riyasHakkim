@@ -175,7 +175,7 @@ function Contact() {
         <div className={styles.socialContainer}>
           <div className={styles.social}>
             <Image
-              src="/callIcon.png"
+              src="/callIcon.svg"
               width={130}
               height={101}
               alt="socialIcon"
@@ -189,7 +189,7 @@ function Contact() {
           </div>
           <div className={styles.social}>
             <Image
-              src="/message.png"
+              src="/mail.svg"
               width={130}
               height={101}
               alt="socialIcon"

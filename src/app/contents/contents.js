@@ -1,17 +1,17 @@
 const heroData = {
   img: "",
-  heroTitle: "Beyond the Sale: A Journey with Riyas Hakkim",
+  heroTitle: "Riyas Hakkim: India’s first emotional Sales leadership coach ",
   buttonText: "Contact Us",
   description:
-    "Venture into the depths of connection with Riyas Hakkim, where every interaction is more than a transaction. It's where stories unfold, trust builds, and success is a shared chapter.",
+    "Humanizing Sales & Leadership Emotionally",
 };
 
 const container2Data = {
   sectionTitle: "The Sales Empowerment Suite",
   description:
-    "Venture into the depths of connection with Riyas Hakkim, where every interaction is more than a transaction. It's where stories unfold, trust builds, and success is a shared chapter.",
+    "Explore Riyas Hakkim's Sales Empowerment Suite, a series of programs honed to perfect your sales through emotional intelligence, building enduring client relationships, and turning every interaction into a triumph.",
   imgData: [
-    {
+    { 
       img: "/Container2/2(1).svg",
       cardHeading: "Sales Mastery",
       description: "Harness emotional insights for impactful sales results.",
@@ -207,9 +207,9 @@ const container9Data = {
 };
 
 const testimonial = {
-  sectionTitle: "Testimonials",
+  sectionTitle: "Client Stories: Voices of Satisfaction",
   description:
-    "Venture into the depths of connection with Riyas Hakkim, where every interaction is more than a transaction. It's where stories unfold, trust builds, and success is a shared chapter.",
+    "Real stories from professionals who've elevated their sales and leadership skills, achieving remarkable success and building authentic, lasting relationships in their industries.",
   testimonialData: [
     {
       img: "/Testimonial/1.jpg",
@@ -647,9 +647,9 @@ const testimonial = {
 };
 
 const container10Data = {
-  sectionTitle: "The Sales Empowerment Suite",
+  sectionTitle: "Training Programs",
   description:
-    "Venture into the depths of connection with Riyas Hakkim, where every interaction is more than a transaction. It's where stories unfold, trust builds, and success is a shared chapter.",
+    "Conducted more than 100s of on-the job sales training and leadership workshops for major UAE businesses like ADNOC, ENOC, GASCO, Emirates Airlines, ADIB, ADJD, Emirates Palace Hotel, Mashreq Bank, Nestle, Hotpack, Sharjah Golf and shooting Club etc.",
   cardData: [
     {
       img: "/Container10/1.png",
