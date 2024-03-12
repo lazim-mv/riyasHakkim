@@ -14,12 +14,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        {/* <link
+        <link
           rel="icon"
-          href="/GREEN.svg"
+          href="/favicon.svg"
           type="image/svg+xml"
           sizes="16x16 32x32 48x48"
-        /> */}
+        />
 
         <meta
           property="og:image"
