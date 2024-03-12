@@ -41,6 +41,14 @@
   text-align: center;
 }
 
+.cards .card:nth-child(7) h3{
+  width: 30%;
+}
+
+.cards .card:last-child h3{
+  width: 60%;
+}
+
 @media only screen and (max-width: 767px) {
   .container {
     padding: var(--mobileContainerPadding);
@@ -73,6 +81,14 @@
   }
 
   .card h3{
+    width: 75%;
+  }
+
+  .cards .card:nth-child(7) h3{
+    width: 75%;
+  }
+  
+  .cards .card:last-child h3{
     width: 75%;
   }
 }

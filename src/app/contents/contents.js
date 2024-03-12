@@ -673,15 +673,15 @@ const container10Data = {
     },
     {
       img: "/Container10/6.png",
-      cardHeading: "Sales Leadership Accelerator",
+      cardHeading: "Sales Goal Setting Workshop",
     },
     {
       img: "/Container10/7.png",
-      cardHeading: "Sales Leadership Accelerator",
+      cardHeading: "Soul Of Selling",
     },
     {
       img: "/Container10/8.png",
-      cardHeading: "Sales Leadership Accelerator",
+      cardHeading: "Sales Re-Engineering Program",
     },
   ],
 };
