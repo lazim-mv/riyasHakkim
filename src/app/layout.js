@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
 
         <meta
           property="og:image"
-          content="https://www.riyashakkim.com//linkImageWhatsApp.png"
+          content="https://www.riyashakkim.com/openGraphImage.jpg"
         />
         <meta property="og:image:type" content="image/png" />
         <meta property="og:image:width" content="1024" />

@@ -891,7 +891,7 @@ a {
   align-items: center;
 }
 
-.copyRight p {
+.copyRight p, .copyRight a {
   margin: auto !important;
   text-align: center;
 }
@@ -1536,5 +1536,13 @@ a {
     height: 12.8vw;
     align-items: center;
     justify-content: center;
+  }
+
+  .copyRight p{
+    font-size: 3.733333333333334vw;
+    margin: 0 !important;
+    text-align: left !important;
+    line-height: normal;
+    padding: var(--mobileContainerPadding);
   }
 }

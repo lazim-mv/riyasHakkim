@@ -39,7 +39,6 @@ function Contact() {
     }
   }, []);
 
-
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -96,7 +95,9 @@ function Contact() {
               ? "0 0 2.666666666666667vw 0"
               : "0 0 1.3227513227513228vw 0"
           }
-          line={windowWidth <= 768 ? "26.666666666666668vw" : "13.227513227513226vw"}
+          line={
+            windowWidth <= 768 ? "26.666666666666668vw" : "13.227513227513226vw"
+          }
         />
       </div>
 
@@ -170,37 +171,39 @@ function Contact() {
               ? "0 0 2.666666666666667vw 0"
               : "0 0 1.3227513227513228vw 0"
           }
-          line={windowWidth <= 768 ? "26.666666666666668vw" : "13.227513227513226vw"}
+          line={
+            windowWidth <= 768 ? "26.666666666666668vw" : "13.227513227513226vw"
+          }
         />
         <div className={styles.socialContainer}>
-          <div className={styles.social}>
-            <Image
-              src="/callIcon.svg"
-              width={130}
-              height={101}
-              alt="socialIcon"
-              quality={100}
-              priority={true}
-              unoptimized
-            />
-            <a href="tel:+971521057169">
+          <a href="tel:+971521057169">
+            <div className={styles.social}>
+              <Image
+                src="/callIcon.svg"
+                width={130}
+                height={101}
+                alt="socialIcon"
+                quality={100}
+                priority={true}
+                unoptimized
+              />
               <SectionDescription sectionText="+971 521 057 169" />
-            </a>
-          </div>
-          <div className={styles.social}>
-            <Image
-              src="/mail.svg"
-              width={130}
-              height={101}
-              alt="socialIcon"
-              quality={100}
-              priority={true}
-              unoptimized
-            />
-            <a href="mailto:reach@riyashakkim.com">
+            </div>
+          </a>
+          <a href="mailto:reach@riyashakkim.com">
+            <div className={styles.social}>
+              <Image
+                src="/mail.svg"
+                width={130}
+                height={101}
+                alt="socialIcon"
+                quality={100}
+                priority={true}
+                unoptimized
+              />
               <SectionDescription sectionText="reach@riyashakkim.com" />
-            </a>
-          </div>
+            </div>
+          </a>
         </div>
       </div>
 

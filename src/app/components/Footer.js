@@ -73,12 +73,14 @@ const Footer = () => {
         </div>
       </div>
       <div className="copyRight">
-        <SectionDescription
-          sectionText="Copyright © 2024 All rights reserved by RiyasHakkim. Powered by procube"
-          color="rgba(255, 255, 255, 0.60)"
-          margin="1.984126984126984vw 0"
-          textAllign="center"
-        />
+        <a href="https://procube.vercel.app/" target="_blank">
+          <SectionDescription
+            sectionText="Copyright © 2024 All rights reserved by RiyasHakkim. Powered by procube"
+            color="rgba(255, 255, 255, 0.60)"
+            margin="1.984126984126984vw 0"
+            textAllign="center"
+          />
+        </a>
       </div>
     </>
   );
