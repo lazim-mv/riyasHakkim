@@ -41,12 +41,16 @@
   text-align: center;
 }
 
+.cards .card:nth-child(6) h3{
+  width: 80%;
+}
+
 .cards .card:nth-child(7) h3{
-  width: 30%;
+  width: 80%;
 }
 
 .cards .card:last-child h3{
-  width: 60%;
+  width: 80%;
 }
 
 @media only screen and (max-width: 767px) {
@@ -85,7 +89,7 @@
   }
 
   .cards .card:nth-child(7) h3{
-    width: 75%;
+    width: 100%;
   }
   
   .cards .card:last-child h3{

@@ -665,23 +665,23 @@ const container10Data = {
     },
     {
       img: "/Container10/4.png",
-      cardHeading: "Sales Leadership Accelerator",
-    },
-    {
-      img: "/Container10/5.png",
-      cardHeading: "Sales Leadership Accelerator",
-    },
-    {
-      img: "/Container10/6.png",
       cardHeading: "Sales Goal Setting Workshop",
     },
     {
-      img: "/Container10/7.png",
+      img: "/Container10/5.png",
       cardHeading: "Soul Of Selling",
     },
     {
-      img: "/Container10/8.png",
+      img: "/Container10/6.png",
       cardHeading: "Sales Re-Engineering Program",
+    },
+    {
+      img: "/Container10/7.png",
+      cardHeading: "Team Building & Outbound Training Activities",
+    },
+    {
+      img: "/Container10/8.png",
+      cardHeading: "21 Days Online Sales Coaching & Training",
     },
   ],
 };
