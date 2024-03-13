@@ -175,7 +175,7 @@ const container9Data = {
       number: "01",
       question: "How does emotional intelligence impact sales performance?",
       answer:
-        "Emotional intelligence is crucial in sales as it helps in understanding and responding to clients' emotions, leading to stronger relationships and better sales outcomes.",
+        "Emotional intelligence is crucial in sales as it helps in understanding and responding to client's emotions, leading to stronger relationships and better sales outcomes.",
     },
     {
       number: "02",

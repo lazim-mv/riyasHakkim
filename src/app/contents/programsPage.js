@@ -6,7 +6,7 @@ const programPage = {
       img: "/programsPage/1.png",
       title: "Sales Leadership Accelerator",
       description:
-        "Embark on a journey to sales excellence with the Sales Leadership Accelerator. This tailored program, offered in both half-day and full-day options, is meticulously designed to enhance your ability to create and fulfill a visionary sales strategy. You'll develop a profound sales purpose, adopt a value-driven sales mindset, and master the art of relationship building. Through interactive vision-building and SMART goal-setting exercises, alongside leadership testing workshops, you will discover how to propel your sales team to unprecedented success.",
+        "Embark on a journey to sales excellence with the Sales Leadership Accelerator. This tailored program, offered in both half-day and full-day options, is meticulously designed to enhance your ability to create and fulfill a visionary sales strategy. You'll develop a profound sales purpose, adopt a value-driven sales mindset, and master the art of relationship building. Through interactive vision-building and smart-goal-setting exercises, alongside leadership testing workshops, you will discover how to propel your sales team to unprecedented success.",
     },
     {
       img: "/programsPage/2.png",
@@ -30,7 +30,7 @@ const programPage = {
       img: "/programsPage/5.png",
       title: "Soul of Selling",
       description:
-        "Join us for the Soul of Selling, a transformational program that redefines the essence of sales. This program, available through both public events and residential experiences, invites you to explore the spiritual aspects of sales, encouraging you to look beyond numbers and targets. It promises to reshape your beliefs and values, offering a refreshing perspective that aligns selling with inner purpose and fulfillment.",
+        "Join us for the Soul of Selling, a transformational program that redefines the essence of sales. This program is available through both public events and residential experiences, invites you to explore the spiritual aspects of sales, encouraging you to look beyond numbers and targets. It promises to reshape your beliefs and values, offering a refreshing perspective that aligns selling with inner purpose and fulfillment.",
     },
     {
       img: "/programsPage/6.png",
