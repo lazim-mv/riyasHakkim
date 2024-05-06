@@ -117,7 +117,7 @@ const Testimonial = ({ mobile }) => {
         </div>
       </div>
       <div className="brands">
-        <h6 className="brandsHeading">We've Partnered with</h6>
+        <h6 className="brandsHeading">We&apos;ve Partnered with</h6>
         <div className="clientsImgContainer">
           <Brands
             imageSources={repeatedImageSources}
