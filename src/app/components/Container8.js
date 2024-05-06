@@ -14,7 +14,7 @@ const Container8 = () => {
         textAllign="center"
         margin="auto"
         // wordIndex={1}
-        // secondaryWordColor="#96202A"
+        // secondaryWordColor="#C8952E"
       />
       <div className="container8Cards">
         {cardData.map((data, index) => (

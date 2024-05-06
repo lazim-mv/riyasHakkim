@@ -158,7 +158,7 @@ const SectionTitle = ({
           className="sectionTitleHr"
           style={{
             width: line ? line : "20.767195767195766vw",
-            background: "#96202A",
+            background: "#C8952E",
             border: "none",
             margin: hrMargin ? hrMargin : "",
           }}

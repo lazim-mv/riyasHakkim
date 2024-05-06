@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./container11.module.css";
 import { container11Data } from "@/app/contents/contents";
 import Image from "next/image";
-import { SectionTitle } from "../../ButtonComponent";
+import { SectionTitle } from "../ButtonComponent";
 
 const Container11 = ({ mobile }) => {
   return (
@@ -16,20 +16,20 @@ const Container11 = ({ mobile }) => {
         line={mobile ? "26.666666666666668vw" : "13.227513227513226vw"}
       />
       <div className={styles.cards}>
-        {container11Data.cardData.map((data, index) => (
-          <div className={styles.imgContainer} key={index}>
-            <Image
-              className={styles.img}
-              src={mobile ? data.mImg : data.img}
-              alt="Asian Engineer"
-              width={100}
-              height={100}
-              quality={100}
-              priority={true}
-              unoptimized
-            />
-          </div>
-        ))}
+        {/* {container11Data.cardData.map((data, index) => ( */}
+        <div className={styles.imgContainer}>
+          <Image
+            className={styles.img}
+            src={mobile ? "/Container11/ss/mobile.png" : "/Container11/ss/desktop.png"}
+            alt="Asian Engineer"
+            width={100}
+            height={100}
+            quality={100}
+            priority={true}
+            unoptimized
+          />
+        </div>
+        {/* ))} */}
       </div>
     </div>
   );

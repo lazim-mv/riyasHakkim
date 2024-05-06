@@ -24,6 +24,7 @@ function MobileHeader() {
     { text: "Home", href: "/" },
     { text: "About", href: "/pages/About" },
     { text: "Programs", href: "/pages/Programs" },
+    { text: "E3 Global Zone", href: "/pages/Programs" },
   ];
 
   return (
@@ -125,7 +126,7 @@ function MobileHeader() {
               style={{ display: isMenuOpen ? "block" : "none" }}
             >
               <BtnComponent
-                bg="#96202A"
+                bg="#C8952E"
                 color="#ffffff"
                 width="11.45833333333333vw"
                 buttonText="Contact Now"

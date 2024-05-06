@@ -134,6 +134,17 @@ const Page = () => {
         </div>
       </div>
 
+      <Image
+        src="/aboutPage/stat.png"
+        width={100}
+        height={100}
+        quality={100}
+        priority={true}
+        unoptimized
+        alt="stat"
+        className={styles.statImage}
+      />
+
       <div className={`${styles.aboutContainer4} container3`}>
         <div className={`${styles.aboutContainer4Contents} container3Contents`}>
           <SectionTitle
@@ -175,7 +186,7 @@ const Page = () => {
               padding="0 0 1.3227513227513228vw 0"
               textAllign="left"
               wordIndex={0}
-              secondaryWordColor="#96202A"
+              secondaryWordColor="#C8952E"
               hrMargin={windowWidth <= 768 ? "auto" : ""}
             />
           </div>

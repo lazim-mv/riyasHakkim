@@ -10,22 +10,26 @@ const container3 = {
   sectionTitle: "Our Values",
   imgData: [
     {
-      img: "/aboutPage/1.svg",
-      cardHeading: "Growth",
+      img: "/aboutPage/icons/1.svg",
+      cardHeading: "Vission",
       description:
-        "Embracing continuous learning and development, I believe growth is at the heart of every success story. I am committed to not only expanding my own horizons but also to nurturing the growth of those I work with.",
+        "Empowering people and organizations by unleashing emotional power within.",
     },
     {
-      img: "/aboutPage/2.svg",
-      cardHeading: "Integrity",
-      description:
-        "Integrity forms the cornerstone of all my interactions and decisions. Honesty, transparency, and ethical practice are the guiding principles that ensure trust and authenticity in every relationship.",
+      img: "/aboutPage/icons/2.svg",
+      cardHeading: "Mission",
+      description: "Transforming 1 million people’s lives by 2030",
     },
     {
-      img: "/aboutPage/3.svg",
-      cardHeading: "Community",
+      img: "/aboutPage/icons/3.svg",
+      cardHeading: "Purpose",
+      description: "Serving people by adding values",
+    },
+    {
+      img: "/aboutPage/icons/4.svg",
+      cardHeading: "Values",
       description:
-        "Building a supportive and engaged community is central to my philosophy. I strive to create an inclusive environment where collaboration and shared success lead to stronger connections and a positive impact on the world.",
+        "Almighty God first Transparency & Accountability People oriented Honesty",
     },
   ],
 };
@@ -39,24 +43,38 @@ const container4 = {
 };
 
 const container5 = {
-  sectionTitle: "Riyas Hakkim Speaks ",
+  sectionTitle: "Embark on this journey with Riyas Hakkim",
+  description:
+    "Where strategic foresight, emotional intelligence, and genuine connections converge to create not just sales, but stories of success and unity",
   buttonText: "Know More",
   imgData: [
     {
-      img: "/aboutPage/1(4).png",
-      href: "https://youtu.be/gvmomKDqs-s?si=m8mIYhGlWSIUP08O",
+      img: "/aboutPage/thumbanails/1.png",
+      href: "https://www.youtube.com/watch?v=coMrsI25Pi4",
     },
     {
-      img: "/aboutPage/1(2).png",
-      href: "https://youtu.be/coMrsI25Pi4?si=QVV8wd1ctzrr7drG",
+      img: "/aboutPage/thumbanails/2.png",
+      href: "https://youtu.be/Nupr5vMRoIo?si=caTVi7nC1xKBK1Id",
     },
     {
-      img: "/aboutPage/1(3).png",
-      href: "https://youtu.be/kCCtQp8y_xQ?si=5Ts5rqYtNTWcAXx8",
+      img: "/aboutPage/thumbanails/3.png",
+      href: "https://www.youtube.com/watch?v=PmrOsjjF5eo",
     },
     {
-      img: "/aboutPage/1(1).png",
-      href: "https://www.youtube.com/@riyashr",
+      img: "/aboutPage/thumbanails/4.png",
+      href: "https://www.youtube.com/watch?v=RBs66wLxW7s",
+    },
+    {
+      img: "/aboutPage/thumbanails/5.png",
+      href: "https://www.youtube.com/watch?v=d8NzGLeYyfk",
+    },
+    {
+      img: "/aboutPage/thumbanails/6.png",
+      href: "https://www.youtube.com/watch?v=c28BH10ssVg",
+    },
+    {
+      img: "/aboutPage/thumbanails/7.png",
+      href: "https://www.youtube.com/watch?v=gvmomKDqs-s",
     },
   ],
 };

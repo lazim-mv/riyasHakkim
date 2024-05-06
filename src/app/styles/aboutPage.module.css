@@ -42,26 +42,28 @@
   margin-bottom: 2.1164021164021163vw;
 }
 
-.aboutContainer3Cards{
+.aboutContainer3Cards {
   margin-top: 5.291005291005291vw;
+  margin-bottom: calc(6.613756613756613vw + 6.613756613756613vw);
 }
 
-.aboutContainer4{
+.aboutContainer4 {
   display: flex;
   justify-content: space-between;
   padding: 0 9.920634920634921vw;
 }
 
-.aboutContainer4 img{
+.aboutContainer4 img {
   height: 38.095238095238095vw;
   width: 38.095238095238095vw;
+  border-radius: 0;
 }
 
-.aboutContainer4Contents{
+.aboutContainer4Contents {
   width: 33.92857142857143vw;
 }
 
-.aboutContainer4Contents p{
+.aboutContainer4Contents p {
   margin-top: 2.1164021164021163vw;
 }
 
@@ -86,6 +88,11 @@
   height: 16.534391534391535vw;
 }
 
+.statImage {
+  width: 100vw;
+  height: 39.682539682539684vw;
+}
+
 @media only screen and (max-width: 767px) {
   .container1 {
     margin-top: calc(var(--mobileContainerMarginTop));
@@ -97,40 +104,40 @@
     margin-top: 21.3333vw;
   }
 
-  .container1 h2{
+  .container1 h2 {
     width: auto !important;
   }
 
-  .container2{
+  .container2 {
     padding: var(--mobileContainerPadding);
     flex-direction: column;
     margin-top: 10.666666666666668vw;
   }
 
-  .container2Contents{
+  .container2Contents {
     width: auto;
   }
-  
-  .container2Contents h2{
+
+  .container2Contents h2 {
     margin-bottom: 2.666666666666667vw;
   }
 
-  .container2Img{
+  .container2Img {
     width: 87.2vw;
     height: 87.2vw;
     margin-bottom: 8vw;
   }
 
-  .container2 img{
+  .container2 img {
     width: 87.2vw;
     height: 87.2vw;
   }
 
-  .aboutContainer3{
+  .aboutContainer3 {
     padding: var(--mobileContainerPadding);
   }
 
-  .aboutContainer3Cards{
+  .aboutContainer3Cards {
     grid-template-rows: auto;
     margin-top: 8vw;
   }
@@ -139,41 +146,41 @@
     height: auto;
   }
 
-  .aboutContainer4{
+  .aboutContainer4 {
     padding: var(--mobileContainerPadding);
   }
 
-  .aboutContainer4Contents{
+  .aboutContainer4Contents {
     width: auto;
   }
 
-  .aboutContainer4Contents p{
+  .aboutContainer4Contents p {
     margin-top: 4vw;
   }
 
-  .aboutContainer4 img{
+  .aboutContainer4 img {
     width: 87.2vw;
     height: 87.2vw;
   }
 
-  .aboutContainer5Title h2{
+  .aboutContainer5Title h2 {
     width: auto !important;
   }
 
   .aboutContainerCard5 {
     width: 66.66666666666666vw;
-    height:44.208533333333335vw;
+    height: 44.208533333333335vw;
     object-fit: cover;
     position: relative;
   }
-  
+
   .aboutContainerCard5 .ytIcon {
     width: 10.666666666666668vw;
     height: 10.666666666666668vw;
   }
-  
+
   .aboutContainerCard5 .aboutCardImg {
     width: 66.66666666666666vw;
-    height:44.208533333333335vw;
+    height: 44.208533333333335vw;
   }
 }

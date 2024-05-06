@@ -21,7 +21,7 @@ const ContactComponent = () => {
           <a href="/pages/Contact">
             <BtnComponent
               buttonText="Contact Us"
-              bg="#96202A"
+              bg="#C8952E"
               color="#fff"
               margin="1.984126984126984vw 0 0 0"
             />

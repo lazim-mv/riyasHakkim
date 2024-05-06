@@ -47,7 +47,7 @@ const Container4 = ({
               padding="0 0 1.3227513227513228vw 0"
               textAllign="left"
               // wordIndex={1}
-              // secondaryWordColor="#96202A"
+              // secondaryWordColor="#C8952E"
             />
           </div>
           <div className="carouselButtonContainer">
@@ -117,7 +117,7 @@ const Container4 = ({
         <a href={href ? href : "/pages/Programs"}>
           <BtnComponent
             buttonText={content.buttonText}
-            bg="#96202A"
+            bg="#C8952E"
             color="#fff"
             margin="4.62962962962963vw auto 0 auto"
           />

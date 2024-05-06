@@ -2,36 +2,38 @@ const heroData = {
   img: "",
   heroTitle: "Riyas Hakkim: India’s first emotional Sales leadership coach ",
   buttonText: "Contact Us",
-  description:
-    "Humanizing Sales & Leadership Emotionally",
+  description: "Humanizing Sales & Leadership Emotionally",
 };
 
 const container2Data = {
   sectionTitle: "The Sales Empowerment Suite",
   description:
-    "Explore Riyas Hakkim's Sales Empowerment Suite, a series of programs honed to perfect your sales through emotional intelligence, building enduring client relationships, and turning every interaction into a triumph.",
+    "Explore Riyas Hakkim's Sales Empowerment Suite, a series of programs honed to perfect your sales through emotional intelligence, building enduring client relationships and turning every interaction into a triumph.",
   imgData: [
-    { 
+    {
       img: "/Container2/2(1).svg",
       cardHeading: "Sales Mastery",
-      description: "Harness emotional insights for impactful sales results.",
+      description:
+        "Designed to equip sales professionals with the knowledge, skills, and strategies needed  to excel not only in today's competitive corporate world but also in social environments.",
     },
     {
       img: "/Container2/2(2).svg",
       cardHeading: "Leadership Coaching",
-      description: "Lead with empathy and inspire team success.",
+      description:
+        "Meticulously crafted to cultivate the next generation of effective and visionary  leaders. Rooted in proven leadership principles and tailored to the unique needs of each participant.",
     },
     {
       img: "/Container2/2(3).svg",
-      cardHeading: "Workshop Series",
-      description: "Interactive sessions to sharpen your sales acumen.",
+      cardHeading: "Transformational Series",
+      description:
+        " Empowering individuals to break through barriers, unleash their potential, and  create meaningful change in their lives.",
     },
   ],
 };
 
 const container3Data = {
   img: "/Container2/aboutImage1.png",
-  mobileImg:"/Container2/mobileImage1.png",
+  mobileImg: "/Container2/mobileImage1.png",
   sectionTitle: "About Riyas Hakkim",
   description:
     "Riyas Hakkim doesn't just coach; he catalyzes change. With a focus on emotional intelligence and strategic sales mastery, our programs are meticulously crafted to empower you to forge meaningful connections and achieve remarkable sales growth. Elevate your presence, enrich customer interactions, and witness the transformation in your sales trajectory. Dive into the world of empathetic leadership with us.",
@@ -106,7 +108,7 @@ const container5Data = {
   sectionTitle: "Celebrating Success and Connection",
   buttonText: "Know More",
   description:
-    "Riyas Hakkim energizes every milestone, transforming achievements into a celebration of the deep bonds and shared aspirations that define his team's journey. It's a collaborative movement towards collective excellence and personal growth, embodying the spirit of unity in every success. Together, they navigate towards a future rich with triumphs and the powerful synergy of united purpose..",
+    "Riyas Hakkim energizes every milestone, transforming achievements into a celebration of the deep bonds and shared aspirations that define his team's journey. It's a collaborative movement towards collective excellence and personal growth, embodying the spirit of unity in every success. Together, they navigate towards a future rich with triumphs and the powerful synergy of united purpose.",
 };
 
 const container6Data = {
@@ -647,9 +649,9 @@ const testimonial = {
 };
 
 const container10Data = {
-  sectionTitle: "Training Programs",
+  sectionTitle: "Training & Coaching Programs",
   description:
-    "Conducted more than 100s of on-the job sales training and leadership workshops for major UAE businesses like ADNOC, ENOC, GASCO, Emirates Airlines, ADIB, ADJD, Emirates Palace Hotel, Mashreq Bank, Nestle, Hotpack, Sharjah Golf and shooting Club etc.",
+    "From enhancing productivity and efficiency to fostering innovation and adaptability, the benefits of investing in employee  training are manifold. With our expert-led training programs and customized solutions, we are confident that we can  help you build a skilled, motivated, and high-performing team capable of driving sustained business success.",
   cardData: [
     {
       img: "/Container10/1.png",

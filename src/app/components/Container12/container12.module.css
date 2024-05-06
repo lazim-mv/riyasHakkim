@@ -1,0 +1,44 @@
+.container12Title .container12Top {
+  padding: 0;
+  width: 100%;
+}
+
+.container12Cards{
+  overflow: hidden;
+  /* gap: 2vw; */
+}
+
+.container12Card {
+  width: 24.933862433862434vw;
+  height: 16.534391534391535vw;
+  object-fit: cover;
+  position: relative;
+}
+
+.container12Card .ytIcon {
+  width: 3.968253968253968vw;
+  height: 3.968253968253968vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container12Card .aboutCardImg {
+  width: 24.933862433862434vw;
+  height: 16.534391534391535vw;
+}
+
+.arrowButtons {
+  margin-top: 4.62962962962963vw;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 767px) {
+  .container12Top h2{
+    text-align: left !important;
+    width: 87vw !important;
+  }
+}

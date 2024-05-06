@@ -30,10 +30,10 @@ const Container3 = ({mobile}) => {
           sectionText={container3Data.description}
           // width="37.43386243386244vw"
         />
-        <a href="/pages/Programs">
+        <a href="/pages/About">
         <BtnComponent
           buttonText={container3Data.buttonText}
-          bg="#96202A"
+          bg="#C8952E"
           color="#fff"
           margin="1.984126984126984vw 0 0 0"
         />

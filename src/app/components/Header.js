@@ -14,6 +14,7 @@ function Header() {
     { text: "Home", href: "/" },
     { text: "About", href: "/pages/About" },
     { text: "Programs", href: "/pages/Programs" },
+    { text: "E3 Global Zone", href: "/pages/Programs" },
   ];
 
   useEffect(() => {
@@ -82,7 +83,7 @@ function Header() {
       </div>
       <a href="/pages/Contact">
         <BtnComponent
-          bg="#96202A"
+          bg="#C8952E"
           color="#ffffff"
           width="11.64021164021164vw"
           height="3.2407407407407405vw"

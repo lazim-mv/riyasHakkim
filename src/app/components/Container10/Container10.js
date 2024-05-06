@@ -7,7 +7,7 @@ import Image from "next/image";
 import ArrowButtons from "../ArrowButton/ArrowButtons";
 import { useWindowSize } from "@/app/utils/windowSize";
 
-const Container10 = ({mobile}) => {
+const Container10 = ({ mobile }) => {
   const cardData = container10Data.cardData;
 
   const [activeIndex, setActiveIndex] = useState(0);
@@ -50,8 +50,10 @@ const Container10 = ({mobile}) => {
         <SectionTitle
           padding="0 0 1.3227513227513228vw 0"
           margin="auto"
+          textAllign="center"
           sectionText={container10Data.sectionTitle}
-          line={mobile ? "26.666666666666668vw" : ""}
+          line={mobile ? "20.767195767195766vw" : ""}
+          hrMargin={mobile ? "0" : "0 auto"}
         />
 
         <SectionDescription sectionText={container10Data.description} />
@@ -59,7 +61,7 @@ const Container10 = ({mobile}) => {
       <div className={styles.cards}>
         {cardData.map((data, index) => (
           <div
-          key={index}
+            key={index}
             className={styles.card}
             onClick={() => handleCardClick(index)}
             style={{
@@ -78,7 +80,9 @@ const Container10 = ({mobile}) => {
               priority={true}
               unoptimized
             />
-            <h3>{data.cardHeading}</h3>
+            <div className={styles.cardHeadingWrapper}>
+              <h3>{data.cardHeading}</h3>
+            </div>
           </div>
         ))}
       </div>

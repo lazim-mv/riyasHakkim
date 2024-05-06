@@ -4,21 +4,29 @@ import Image from "next/image";
 
 const Footer = () => {
   const socialIcons = [
-    // {
-    //   img: "/Footer/1(1).png",
-    //   href: "https://www.linkedin.com/in/riyashakkim/",
-    // },
     {
-      img: "/Footer/1(2).png",
-      href: "https://www.instagram.com/riyasbinhakkim/",
+      img: "/Footer/aa/youtube.svg",
+      href: "https://www.youtube.com/@riyashr",
     },
     {
-      img: "/Footer/1(3).png",
-      href: "https://www.linkedin.com/in/riyashakkim/",
+      img: "/Footer/aa/instagram.svg",
+      href: "https://www.instagram.com/riyasbinhakkim/?hl=en",
+    },
+    {
+      img: "/Footer/aa/tiktok.svg",
+      href: "https://www.tiktok.com/@riyas.hakkim?lang=en",
+    },
+    {
+      img: "/Footer/aa/linkedin.svg",
+      href: "https://ae.linkedin.com/in/riyashakkim",
+    },
+    {
+      img: "/Footer/aa/threads.svg",
+      href: "https://www.threads.net/@riyasbinhakkim/post/C4shCoIxNUm",
     },
     // {
-    //   img: "/Footer/1(4).png",
-    //   href: "https://www.tiktok.com/@riyas.hakkim?lang=en",
+    //   img: "/Footer/aa/fb.svg",
+    //   href: "https://ae.linkedin.com/in/riyashakkim",
     // },
   ];
 

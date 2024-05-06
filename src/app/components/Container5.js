@@ -7,31 +7,9 @@ import {
 } from "./ButtonComponent";
 import { container5Data } from "../contents/contents";
 
-const Container5 = ({mobile}) => {
+const Container5 = ({ mobile }) => {
   return (
     <div className="container3 container5">
-      <div className="container3Contents container5Contents">
-        <SectionTitle
-          sectionText={container5Data.sectionTitle}
-          width="32.73809523809524vw"
-          padding="0 0 1.3227513227513228vw 0"
-          textAllign="left"
-          hrMargin={mobile ? "0" : "0 0 2.1164021164021163vw 0"}
-          line={mobile ? "26.666666666666668vw" :"15.939153439153438vw"}
-        />
-        <SectionDescription
-          sectionText={container5Data.description}
-          width="37.43386243386244vw"
-        />
-        <a href="/pages/About">
-          <BtnComponent
-            buttonText={container5Data.buttonText}
-            bg="#96202A"
-            color="#fff"
-            margin="1.984126984126984vw 0 0 0"
-          />
-        </a>
-      </div>
       <Image
         className="container5Image"
         src={container5Data.img}
@@ -42,6 +20,28 @@ const Container5 = ({mobile}) => {
         priority={true}
         unoptimized
       />
+      <div className="container3Contents container5Contents">
+        <SectionTitle
+          sectionText={container5Data.sectionTitle}
+          width="32.73809523809524vw"
+          padding="0 0 1.3227513227513228vw 0"
+          textAllign="left"
+          hrMargin={mobile ? "0" : "0 0 2.1164021164021163vw 0"}
+          line={mobile ? "26.666666666666668vw" : "15.939153439153438vw"}
+        />
+        <SectionDescription
+          sectionText={container5Data.description}
+          width="31.746031746031743vw"
+        />
+        <a href="/pages/About">
+          <BtnComponent
+            buttonText={container5Data.buttonText}
+            bg="#C8952E"
+            color="#fff"
+            margin="1.984126984126984vw 0 0 0"
+          />
+        </a>
+      </div>
     </div>
   );
 };

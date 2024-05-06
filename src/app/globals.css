@@ -85,7 +85,7 @@ p {
 }
 
 span {
-  color: #96202a;
+  color: #c8952e;
   text-transform: capitalize;
 }
 
@@ -117,12 +117,12 @@ a {
 }
 
 .active h4 {
-  color: #96202a;
+  color: #c8952e;
   font-weight: 600;
 }
 
 .active {
-  color: #96202a;
+  color: #c8952e;
   font-weight: 600;
 }
 
@@ -185,7 +185,7 @@ a {
   width: 100%;
   height: 100%;
   border-radius: 3.2552083333333335vw;
-  background: #96202a;
+  background: #c8952e;
   transition: all 0.475s;
 }
 
@@ -362,7 +362,7 @@ a {
 
 .cardsContainer {
   display: grid;
-  grid-template-columns: 24.933862433862434vw 24.933862433862434vw 24.933862433862434vw;
+  grid-template-columns: 18.584656084656086vw 18.584656084656086vw 18.584656084656086vw 18.584656084656086vw;
 
   gap: 2.6455026455026456vw;
 }
@@ -401,7 +401,7 @@ a {
 .container3Bg {
   position: absolute;
   width: 100vw;
-  height: 92%;
+  height: 39.682539682539684vw;
   bottom: 0;
   left: 0;
   background: #121212;
@@ -409,8 +409,8 @@ a {
 }
 
 .container3Image {
-  width: 29.100529100529098vw;
-  height: 49.60317460317461vw;
+  width: 35.78042328042328vw;
+  height: 43.386243386243386vw;
   border-radius: var(--borderRadius);
 }
 
@@ -721,7 +721,7 @@ a {
 }
 
 .testimonialTitle h2 {
-  width: 32.076719576719576vw;
+  width: 37vw;
 }
 
 .testimonialTitle p {
@@ -787,7 +787,7 @@ a {
   width: 0.992063492063492vw;
   height: 0.992063492063492vw;
   transform: scale(1.2);
-  background-color: #96202a;
+  background-color: #c8952e;
   border-radius: 10px;
   cursor: pointer;
   transform: scale(1.3);
@@ -795,6 +795,48 @@ a {
 }
 
 /* Testimonial end */
+
+/* Brands Start */
+
+.brands {
+  margin-top: 6.613756613756613vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.brandsHeading {
+  font-size: 1.5873015873015872vw;
+  font-weight: 500;
+  color: #c8952e;
+  margin-bottom: 2.6455026455026456vw;
+}
+
+.clientsImgContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.scrolling-logos {
+  display: flex;
+  align-items: center;
+  position: relative;
+  white-space: nowrap;
+  gap: 75px;
+  /* animation-timing-function: linear;
+  transition: transform 0.8s ease; */
+}
+
+.logoClients {
+  height: 60px !important;
+  display: inline-block;
+}
+/* Brands End */
 
 /* Contact Start */
 
@@ -885,13 +927,14 @@ a {
 
 .copyRight {
   grid-column: 1/5;
-  background: #96202a;
+  background: #c8952e;
   height: 4.497354497354497vw;
   display: flex;
   align-items: center;
 }
 
-.copyRight p, .copyRight a {
+.copyRight p,
+.copyRight a {
   margin: auto !important;
   text-align: center;
 }
@@ -991,11 +1034,11 @@ a {
   }
 
   span {
-    color: #96202a;
+    color: #c8952e;
     text-transform: capitalize;
   }
 
-  .sectionTitleHr{
+  .sectionTitleHr {
     height: 1.3333333333333335vw;
   }
 
@@ -1131,7 +1174,7 @@ a {
 
   .cardsContainer {
     grid-template-columns: 1fr;
-    grid-template-rows: 47.733333333333334vw 47.733333333333334vw 47.733333333333334vw;
+    grid-template-rows: 1fr;
     margin-top: 8vw;
     gap: 5.333333333333334vw;
   }
@@ -1456,6 +1499,22 @@ a {
     margin-top: 1.3333333333333335vw;
   }
 
+  /* brands */
+
+  .brands{
+    overflow: hidden;
+    margin-top: 13.333333333333334vw;
+  }
+
+  .brandsHeading{
+    font-size: 4.8vw;
+  }
+
+  .scrolling-logos {
+    margin-top: 3.4666666666666663vw;
+    gap: 10.666666666666668vw;
+  }
+
   /* contact */
 
   .contactContainer {
@@ -1538,7 +1597,7 @@ a {
     justify-content: center;
   }
 
-  .copyRight p{
+  .copyRight p {
     font-size: 3.733333333333334vw;
     margin: 0 !important;
     text-align: left !important;

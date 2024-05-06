@@ -1,5 +1,5 @@
 "use client";
-import Container11 from "./components/ArrowButton/Container11/Container11";
+import Container11 from "./components/Container11/Container11";
 import ContactComponent from "./components/ContactComponent";
 import Container10 from "./components/Container10/Container10";
 import Container2 from "./components/Container2";
@@ -18,6 +18,7 @@ import Testimonial from "./components/Testimonial";
 import UnderMaintainance from "./components/UnderMaintainance";
 import { container4Data, container7Data } from "./contents/contents";
 import { useWindowSize } from "./utils/windowSize";
+import Container12 from "./components/Container12/Container12";
 
 export default function Home() {
   const { windowSize, isSmallScreen } = useWindowSize();
@@ -33,12 +34,14 @@ export default function Home() {
 
       <Container10 mobile={isSmallScreen} />
       <Container5 mobile={isSmallScreen} />
-      <Container6 mobile={isSmallScreen} />
+      {/* <Container6 mobile={isSmallScreen} /> */}
+      <Container12 mobile={isSmallScreen} mainPage={true} />
+
       <Container11 mobile={isSmallScreen} />
 
       <Container8 />
       <Testimonial mobile={isSmallScreen} />
-      <Container9 mobile={isSmallScreen} />
+      {/* <Container9 mobile={isSmallScreen} /> */}
       <ContactComponent />
       <Footer />
     </main>
@@ -47,7 +50,7 @@ export default function Home() {
 
 //  <BtnComponent
 //   buttonText="hello"
-//   bg="#96202A"
+//   bg="#C8952E"
 //   color="#fff"
 //   arrow={true}
 //  />
