@@ -135,7 +135,7 @@ const Page = () => {
       </div>
 
       <Image
-        src="/aboutPage/stat.png"
+        src={windowWidth <= 768 ? "/aboutPage/statMobile.png" : "/aboutPage/stat.png"}
         width={100}
         height={100}
         quality={100}
