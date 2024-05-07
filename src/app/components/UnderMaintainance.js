@@ -25,6 +25,7 @@ const UnderMaintainance = () => {
           <SectionTitle
             sectionText="Coming Soon"
             padding="0 0 0.3306878306878307vw 0"
+            line="0"
           />
           <p>
             Our Website is under Maintenance. We&apos;ll be here soon with our
