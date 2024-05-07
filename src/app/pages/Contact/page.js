@@ -253,7 +253,7 @@ function Contact() {
           }
         />
         <div className={styles.socialContainer}>
-          <div className="social">
+          <div className={`${styles.sociall} social`}>
             <CardHeading />
             <div className={`${styles.socialIconsContact} socialIcons`}>
               {socialIcons.map((data, index) => (

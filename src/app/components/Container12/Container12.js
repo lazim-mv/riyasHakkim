@@ -62,7 +62,7 @@ const Container12 = ({ mobile, mainPage, aboutPage }) => {
   return (
     <>
       <div
-        className={`${styles.container12} container4 container7`}
+        className={`${styles.container12} container4 `}
         id="container4"
       >
         <div className={`${styles.container12Title} topContainer4`}>
@@ -81,7 +81,11 @@ const Container12 = ({ mobile, mainPage, aboutPage }) => {
               padding="0 0 1.3227513227513228vw 0"
               line={mobile ? "26.666666666666668vw" : "22.685185185185187vw"}
               hrMargin={aboutPage && "0 auto"}
-              textAllign={aboutPage && "center"}
+              textAllign={
+                (aboutPage && "center") ||
+                (mobile && aboutPage && "center") ||
+                (mobile && mainPage && "left")
+              }
             />
             {mainPage && (
               <SectionDescription sectionText={container5.description} />

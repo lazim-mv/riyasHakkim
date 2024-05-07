@@ -248,5 +248,26 @@
     display: flex;
     align-items: center;
     gap: 2.666666666666667vw;
+    width: 100%;
+  }
+
+  .sociall {
+    width: 100% !important;
+  }
+
+  .socialIconsContact{
+    gap: 4vw;
+  }
+
+  .socialIconWithName {
+    gap: 4vw;
+  }
+
+  .socialIconWithName img {
+    margin: 0;
+  }
+
+  .socialIconsContact a {
+    width: 45%;
   }
 }
