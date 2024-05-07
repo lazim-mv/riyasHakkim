@@ -14,7 +14,7 @@ function Header() {
     { text: "Home", href: "/" },
     { text: "About", href: "/pages/About" },
     { text: "Programs", href: "/pages/Programs" },
-    { text: "E3 Global Zone", href: "/pages/Programs" },
+    // { text: "E3 Global Zone", href: "/pages/Programs" },
   ];
 
   // useEffect(() => {

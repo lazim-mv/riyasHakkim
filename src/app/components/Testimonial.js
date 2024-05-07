@@ -39,7 +39,7 @@ const Testimonial = ({ mobile }) => {
   useEffect(() => {
     const intervalId = setInterval(() => {
       nextImage();
-    }, 600000);
+    }, 6000);
 
     return () => {
       clearInterval(intervalId);
