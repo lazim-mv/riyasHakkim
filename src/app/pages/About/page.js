@@ -106,7 +106,7 @@ const Page = () => {
           }
           hrMargin="0 auto"
         />
-        <div className={`${styles.aboutContainer3Cards} cardsContainer`}>
+        <div className={`${styles.aboutContainer3Cards} cardsContainer aboutPageCards`}>
           {container3.imgData.map((data, index) => (
             <div
               className={`${styles.aboutContainer3Card} cardContainer`}

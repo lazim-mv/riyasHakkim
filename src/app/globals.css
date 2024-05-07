@@ -325,10 +325,16 @@ a {
   margin-top: 6.613756613756613vw;
 }
 
-.heroContianer img {
+.heroContianer .hImage {
   width: 31.878306878306876vw;
   height: 43.25396825396825vw;
   align-self: flex-end;
+}
+
+.e3GloabalImg {
+  width: 16.203703703703702vw;
+  height: 3.968253968253968vw;
+  margin-top: 1.5873015873015872vw;
 }
 
 .heroContent {
@@ -361,6 +367,13 @@ a {
 }
 
 .cardsContainer {
+  display: grid;
+  grid-template-columns: 24.933862433862434vw 24.933862433862434vw 24.933862433862434vw;
+
+  gap: 2.6455026455026456vw;
+}
+
+.aboutPageCards {
   display: grid;
   grid-template-columns: 18.584656084656086vw 18.584656084656086vw 18.584656084656086vw 18.584656084656086vw;
 
@@ -766,6 +779,11 @@ a {
   height: auto;
 }
 
+.comapnyAndDesignation{
+  width: auto !important;
+  height: auto !important;
+}
+
 .dotsContainer {
   display: flex;
   gap: 0.6613756613756614vw;
@@ -1130,10 +1148,15 @@ a {
     padding-bottom: 0;
   }
 
-  .heroContianer img {
+  .heroContianer .hImage {
     width: 81.86666666666666vw;
     height: 106.66666666666667vw;
     align-self: center;
+  }
+
+  .e3GloabalImg{
+    width: 43.46666666666666vw;
+    height: 10.666666666666668vw;
   }
 
   .hImage {
@@ -1501,12 +1524,12 @@ a {
 
   /* brands */
 
-  .brands{
+  .brands {
     overflow: hidden;
     margin-top: 13.333333333333334vw;
   }
 
-  .brandsHeading{
+  .brandsHeading {
     font-size: 4.8vw;
   }
 

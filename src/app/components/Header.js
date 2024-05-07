@@ -17,31 +17,31 @@ function Header() {
     { text: "E3 Global Zone", href: "/pages/Programs" },
   ];
 
-  useEffect(() => {
-    gsap.registerPlugin(ScrollTrigger);
-  }, []);
+  // useEffect(() => {
+  //   gsap.registerPlugin(ScrollTrigger);
+  // }, []);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const currentScrollPos = window.pageYOffset;
-      if (prevScrollpos > currentScrollPos) {
-        gsap.to(".hContainer", { top: 0, duration: 0.2, ease: "ease-in-out" });
-      } else {
-        gsap.to(".hContainer", {
-          top: -150,
-          duration: 0.2,
-          ease: "ease-in-out",
-        });
-      }
-      setPrevScrollpos(currentScrollPos);
-    };
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     const currentScrollPos = window.pageYOffset;
+  //     if (prevScrollpos > currentScrollPos) {
+  //       gsap.to(".hContainer", { top: 0, duration: 0.2, ease: "ease-in-out" });
+  //     } else {
+  //       gsap.to(".hContainer", {
+  //         top: -150,
+  //         duration: 0.2,
+  //         ease: "ease-in-out",
+  //       });
+  //     }
+  //     setPrevScrollpos(currentScrollPos);
+  //   };
 
-    window.addEventListener("scroll", handleScroll);
+  //   window.addEventListener("scroll", handleScroll);
 
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, [prevScrollpos]);
+  //   return () => {
+  //     window.removeEventListener("scroll", handleScroll);
+  //   };
+  // }, [prevScrollpos]);
 
   return (
     <div className="hContainer">

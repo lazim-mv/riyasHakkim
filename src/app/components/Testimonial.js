@@ -39,7 +39,7 @@ const Testimonial = ({ mobile }) => {
   useEffect(() => {
     const intervalId = setInterval(() => {
       nextImage();
-    }, 6000);
+    }, 600000);
 
     return () => {
       clearInterval(intervalId);
@@ -102,10 +102,13 @@ const Testimonial = ({ mobile }) => {
                     priority={true}
                     unoptimized
                   />
-                  <CardHeading
-                    sectionText={data.cardHeading}
-                    padding="0 0 1.3227513227513228vw 0"
-                  />
+                  <div className="testimonialProfile">
+                    <CardHeading
+                      sectionText={data.cardHeading}
+                      // padding="0 0 1.3227513227513228vw 0"
+                    />
+                    <p className="comapnyAndDesignation">{`${data.companyName} - ${data.designation}`}</p>
+                  </div>
                 </div>
                 <SectionDescription
                   sectionText={data.description}

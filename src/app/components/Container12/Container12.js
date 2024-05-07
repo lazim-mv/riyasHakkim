@@ -4,6 +4,7 @@ import { SectionDescription, SectionTitle } from "../ButtonComponent";
 import { container5 } from "@/app/contents/aboutPage";
 import Image from "next/image";
 import Brands from "../Brands";
+import ArrowButtons from "../ArrowButton/ArrowButtons";
 
 const Container12 = ({ mobile, mainPage }) => {
   const [windowWidth, setWindowWidth] = useState("");
@@ -25,16 +26,24 @@ const Container12 = ({ mobile, mainPage }) => {
   }, []);
 
   const cardData = container5.imgData;
+  const [activeIndex, setActiveIndex] = useState(0);
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const totalImages = cardData.length;
-  const clicks = totalImages - 3;
+  const totalData = cardData.length;
+  console.log(totalData, "clicked");
+  const clicks = mobile ? totalData - 1 : totalData - 3;
+  const dynamicValue = mobile ? 70 : 27.2;
+  console.log(dynamicValue, currentIndex, mobile, "clicke");
 
   const nextImage = () => {
     if (currentIndex < clicks) {
       setCurrentIndex((prevIndex) => prevIndex + 1);
+      console.log("clicked1");
+      console.log(currentIndex, "clicked");
+      console.log(dynamicValue, "clicked");
     } else {
       setCurrentIndex(0);
+      console.log("clicked2");
     }
   };
 
@@ -44,6 +53,10 @@ const Container12 = ({ mobile, mainPage }) => {
     } else {
       setCurrentIndex(clicks);
     }
+  };
+
+  const handleCardClick = (index) => {
+    setActiveIndex(index === activeIndex ? null : index);
   };
 
   return (
@@ -72,7 +85,7 @@ const Container12 = ({ mobile, mainPage }) => {
               key={index}
               style={{
                 transform: currentIndex
-                  ? `translateX(-${currentIndex * 27.5793650794}vw)`
+                  ? `translateX(-${currentIndex * dynamicValue}vw)`
                   : "",
                 transition: "transform .8s ease",
               }}
@@ -104,32 +117,11 @@ const Container12 = ({ mobile, mainPage }) => {
             </div>
           ))}
         </div>
-        <div className={`${styles.arrowButtons} carouselButtonContainer`}>
-          <div
-            onClick={prevImage}
-            className="carouselButtonContainerLeft carouselHover"
-          >
-            <Image
-              width={377}
-              height={420}
-              src="/Container4/leftGreaterThanArrowPurple.svg"
-              alt="arrow"
-              className="arrow"
-            />
-          </div>
-          <div
-            onClick={nextImage}
-            className="carouselButtonContainerRight carouselHover"
-          >
-            <Image
-              width={377}
-              height={420}
-              src="/Container4/RightGreaterThanArrowPurple.svg"
-              alt="arrow"
-              className="arrow"
-            />
-          </div>
-        </div>
+        <ArrowButtons
+          margin={mobile ? "1.984126984126984vw" : "4.62962962962963vw"}
+          prevImage={prevImage}
+          nextImage={nextImage}
+        />
       </div>
     </>
   );

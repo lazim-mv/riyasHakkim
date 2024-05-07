@@ -1,3 +1,9 @@
+.container12{
+  background-color: #121212;
+  padding-top: 7.936507936507936vw;
+  padding-bottom: 7.936507936507936vw;
+}
+
 .container12Title .container12Top {
   padding: 0;
   width: 100%;
@@ -40,5 +46,22 @@
   .container12Top h2{
     text-align: left !important;
     width: 87vw !important;
+  }
+
+  .container12Cards{
+    margin-bottom: 8vw;
+  }
+
+  .container12Card {
+    width: 66.66666666666666vw;
+    height: 44.266666666666666vw;
+    object-fit: cover;
+    position: relative;
+  }
+
+  .container12Card .aboutCardImg{
+    width: 66.66666666666666vw;
+    height: 44.266666666666666vw;
+    border-radius: 0;
   }
 }

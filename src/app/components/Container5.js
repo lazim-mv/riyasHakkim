@@ -33,14 +33,6 @@ const Container5 = ({ mobile }) => {
           sectionText={container5Data.description}
           width="31.746031746031743vw"
         />
-        <a href="/pages/About">
-          <BtnComponent
-            buttonText={container5Data.buttonText}
-            bg="#C8952E"
-            color="#fff"
-            margin="1.984126984126984vw 0 0 0"
-          />
-        </a>
       </div>
     </div>
   );

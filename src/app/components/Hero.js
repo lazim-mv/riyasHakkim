@@ -5,7 +5,7 @@ import mobileHeroImg from "../../../public/mHero1.png";
 import { BtnComponent, SectionDescription } from "./ButtonComponent";
 import { heroData } from "../contents/contents";
 
-const Hero = ({mobile}) => {
+const Hero = ({ mobile }) => {
   return (
     <div className="heroContianer">
       <div className="heroContent">
@@ -16,17 +16,12 @@ const Hero = ({mobile}) => {
           width="37.63227513227513vw"
         />
         <a href="/pages/Contact">
-          <BtnComponent
-            buttonText={heroData.buttonText}
-            bg="#C8952E"
-            color="#fff"
-            margin="1.984126984126984vw 0 0 0"
-          />
+          <Image src="e3Global.svg" width={10} height={10} className="e3GloabalImg" quality={100} priority={true} unoptimized />
         </a>
       </div>
       <Image
         className="hImage"
-        src={mobile ? mobileHeroImg :heroImg}
+        src={mobile ? mobileHeroImg : heroImg}
         alt="Asian Engineer"
         quality={100}
         priority={true}
