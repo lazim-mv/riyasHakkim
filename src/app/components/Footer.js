@@ -24,10 +24,10 @@ const Footer = () => {
       img: "/Footer/aa/threads.svg",
       href: "https://www.threads.net/@riyasbinhakkim/post/C4shCoIxNUm",
     },
-    // {
-    //   img: "/Footer/aa/fb.svg",
-    //   href: "https://ae.linkedin.com/in/riyashakkim",
-    // },
+    {
+      img: "/Footer/aa/fb.svg",
+      href: "https://www.facebook.com/riyas.hakkim.92?mibextid=LQQJ4d ",
+    },
   ];
 
   return (
@@ -58,7 +58,7 @@ const Footer = () => {
             <a href="/pages/Programs">Programs</a>
           </div>
           <div>
-            <a href="/pages/Contact">Contact Us</a>
+            <a href="/pages/E3Global">E3 Global Zone</a>
           </div>
         </div>
         <div className="social">

@@ -6,6 +6,7 @@ import emailjs from "@emailjs/browser";
 import emailjsConfig from "../../../../emailjs.config";
 import dynamic from "next/dynamic";
 import {
+  CardHeading,
   SectionDescription,
   SectionTitle,
 } from "@/app/components/ButtonComponent";
@@ -79,6 +80,39 @@ function Contact() {
 
     console.log(formData);
   };
+
+  const socialIcons = [
+    {
+      img: "/Footer/aa/youtube.svg",
+      href: "https://www.youtube.com/@riyashr",
+      name: "Youtube",
+    },
+    {
+      img: "/Footer/aa/instagram.svg",
+      href: "https://www.instagram.com/riyasbinhakkim/?hl=en",
+      name: "Instagram",
+    },
+    {
+      img: "/Footer/aa/tiktok.svg",
+      href: "https://www.tiktok.com/@riyas.hakkim?lang=en",
+      name: "TikTok",
+    },
+    {
+      img: "/Footer/aa/linkedin.svg",
+      href: "https://ae.linkedin.com/in/riyashakkim",
+      name: "Linked In",
+    },
+    {
+      img: "/Footer/aa/threads.svg",
+      href: "https://www.threads.net/@riyasbinhakkim/post/C4shCoIxNUm",
+      name: "Threads",
+    },
+    {
+      img: "/Footer/aa/fb.svg",
+      href: "https://www.facebook.com/riyas.hakkim.92?mibextid=LQQJ4d ",
+      name: "Facebook",
+    },
+  ];
 
   return (
     <>
@@ -201,9 +235,45 @@ function Contact() {
                 priority={true}
                 unoptimized
               />
-              <SectionDescription sectionText="reach@riyashakkim.com" />
+              <SectionDescription sectionText="reach@riyashakkim.com - info@e3globalzone.com" />
             </div>
           </a>
+        </div>
+      </div>
+      <div className={`${styles.container4} ${styles.container3}`}>
+        <SectionTitle
+          sectionText="Social Media"
+          padding={
+            windowWidth <= 768
+              ? "0 0 2.666666666666667vw 0"
+              : "0 0 1.3227513227513228vw 0"
+          }
+          line={
+            windowWidth <= 768 ? "26.666666666666668vw" : "13.227513227513226vw"
+          }
+        />
+        <div className={styles.socialContainer}>
+          <div className="social">
+            <CardHeading />
+            <div className={`${styles.socialIconsContact} socialIcons`}>
+              {socialIcons.map((data, index) => (
+                <a href={data.href} target="_blank" key={index}>
+                  <div className={styles.socialIconWithName}>
+                    <Image
+                      src={data.img}
+                      width={130}
+                      height={101}
+                      alt={`Social Icon ${index + 1}`}
+                      quality={100}
+                      priority={true}
+                      unoptimized
+                    />
+                    <SectionDescription sectionText={data.name} />
+                  </div>
+                </a>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
 

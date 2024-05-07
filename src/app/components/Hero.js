@@ -15,9 +15,17 @@ const Hero = ({ mobile }) => {
           margin="1.3227513227513228vw 0 0 0"
           width="37.63227513227513vw"
         />
-        <a href="/pages/Contact">
-          <Image src="e3Global.svg" width={10} height={10} className="e3GloabalImg" quality={100} priority={true} unoptimized />
-        </a>
+        {/* <a href="/pages/Contact"> */}
+          <Image
+            src="/e3Global.svg"
+            width={10}
+            height={10}
+            className="e3GloabalImg"
+            quality={100}
+            priority={true}
+            unoptimized
+          />
+        {/* </a> */}
       </div>
       <Image
         className="hImage"

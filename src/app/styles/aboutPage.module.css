@@ -22,14 +22,14 @@
 }
 
 .container2 {
-  padding: var(--mobileContainerPadding);
+  padding: var(--containerPadding);
   margin-top: 6.613756613756613vw;
   display: flex;
   align-items: center;
   gap: 5.291005291005291vw;
 }
 
-.container2Img img {
+.container2Img .container2Image {
   width: 37.43386243386244vw;
   height: 37.43386243386244vw;
 }
@@ -128,7 +128,20 @@
     margin-bottom: 8vw;
   }
 
-  .container2 img {
+  .socialIconsAbout{
+    flex-wrap: nowrap;
+    gap: 3.2vw;
+  }
+
+  .socialIconsAbout img{
+    /* width: 3.3068783068783065vw;
+    height: 3.3068783068783065vw; */
+
+    width: 10.666666666666668vw;
+    height: 10.666666666666668vw;
+  }
+
+  .container2 .container2Image {
     width: 87.2vw;
     height: 87.2vw;
   }

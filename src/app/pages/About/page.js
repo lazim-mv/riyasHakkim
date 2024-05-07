@@ -18,6 +18,7 @@ import MobileHeader from "@/app/components/MobileHeader";
 import Contact from "@/app/components/ContactComponent";
 import Footer from "@/app/components/Footer";
 import Testimonial from "@/app/components/Testimonial";
+import Container12 from "@/app/components/Container12/Container12";
 
 const Page = () => {
   const [windowWidth, setWindowWidth] = useState("");
@@ -59,6 +60,33 @@ const Page = () => {
       setCurrentIndex(clicks);
     }
   };
+
+  const socialIcons = [
+    {
+      img: "/Footer/aa/youtube.svg",
+      href: "https://www.youtube.com/@riyashr",
+    },
+    {
+      img: "/Footer/aa/instagram.svg",
+      href: "https://www.instagram.com/riyasbinhakkim/?hl=en",
+    },
+    {
+      img: "/Footer/aa/tiktok.svg",
+      href: "https://www.tiktok.com/@riyas.hakkim?lang=en",
+    },
+    {
+      img: "/Footer/aa/linkedin.svg",
+      href: "https://ae.linkedin.com/in/riyashakkim",
+    },
+    {
+      img: "/Footer/aa/threads.svg",
+      href: "https://www.threads.net/@riyasbinhakkim/post/C4shCoIxNUm",
+    },
+    {
+      img: "/Footer/aa/fb.svg",
+      href: "https://www.facebook.com/riyas.hakkim.92?mibextid=LQQJ4d ",
+    },
+  ];
   return (
     <>
       <Header />
@@ -79,7 +107,7 @@ const Page = () => {
       <div className={styles.container2}>
         <div className={styles.container2Img}>
           <Image
-            className="container3Image"
+            className={styles.container2Image}
             src={container1.img}
             alt="Asian Engineer"
             width={100}
@@ -92,6 +120,24 @@ const Page = () => {
         <div className={styles.container2Contents}>
           <SectionTitle sectionText={container1.name} line="0" />
           <SectionDescription sectionText={container1.description} />
+          <div className="social">
+            <CardHeading />
+            <div className={`${styles.socialIconsAbout} socialIcons`}>
+              {socialIcons.map((data, index) => (
+                <a href={data.href} target="_blank" key={index}>
+                  <Image
+                    src={data.img}
+                    width={130}
+                    height={101}
+                    alt={`Social Icon ${index + 1}`}
+                    quality={100}
+                    priority={true}
+                    unoptimized
+                  />
+                </a>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
 
@@ -106,7 +152,9 @@ const Page = () => {
           }
           hrMargin="0 auto"
         />
-        <div className={`${styles.aboutContainer3Cards} cardsContainer aboutPageCards`}>
+        <div
+          className={`${styles.aboutContainer3Cards} cardsContainer aboutPageCards`}
+        >
           {container3.imgData.map((data, index) => (
             <div
               className={`${styles.aboutContainer3Card} cardContainer`}
@@ -127,7 +175,14 @@ const Page = () => {
                   sectionText={data.cardHeading}
                   margin="0 0 0.6613756613756614vw 0"
                 />
-                <SectionDescription sectionText={data.description} />
+                <p
+                  style={{
+                    height:
+                      windowWidth <= 768 ? "auto" : "7.2751322751322745vw",
+                  }}
+                >
+                  {data.description}
+                </p>
               </div>
             </div>
           ))}
@@ -135,7 +190,11 @@ const Page = () => {
       </div>
 
       <Image
-        src={windowWidth <= 768 ? "/aboutPage/statMobile.png" : "/aboutPage/stat.png"}
+        src={
+          windowWidth <= 768
+            ? "/aboutPage/statMobile.png"
+            : "/aboutPage/stat.png"
+        }
         width={100}
         height={100}
         quality={100}
@@ -174,7 +233,7 @@ const Page = () => {
         />
       </div>
 
-      <div
+      {/* <div
         className={`${styles.aboutContainer5} container4 container7`}
         id="container4"
       >
@@ -254,7 +313,8 @@ const Page = () => {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
+      <Container12 aboutPage={true} />
       <Testimonial />
       <Contact />
       <Footer />

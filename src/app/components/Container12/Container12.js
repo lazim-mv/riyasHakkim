@@ -6,7 +6,7 @@ import Image from "next/image";
 import Brands from "../Brands";
 import ArrowButtons from "../ArrowButton/ArrowButtons";
 
-const Container12 = ({ mobile, mainPage }) => {
+const Container12 = ({ mobile, mainPage, aboutPage }) => {
   const [windowWidth, setWindowWidth] = useState("");
 
   useEffect(() => {
@@ -66,12 +66,22 @@ const Container12 = ({ mobile, mainPage }) => {
         id="container4"
       >
         <div className={`${styles.container12Title} topContainer4`}>
-          <div className={`${styles.container12Top} testimonialTitle`}>
+          <div
+            className={`${styles.container12Top} testimonialTitle`}
+            style={{
+              display: aboutPage && "flex",
+              justifyContent: aboutPage && "center",
+            }}
+          >
             <SectionTitle
-              sectionText={container5.sectionTitle}
+              sectionText={
+                aboutPage ? "Riyas Hakkim Speaks" : container5.sectionTitle
+              }
               margin="auto"
               padding="0 0 1.3227513227513228vw 0"
               line={mobile ? "26.666666666666668vw" : "22.685185185185187vw"}
+              hrMargin={aboutPage && "0 auto"}
+              textAllign={aboutPage && "center"}
             />
             {mainPage && (
               <SectionDescription sectionText={container5.description} />

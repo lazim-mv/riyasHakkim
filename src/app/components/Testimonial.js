@@ -94,7 +94,7 @@ const Testimonial = ({ mobile }) => {
                 <div className="headingAndImage">
                   <Image
                     className="cardIcon"
-                    src={data.img}
+                    src={mobile ? data.mobileImg : data.desktopImg}
                     alt="Asian Engineer"
                     width={100}
                     height={100}
@@ -107,7 +107,7 @@ const Testimonial = ({ mobile }) => {
                       sectionText={data.cardHeading}
                       // padding="0 0 1.3227513227513228vw 0"
                     />
-                    <p className="comapnyAndDesignation">{`${data.companyName} - ${data.designation}`}</p>
+                    <p className="comapnyAndDesignation">{`${data.designation} - ${data.companyName}`}</p>
                   </div>
                 </div>
                 <SectionDescription

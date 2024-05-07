@@ -34,7 +34,7 @@
 .card img {
   width: 25.396825396825395vw;
   height: 26.455026455026452vw;
-  filter: brightness(0.8);
+  filter: brightness(0.9);
 }
 
 .cardHeadingWrapper {
@@ -53,11 +53,6 @@
 }
 
 .card h3 {
-  /* position: absolute;
-  top: 75%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center; */
   width: 70%;
 }
 
@@ -106,7 +101,7 @@
     height: 69.33333333333334vw;
   }
 
-  .cardHeadingWrapper{
+  .cardHeadingWrapper {
     height: 19.733333333333334vw;
   }
 
