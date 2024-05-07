@@ -6,22 +6,27 @@ import {
   SectionTitle,
 } from "./ButtonComponent";
 import Image from "next/image";
+import { container6 } from "../contents/e3global";
 
-const Container2 = ({mobile}) => {
+const Container2 = ({ mobile, e3Global }) => {
+  const imgData = e3Global ? container6.imgData : container2Data.imgData;
   return (
     <>
       <div className="container2">
-        <div className="title">
-          <SectionTitle
-            sectionText={container2Data.sectionTitle}
-            padding="0 0 1.3227513227513228vw 0"
-            margin="auto"
-            line={mobile ? "26.666666666666668vw" : "20.767195767195766vw"}
-          />
-          <SectionDescription sectionText={container2Data.description} />
-        </div>
+        {!e3Global && (
+          <div className="title">
+            <SectionTitle
+              sectionText={container2Data.sectionTitle}
+              padding="0 0 1.3227513227513228vw 0"
+              margin="auto"
+              line={mobile ? "26.666666666666668vw" : "20.767195767195766vw"}
+            />
+            <SectionDescription sectionText={container2Data.description} />
+          </div>
+        )}
+
         <div className="cardsContainer">
-          {container2Data.imgData.map((data, index) => (
+          {imgData.map((data, index) => (
             <div className="cardContainer" key={index}>
               <Image
                 className="cardIcon"

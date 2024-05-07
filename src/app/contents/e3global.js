@@ -49,7 +49,7 @@ const container4 = {
     {
       img: "/e3global/container4/1.png",
       name: "Riyas Hakkim",
-      description: "Founder / Emotional SalesLeadership Coach",
+      description: "Emotional Sales Leadership Coach",
     },
     {
       img: "/e3global/container4/2.png",
@@ -72,14 +72,14 @@ const container4 = {
       description: "Human Engineer",
     },
     {
-      img: "/e3global/container4/7.png",
+      img: "/e3global/container4/6.png",
       name: "Ebadu Rahman",
       description: "Media Consultant",
     },
     {
-      img: "/e3global/container4/6.png",
+      img: "/e3global/container4/7.png",
       name: "Anoop Muralidharan",
-      description: "Happiness Coach",
+      description: "Media Consultant",
     },
     {
       img: "/e3global/container4/8.png",
@@ -89,6 +89,27 @@ const container4 = {
   ],
 };
 
-const container6 = {};
+const container6 = {
+  imgData: [
+    {
+      img: "/e3global/container6/1.svg",
+      cardHeading: "Empower",
+      description:
+        "Empowering individuals to unleash their potential and thrive through Leadership Acceleration.",
+    },
+    {
+      img: "/e3global/container6/2.svg",
+      cardHeading: "Elevate",
+      description:
+        "Elevate your skills, mindset, and success through comprehensive and tailored trainings.",
+    },
+    {
+      img: "/e3global/container6/3.svg",
+      cardHeading: "Excel",
+      description:
+        "Excel beyond expectations with our dynamic and results-driven Coaching.",
+    },
+  ],
+};
 
-export { container2, container3, container4 };
+export { container2, container3, container4, container6 };

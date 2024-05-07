@@ -13,6 +13,7 @@
   display: flex;
   align-items: center;
   gap: 5.291005291005291vw;
+  margin-bottom: 9.920634920634921vw;
 }
 
 .container2Img .container2Image {
@@ -29,7 +30,7 @@
 }
 
 .container3 {
-  margin-top: 13.227513227513226vw;
+  margin-top: 9.920634920634921vw;
   padding: var(--containerPadding);
 }
 
@@ -88,7 +89,7 @@
 } */
 
 .container4 {
-  margin-top: 13.227513227513226vw;
+  margin-top: 9.920634920634921vw;
   padding: var(--containerPadding);
 }
 
@@ -315,7 +316,7 @@
   }
 
   .container4 {
-    margin-top: 13.227513227513226vw;
+    margin-top: 9.920634920634921vw;
     padding: var(--mobileContainerPadding);
   }
 
@@ -327,7 +328,7 @@
   }
 
   .container4Card {
-    width: 37vw;
+    width: 41.5vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -342,12 +343,18 @@
   }
 
   .container4Contents {
-    height: 36vw;
+    height: 21vw;
+  }
+
+  .container4Contents h3{
+    font-size: 4.266666666666667vw;
   }
 
   .container4Contents p {
     text-align: center;
     margin-top: 0.26455026455026454vw;
+    font-size: 3.733333333333334vw;
+    line-height: 6.5vw;
   }
 
   .contactE3Container2 {

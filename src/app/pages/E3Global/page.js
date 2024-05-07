@@ -14,6 +14,7 @@ import {
 } from "@/app/components/ButtonComponent";
 import Footer from "@/app/components/Footer";
 import ContactComponent from "@/app/components/ContactComponent";
+import Container2 from "@/app/components/Container2";
 
 const Page = () => {
   const [windowWidth, setWindowWidth] = useState("");
@@ -153,6 +154,8 @@ const Page = () => {
         </div>
       </div>
 
+      <Container2 e3Global={true} />
+
       <div className={styles.container3}>
         <div className={styles.sectionTitle}>
           <SectionTitle
@@ -211,7 +214,12 @@ const Page = () => {
         </div>
       </div>
       <div className={styles.contactE3}>
-        <SectionTitle textAllign="center" sectionText="Get in Touch With Us" margin="0 auto 1.3227513227513228vw auto" hrMargin="0 auto" />
+        <SectionTitle
+          textAllign="center"
+          sectionText="Get in Touch With Us"
+          margin="0 auto 1.3227513227513228vw auto"
+          hrMargin="0 auto"
+        />
         <div className={styles.contactE3Container2}>
           <div className={styles.leftContainer}>
             <div className={styles.mailContainer}>
