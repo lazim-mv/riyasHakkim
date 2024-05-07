@@ -32,6 +32,14 @@ const container3 = {
       img: "/Container10/6.png",
       cardHeading: "Sales Re-Engineering Program",
     },
+    {
+      img: "/Container10/7.png",
+      cardHeading: "Celebrating Success and Connection",
+    },
+    {
+      img: "/Container10/8.png",
+      cardHeading: "21 Days Online Sales Coaching & Training",
+    },
   ],
 };
 
@@ -80,5 +88,7 @@ const container4 = {
     },
   ],
 };
+
+const container6 = {};
 
 export { container2, container3, container4 };

@@ -4,6 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background: #121212;
 }
 
 .container2 {
@@ -50,8 +51,8 @@
 }
 
 .container3Card img {
-  width: 25vw;
-  height: 26.455026455026452vw;
+  width: 18.3vw;
+  height: 19.841269841269842vw;
   filter: brightness(1);
 }
 
@@ -62,7 +63,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  width: 100%;
+  width: 101%;
   height: 6.613756613756613vw;
 
   display: flex;
@@ -71,10 +72,10 @@
 }
 
 .container3Card h3 {
-  width: 70%;
+  width: 100%;
 }
 
-.container3Cards .container3Card:nth-child(6) h3 {
+/* .container3Cards .container3Card:nth-child(6) h3 {
   width: 80%;
 }
 
@@ -84,7 +85,7 @@
 
 .container3Cards .container3Card:last-child h3 {
   width: 80%;
-}
+} */
 
 .container4 {
   margin-top: 13.227513227513226vw;

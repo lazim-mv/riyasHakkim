@@ -9,7 +9,7 @@ const Container3 = ({mobile}) => {
     <div className="container3Bg"></div>
 
       <Image
-        className="container3Image"
+        className="container3Image container3MobileImage"
         src={mobile ? container3Data.mobileImg : container3Data.img}
         alt="Asian Engineer"
         width={100}
