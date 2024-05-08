@@ -331,12 +331,12 @@
   }
 
   .container4 {
-    margin-top: 9.920634920634921vw;
+    margin-top: 16vw;
     padding: var(--mobileContainerPadding);
   }
 
   .container4Cards {
-    margin-top: 4.62962962962963vw;
+    margin-top: 8vw;
     display: flex;
     flex-wrap: wrap;
     gap: 4vw;
@@ -373,20 +373,28 @@
     height: auto;
   }
 
+  .contactE3 {
+    margin-top: 16vw;
+    padding: var(--mobileContainerPadding);
+    background-color: #000;
+  }
+
   .contactE3Container2 {
     flex-direction: column;
     align-items: flex-start;
-    padding: 4.5vw;
+    padding: 8vw 5.333333333333334vw;
+    margin-top: 8vw;
   }
 
   .formContainer {
     gap: 5.333333333333334vw;
     flex-direction: column;
+    width: 100%;
   }
 
   .formContainer div {
     height: 13.333333333333334vw;
-    width: 72vw;
+    width: 100%;
   }
 
   .formContainer div:nth-child(5) {
@@ -403,13 +411,13 @@
 
   .formContainer input {
     height: 13.333333333333334vw;
-    width: 72vw;
+    width: 100%;
     /* border-radius: var(--mobileBorderRadius); */
   }
 
   .formContainer textarea {
     height: 40vw;
-    width: 72vw;
+    width: 100%;
     /* border-radius: var(--mobileBorderRadius); */
   }
 

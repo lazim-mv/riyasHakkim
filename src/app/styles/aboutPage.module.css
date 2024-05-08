@@ -42,9 +42,12 @@
   margin-bottom: 2.1164021164021163vw;
 }
 
+.aboutContainer3{
+  margin-bottom: 9.920634920634921vw;
+}
+
 .aboutContainer3Cards {
   margin-top: 5.291005291005291vw;
-  margin-bottom: calc(6.613756613756613vw + 6.613756613756613vw);
 }
 
 .aboutContainer4 {
@@ -148,6 +151,8 @@
 
   .aboutContainer3 {
     padding: var(--mobileContainerPadding);
+    margin-top: 16vw;
+    margin-bottom: 16vw;
   }
 
   .aboutContainer3Cards {

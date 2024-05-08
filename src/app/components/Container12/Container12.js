@@ -31,13 +31,14 @@ const Container12 = ({ mobile, mainPage, aboutPage }) => {
 
   const totalData = cardData.length;
   console.log(totalData, "clicked");
-  const clicks = mobile ? totalData - 1 : totalData - 3;
-  const dynamicValue = mobile ? 70 : 27.2;
+  const clicks = windowWidth <= 767 ? totalData - 1 : totalData - 3;
+  const dynamicValue = windowWidth <= 767 ? 70 : 27.2;
   console.log(dynamicValue, currentIndex, mobile, "clicke");
 
   const nextImage = () => {
     if (currentIndex < clicks) {
       setCurrentIndex((prevIndex) => prevIndex + 1);
+      console.log(dynamicValue, aboutPage, "dynamicValue");
       console.log("clicked1");
       console.log(currentIndex, "clicked");
       console.log(dynamicValue, "clicked");
@@ -61,10 +62,7 @@ const Container12 = ({ mobile, mainPage, aboutPage }) => {
 
   return (
     <>
-      <div
-        className={`${styles.container12} container4 `}
-        id="container4"
-      >
+      <div className={`${styles.container12} container4 `} id="container4">
         <div className={`${styles.container12Title} topContainer4`}>
           <div
             className={`${styles.container12Top} testimonialTitle`}
@@ -79,7 +77,11 @@ const Container12 = ({ mobile, mainPage, aboutPage }) => {
               }
               margin="auto"
               padding="0 0 1.3227513227513228vw 0"
-              line={mobile ? "26.666666666666668vw" : "22.685185185185187vw"}
+              line={
+                windowWidth <= 767
+                  ? "26.666666666666668vw"
+                  : "22.685185185185187vw"
+              }
               hrMargin={aboutPage && "0 auto"}
               textAllign={
                 (aboutPage && "center") ||
@@ -132,7 +134,9 @@ const Container12 = ({ mobile, mainPage, aboutPage }) => {
           ))}
         </div>
         <ArrowButtons
-          margin={mobile ? "1.984126984126984vw" : "4.62962962962963vw"}
+          margin={
+            windowWidth <= 767 ? "1.984126984126984vw" : "4.62962962962963vw"
+          }
           prevImage={prevImage}
           nextImage={nextImage}
         />
