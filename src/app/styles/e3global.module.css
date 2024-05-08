@@ -97,7 +97,7 @@
   margin-top: 4.62962962962963vw;
   display: flex;
   flex-wrap: wrap;
-  gap: 1.2vw;
+  gap: 2.8vw 1.2vw;
 }
 
 .container4Card {
@@ -118,6 +118,7 @@
 .container4Contents p {
   text-align: center;
   margin-top: 0.26455026455026454vw;
+  height: 3.3vw;
 }
 
 .contactE3 {
@@ -310,9 +311,23 @@
     font-weight: 600;
   }
 
+  .mailAndCallContainer{
+    gap: 4vw;
+    margin-top: 4vw;
+    margin-bottom: 5.333333333333334vw;
+  }
+
+  .mailAndCall{
+    gap: 2.666666666666667vw;
+  }
+
+  .mailAndCall p{
+    font-size: 3.733333333333334vw;
+  }
+
   .mailAndCall img {
-    width: 8vw;
-    height: 8vw;
+    width: 10.666666666666668vw;
+    height: 10.666666666666668vw;
   }
 
   .container4 {
@@ -355,6 +370,7 @@
     margin-top: 0.26455026455026454vw;
     font-size: 3.733333333333334vw;
     line-height: 6.5vw;
+    height: auto;
   }
 
   .contactE3Container2 {

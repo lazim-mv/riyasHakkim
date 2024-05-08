@@ -49,7 +49,7 @@ const container4 = {
     {
       img: "/e3global/container4/1.png",
       name: "Riyas Hakkim",
-      description: "Emotional Sales Leadership Coach",
+      description: "Founder / Emotional SalesLeadership Coach",
     },
     {
       img: "/e3global/container4/2.png",
@@ -79,7 +79,7 @@ const container4 = {
     {
       img: "/e3global/container4/7.png",
       name: "Anoop Muralidharan",
-      description: "Media Consultant",
+      description: "Happiness Coach",
     },
     {
       img: "/e3global/container4/8.png",

@@ -236,7 +236,7 @@ const Page = () => {
                       priority={true}
                       unoptimized
                     />
-                    <SectionDescription sectionText="+971 521 057 169" />
+                    <SectionDescription sectionText="+971 52 105 7169" />
                   </div>
                 </a>
                 <a href="mailto:training@e3globalzone.com">

@@ -234,9 +234,9 @@ const testimonial = {
     {
       desktopImg: "/Testimonial/ss/dk3.png",
       mobileImg: "/Testimonial/ss/mb3.png",
-      cardHeading: "Dr.Thomas George K",
-      designation: "designation",
-      companyName: "companyName",
+      cardHeading: "Hailesemait Mekonnen",
+      designation: "DGM",
+      companyName: "Ries Engineering S.C",
       description:
         "As someone who's attended multiple sales workshops, I can assert that Riyas Hakkim's sessions are truly a cut above the rest. His ability to blend emotional intelligence with sales tactics is not just innovative but incredibly effective. It's an experience that's not only educational but genuinely transformative.",
     },
@@ -261,9 +261,9 @@ const testimonial = {
     {
       desktopImg: "/Testimonial/ss/dk3.png",
       mobileImg: "/Testimonial/ss/mb3.png",
-      cardHeading: "Dr.Thomas George K",
-      designation: "designation",
-      companyName: "companyName",
+      cardHeading: "Hailesemait Mekonnen",
+      designation: "DGM",
+      companyName: "Ries Engineering S.C",
       description:
         "As someone who's attended multiple sales workshops, I can assert that Riyas Hakkim's sessions are truly a cut above the rest. His ability to blend emotional intelligence with sales tactics is not just innovative but incredibly effective. It's an experience that's not only educational but genuinely transformative.",
     },
@@ -288,9 +288,9 @@ const testimonial = {
     {
       desktopImg: "/Testimonial/ss/dk3.png",
       mobileImg: "/Testimonial/ss/mb3.png",
-      cardHeading: "Dr.Thomas George K",
-      designation: "designation",
-      companyName: "companyName",
+      cardHeading: "Hailesemait Mekonnen",
+      designation: "DGM",
+      companyName: "Ries Engineering S.C",
       description:
         "As someone who's attended multiple sales workshops, I can assert that Riyas Hakkim's sessions are truly a cut above the rest. His ability to blend emotional intelligence with sales tactics is not just innovative but incredibly effective. It's an experience that's not only educational but genuinely transformative.",
     },
@@ -315,9 +315,9 @@ const testimonial = {
     {
       desktopImg: "/Testimonial/ss/dk3.png",
       mobileImg: "/Testimonial/ss/mb3.png",
-      cardHeading: "Dr.Thomas George K",
-      designation: "designation",
-      companyName: "companyName",
+      cardHeading: "Hailesemait Mekonnen",
+      designation: "DGM",
+      companyName: "Ries Engineering S.C",
       description:
         "As someone who's attended multiple sales workshops, I can assert that Riyas Hakkim's sessions are truly a cut above the rest. His ability to blend emotional intelligence with sales tactics is not just innovative but incredibly effective. It's an experience that's not only educational but genuinely transformative.",
     },
@@ -342,9 +342,9 @@ const testimonial = {
     {
       desktopImg: "/Testimonial/ss/dk3.png",
       mobileImg: "/Testimonial/ss/mb3.png",
-      cardHeading: "Dr.Thomas George K",
-      designation: "designation",
-      companyName: "companyName",
+      cardHeading: "Hailesemait Mekonnen",
+      designation: "DGM",
+      companyName: "Ries Engineering S.C",
       description:
         "As someone who's attended multiple sales workshops, I can assert that Riyas Hakkim's sessions are truly a cut above the rest. His ability to blend emotional intelligence with sales tactics is not just innovative but incredibly effective. It's an experience that's not only educational but genuinely transformative.",
     },
@@ -369,9 +369,9 @@ const testimonial = {
     {
       desktopImg: "/Testimonial/ss/dk3.png",
       mobileImg: "/Testimonial/ss/mb3.png",
-      cardHeading: "Dr.Thomas George K",
-      designation: "designation",
-      companyName: "companyName",
+      cardHeading: "Hailesemait Mekonnen",
+      designation: "DGM",
+      companyName: "Ries Engineering S.C",
       description:
         "As someone who's attended multiple sales workshops, I can assert that Riyas Hakkim's sessions are truly a cut above the rest. His ability to blend emotional intelligence with sales tactics is not just innovative but incredibly effective. It's an experience that's not only educational but genuinely transformative.",
     },
@@ -396,9 +396,9 @@ const testimonial = {
     {
       desktopImg: "/Testimonial/ss/dk3.png",
       mobileImg: "/Testimonial/ss/mb3.png",
-      cardHeading: "Dr.Thomas George K",
-      designation: "designation",
-      companyName: "companyName",
+      cardHeading: "Hailesemait Mekonnen",
+      designation: "DGM",
+      companyName: "Ries Engineering S.C",
       description:
         "As someone who's attended multiple sales workshops, I can assert that Riyas Hakkim's sessions are truly a cut above the rest. His ability to blend emotional intelligence with sales tactics is not just innovative but incredibly effective. It's an experience that's not only educational but genuinely transformative.",
     },
@@ -423,9 +423,9 @@ const testimonial = {
     {
       desktopImg: "/Testimonial/ss/dk3.png",
       mobileImg: "/Testimonial/ss/mb3.png",
-      cardHeading: "Dr.Thomas George K",
-      designation: "designation",
-      companyName: "companyName",
+      cardHeading: "Hailesemait Mekonnen",
+      designation: "DGM",
+      companyName: "Ries Engineering S.C",
       description:
         "As someone who's attended multiple sales workshops, I can assert that Riyas Hakkim's sessions are truly a cut above the rest. His ability to blend emotional intelligence with sales tactics is not just innovative but incredibly effective. It's an experience that's not only educational but genuinely transformative.",
     },
@@ -450,9 +450,9 @@ const testimonial = {
     {
       desktopImg: "/Testimonial/ss/dk3.png",
       mobileImg: "/Testimonial/ss/mb3.png",
-      cardHeading: "Dr.Thomas George K",
-      designation: "designation",
-      companyName: "companyName",
+      cardHeading: "Hailesemait Mekonnen",
+      designation: "DGM",
+      companyName: "Ries Engineering S.C",
       description:
         "As someone who's attended multiple sales workshops, I can assert that Riyas Hakkim's sessions are truly a cut above the rest. His ability to blend emotional intelligence with sales tactics is not just innovative but incredibly effective. It's an experience that's not only educational but genuinely transformative.",
     },
@@ -477,9 +477,9 @@ const testimonial = {
     {
       desktopImg: "/Testimonial/ss/dk3.png",
       mobileImg: "/Testimonial/ss/mb3.png",
-      cardHeading: "Dr.Thomas George K",
-      designation: "designation",
-      companyName: "companyName",
+      cardHeading: "Hailesemait Mekonnen",
+      designation: "DGM",
+      companyName: "Ries Engineering S.C",
       description:
         "As someone who's attended multiple sales workshops, I can assert that Riyas Hakkim's sessions are truly a cut above the rest. His ability to blend emotional intelligence with sales tactics is not just innovative but incredibly effective. It's an experience that's not only educational but genuinely transformative.",
     },
@@ -504,9 +504,9 @@ const testimonial = {
     {
       desktopImg: "/Testimonial/ss/dk3.png",
       mobileImg: "/Testimonial/ss/mb3.png",
-      cardHeading: "Dr.Thomas George K",
-      designation: "designation",
-      companyName: "companyName",
+      cardHeading: "Hailesemait Mekonnen",
+      designation: "DGM",
+      companyName: "Ries Engineering S.C",
       description:
         "As someone who's attended multiple sales workshops, I can assert that Riyas Hakkim's sessions are truly a cut above the rest. His ability to blend emotional intelligence with sales tactics is not just innovative but incredibly effective. It's an experience that's not only educational but genuinely transformative.",
     },
@@ -531,9 +531,9 @@ const testimonial = {
     {
       desktopImg: "/Testimonial/ss/dk3.png",
       mobileImg: "/Testimonial/ss/mb3.png",
-      cardHeading: "Dr.Thomas George K",
-      designation: "designation",
-      companyName: "companyName",
+      cardHeading: "Hailesemait Mekonnen",
+      designation: "DGM",
+      companyName: "Ries Engineering S.C",
       description:
         "As someone who's attended multiple sales workshops, I can assert that Riyas Hakkim's sessions are truly a cut above the rest. His ability to blend emotional intelligence with sales tactics is not just innovative but incredibly effective. It's an experience that's not only educational but genuinely transformative.",
     },
@@ -558,9 +558,9 @@ const testimonial = {
     {
       desktopImg: "/Testimonial/ss/dk3.png",
       mobileImg: "/Testimonial/ss/mb3.png",
-      cardHeading: "Dr.Thomas George K",
-      designation: "designation",
-      companyName: "companyName",
+      cardHeading: "Hailesemait Mekonnen",
+      designation: "DGM",
+      companyName: "Ries Engineering S.C",
       description:
         "As someone who's attended multiple sales workshops, I can assert that Riyas Hakkim's sessions are truly a cut above the rest. His ability to blend emotional intelligence with sales tactics is not just innovative but incredibly effective. It's an experience that's not only educational but genuinely transformative.",
     },
@@ -585,9 +585,9 @@ const testimonial = {
     {
       desktopImg: "/Testimonial/ss/dk3.png",
       mobileImg: "/Testimonial/ss/mb3.png",
-      cardHeading: "Dr.Thomas George K",
-      designation: "designation",
-      companyName: "companyName",
+      cardHeading: "Hailesemait Mekonnen",
+      designation: "DGM",
+      companyName: "Ries Engineering S.C",
       description:
         "As someone who's attended multiple sales workshops, I can assert that Riyas Hakkim's sessions are truly a cut above the rest. His ability to blend emotional intelligence with sales tactics is not just innovative but incredibly effective. It's an experience that's not only educational but genuinely transformative.",
     },
@@ -612,9 +612,9 @@ const testimonial = {
     {
       desktopImg: "/Testimonial/ss/dk3.png",
       mobileImg: "/Testimonial/ss/mb3.png",
-      cardHeading: "Dr.Thomas George K",
-      designation: "designation",
-      companyName: "companyName",
+      cardHeading: "Hailesemait Mekonnen",
+      designation: "DGM",
+      companyName: "Ries Engineering S.C",
       description:
         "As someone who's attended multiple sales workshops, I can assert that Riyas Hakkim's sessions are truly a cut above the rest. His ability to blend emotional intelligence with sales tactics is not just innovative but incredibly effective. It's an experience that's not only educational but genuinely transformative.",
     },
@@ -639,9 +639,9 @@ const testimonial = {
     {
       desktopImg: "/Testimonial/ss/dk3.png",
       mobileImg: "/Testimonial/ss/mb3.png",
-      cardHeading: "Dr.Thomas George K",
-      designation: "designation",
-      companyName: "companyName",
+      cardHeading: "Hailesemait Mekonnen",
+      designation: "DGM",
+      companyName: "Ries Engineering S.C",
       description:
         "As someone who's attended multiple sales workshops, I can assert that Riyas Hakkim's sessions are truly a cut above the rest. His ability to blend emotional intelligence with sales tactics is not just innovative but incredibly effective. It's an experience that's not only educational but genuinely transformative.",
     },
@@ -666,9 +666,9 @@ const testimonial = {
     {
       desktopImg: "/Testimonial/ss/dk3.png",
       mobileImg: "/Testimonial/ss/mb3.png",
-      cardHeading: "Dr.Thomas George K",
-      designation: "designation",
-      companyName: "companyName",
+      cardHeading: "Hailesemait Mekonnen",
+      designation: "DGM",
+      companyName: "Ries Engineering S.C",
       description:
         "As someone who's attended multiple sales workshops, I can assert that Riyas Hakkim's sessions are truly a cut above the rest. His ability to blend emotional intelligence with sales tactics is not just innovative but incredibly effective. It's an experience that's not only educational but genuinely transformative.",
     },
@@ -693,9 +693,9 @@ const testimonial = {
     {
       desktopImg: "/Testimonial/ss/dk3.png",
       mobileImg: "/Testimonial/ss/mb3.png",
-      cardHeading: "Dr.Thomas George K",
-      designation: "designation",
-      companyName: "companyName",
+      cardHeading: "Hailesemait Mekonnen",
+      designation: "DGM",
+      companyName: "Ries Engineering S.C",
       description:
         "As someone who's attended multiple sales workshops, I can assert that Riyas Hakkim's sessions are truly a cut above the rest. His ability to blend emotional intelligence with sales tactics is not just innovative but incredibly effective. It's an experience that's not only educational but genuinely transformative.",
     },
@@ -720,9 +720,9 @@ const testimonial = {
     {
       desktopImg: "/Testimonial/ss/dk3.png",
       mobileImg: "/Testimonial/ss/mb3.png",
-      cardHeading: "Dr.Thomas George K",
-      designation: "designation",
-      companyName: "companyName",
+      cardHeading: "Hailesemait Mekonnen",
+      designation: "DGM",
+      companyName: "Ries Engineering S.C",
       description:
         "As someone who's attended multiple sales workshops, I can assert that Riyas Hakkim's sessions are truly a cut above the rest. His ability to blend emotional intelligence with sales tactics is not just innovative but incredibly effective. It's an experience that's not only educational but genuinely transformative.",
     },
@@ -747,9 +747,9 @@ const testimonial = {
     {
       desktopImg: "/Testimonial/ss/dk3.png",
       mobileImg: "/Testimonial/ss/mb3.png",
-      cardHeading: "Dr.Thomas George K",
-      designation: "designation",
-      companyName: "companyName",
+      cardHeading: "Hailesemait Mekonnen",
+      designation: "DGM",
+      companyName: "Ries Engineering S.C",
       description:
         "As someone who's attended multiple sales workshops, I can assert that Riyas Hakkim's sessions are truly a cut above the rest. His ability to blend emotional intelligence with sales tactics is not just innovative but incredibly effective. It's an experience that's not only educational but genuinely transformative.",
     },
@@ -774,9 +774,9 @@ const testimonial = {
     {
       desktopImg: "/Testimonial/ss/dk3.png",
       mobileImg: "/Testimonial/ss/mb3.png",
-      cardHeading: "Dr.Thomas George K",
-      designation: "designation",
-      companyName: "companyName",
+      cardHeading: "Hailesemait Mekonnen",
+      designation: "DGM",
+      companyName: "Ries Engineering S.C",
       description:
         "As someone who's attended multiple sales workshops, I can assert that Riyas Hakkim's sessions are truly a cut above the rest. His ability to blend emotional intelligence with sales tactics is not just innovative but incredibly effective. It's an experience that's not only educational but genuinely transformative.",
     },
@@ -801,9 +801,9 @@ const testimonial = {
     {
       desktopImg: "/Testimonial/ss/dk3.png",
       mobileImg: "/Testimonial/ss/mb3.png",
-      cardHeading: "Dr.Thomas George K",
-      designation: "designation",
-      companyName: "companyName",
+      cardHeading: "Hailesemait Mekonnen",
+      designation: "DGM",
+      companyName: "Ries Engineering S.C",
       description:
         "As someone who's attended multiple sales workshops, I can assert that Riyas Hakkim's sessions are truly a cut above the rest. His ability to blend emotional intelligence with sales tactics is not just innovative but incredibly effective. It's an experience that's not only educational but genuinely transformative.",
     },
@@ -828,9 +828,9 @@ const testimonial = {
     {
       desktopImg: "/Testimonial/ss/dk3.png",
       mobileImg: "/Testimonial/ss/mb3.png",
-      cardHeading: "Dr.Thomas George K",
-      designation: "designation",
-      companyName: "companyName",
+      cardHeading: "Hailesemait Mekonnen",
+      designation: "DGM",
+      companyName: "Ries Engineering S.C",
       description:
         "As someone who's attended multiple sales workshops, I can assert that Riyas Hakkim's sessions are truly a cut above the rest. His ability to blend emotional intelligence with sales tactics is not just innovative but incredibly effective. It's an experience that's not only educational but genuinely transformative.",
     },
@@ -855,9 +855,9 @@ const testimonial = {
     {
       desktopImg: "/Testimonial/ss/dk3.png",
       mobileImg: "/Testimonial/ss/mb3.png",
-      cardHeading: "Dr.Thomas George K",
-      designation: "designation",
-      companyName: "companyName",
+      cardHeading: "Hailesemait Mekonnen",
+      designation: "DGM",
+      companyName: "Ries Engineering S.C",
       description:
         "As someone who's attended multiple sales workshops, I can assert that Riyas Hakkim's sessions are truly a cut above the rest. His ability to blend emotional intelligence with sales tactics is not just innovative but incredibly effective. It's an experience that's not only educational but genuinely transformative.",
     },

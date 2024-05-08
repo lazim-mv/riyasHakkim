@@ -26,7 +26,7 @@ const Footer = () => {
     },
     {
       img: "/Footer/aa/fb.svg",
-      href: "https://www.facebook.com/riyas.hakkim.92?mibextid=LQQJ4d ",
+      href: "https://www.facebook.com/riyas.hakkim.92?mibextid=LQQJ4d",
     },
   ];
 

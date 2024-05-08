@@ -1437,6 +1437,10 @@ a {
     width: auto;
   }
 
+  .testimonialProfile h3{
+    font-size: 3.733333333333334vw;
+  }
+
   .testimonialTitle p {
     width: auto;
     margin-top: 4vw;
