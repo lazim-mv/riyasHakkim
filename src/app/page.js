@@ -34,19 +34,19 @@ export default function Home() {
 
       <Container10 mobile={isSmallScreen} />
       <Container5 mobile={isSmallScreen} />
-      {/* <Container6 mobile={isSmallScreen} /> */}
       <Container12 mobile={isSmallScreen} mainPage={true} />
 
       <Container11 mobile={isSmallScreen} />
 
       <Container8 />
       <Testimonial mobile={isSmallScreen} />
-      {/* <Container9 mobile={isSmallScreen} /> */}
       <ContactComponent />
       <Footer />
     </main>
   );
 }
+//  <Container9 mobile={isSmallScreen} /> 
+//  <Container6 mobile={isSmallScreen} /> 
 
 //  <BtnComponent
 //   buttonText="hello"

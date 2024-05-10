@@ -79,4 +79,33 @@ const container5 = {
   ],
 };
 
-export { container1, container3, container4, container5 };
+const stats = {
+  statData: [
+    {
+      heading: 10,
+      description: "Years of experience in consulting",
+    },
+    {
+      heading: 15,
+      description: "Years of experience in sales trainings and coaching",
+    },
+    {
+      heading: 750,
+      description: "Trainings given",
+    },
+    {
+      heading: "50Million+",
+      description: "Social media Views",
+    },
+    {
+      heading: "1Million+",
+      description: "Social Media Followers",
+    },
+    {
+      heading: 500,
+      description: "Business served",
+    },
+  ],
+};
+
+export { container1, container3, container4, container5, stats };

@@ -19,6 +19,7 @@ import Contact from "@/app/components/ContactComponent";
 import Footer from "@/app/components/Footer";
 import Testimonial from "@/app/components/Testimonial";
 import Container12 from "@/app/components/Container12/Container12";
+import StatsComponent from "@/app/components/Stats/StatsComponent";
 
 const Page = () => {
   const [windowWidth, setWindowWidth] = useState("");
@@ -189,20 +190,7 @@ const Page = () => {
         </div>
       </div>
 
-      <Image
-        src={
-          windowWidth <= 768
-            ? "/aboutPage/statMobile.png"
-            : "/aboutPage/stat.png"
-        }
-        width={100}
-        height={100}
-        quality={100}
-        priority={true}
-        unoptimized
-        alt="stat"
-        className={styles.statImage}
-      />
+      <StatsComponent mobile={windowWidth <= 768} />
 
       <div className={`${styles.aboutContainer4} container3`}>
         <div className={`${styles.aboutContainer4Contents} container3Contents`}>
