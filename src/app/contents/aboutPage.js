@@ -7,7 +7,7 @@ const container1 = {
 };
 
 const container3 = {
-  sectionTitle: "Our Values",
+  sectionTitle: "Our Foundation",
   imgData: [
     {
       img: "/aboutPage/icons/1.svg",
