@@ -11,7 +11,7 @@ const container3 = {
   imgData: [
     {
       img: "/aboutPage/icons/1.svg",
-      cardHeading: "Vission",
+      cardHeading: "Vision",
       description:
         "Empowering people and organizations by unleashing emotional power within.",
     },
