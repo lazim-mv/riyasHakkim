@@ -60,6 +60,8 @@ const Testimonial = ({ mobile }) => {
     "/brands/11.svg",
     "/brands/12.svg",
     "/brands/13.svg",
+    "/brands/14.svg",
+    "/brands/15.svg",
   ];
 
   const repeatedImageSources = Array.from({ length: 20 }, () => [

@@ -2,7 +2,7 @@ const container2 = {
   sectionTitle: "Global Zone Empower elevate Execel",
   img: "/e3global/1.png",
   description:
-    "My path has been shaped by a simple truth: genuine connections fuel our lives. I've spent years learning how our emotions intertwine with our actions, guiding others to find clarity and purpose. It's a journey we're all on – finding our place, making a difference, touching lives. Let's walk this path together, discovering how our interactions can shape a better tomorrow.",
+    "Here at E3, we have crafted our programs to Empower, Elevate and Excel professionals and organizations  with the skills and insights needed to thrive in an ever-evolving world. We offer a rich tapestry of  learning experiences designed to empower you to reach new heights.",
 };
 
 const container3 = {
