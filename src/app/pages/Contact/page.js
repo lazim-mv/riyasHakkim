@@ -235,7 +235,21 @@ function Contact() {
                 priority={true}
                 unoptimized
               />
-              <SectionDescription sectionText="reach@riyashakkim.com - info@e3globalzone.com" />
+              <SectionDescription sectionText="reach@riyashakkim.com" />
+            </div>
+          </a>
+          <a href="mailto:info@e3globalzone.com">
+            <div className={styles.social}>
+              <Image
+                src="/mail.svg"
+                width={130}
+                height={101}
+                alt="socialIcon"
+                quality={100}
+                priority={true}
+                unoptimized
+              />
+              <SectionDescription sectionText="info@e3globalzone.com" />
             </div>
           </a>
         </div>
