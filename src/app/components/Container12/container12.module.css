@@ -1,4 +1,4 @@
-.container12{
+.container12 {
   background-color: #121212;
   padding-top: 7.936507936507936vw;
   padding-bottom: 7.936507936507936vw;
@@ -9,7 +9,7 @@
   width: 100%;
 }
 
-.container12Cards{
+.container12Cards {
   overflow: hidden;
   /* gap: 2vw; */
 }
@@ -43,12 +43,12 @@
 }
 
 @media only screen and (max-width: 767px) {
-  .container12Top h2{
+  .container12Top h2 {
     text-align: left;
     width: 87vw !important;
   }
 
-  .container12Cards{
+  .container12Cards {
     margin-bottom: 8vw;
   }
 
@@ -59,7 +59,12 @@
     position: relative;
   }
 
-  .container12Card .aboutCardImg{
+  .container12Card .ytIcon {
+    width: 9.3vw;
+    height: 9.3vw;
+  }
+
+  .container12Card .aboutCardImg {
     width: 66.66666666666666vw;
     height: 44.266666666666666vw;
     border-radius: 0;

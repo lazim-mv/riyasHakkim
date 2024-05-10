@@ -81,7 +81,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="copyRight">
-        <a href="https://procube.vercel.app/" target="_blank">
+        <a href="https://procube.cx/" target="_blank">
           <SectionDescription
             sectionText="Copyright © 2024 All rights reserved by RiyasHakkim. Powered by procube"
             color="rgba(255, 255, 255, 0.60)"
