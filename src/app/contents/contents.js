@@ -229,7 +229,7 @@ const testimonial = {
       designation: "Managing Partner",
       companyName: "ss.Skillsmart",
       description:
-        "Working with Riyas can literally change your mindset, way of thinking, your vision, your faith and will definitely double your self confidence and positivity. I was blessed to meet Riyas personally and professionally. He is a life experience and a positivity booster. Wish you all the fully deserved success.",
+        "Working with Riyas can literally change your mindset, way of thinking, your vision, your faith and will definitely double your self confidence and positivity. I was blessed to meet Riyas personally and professionally. He is a life experience and a positivity booster. Wish you all the fully deserved success.",
     },
     {
       desktopImg: "/Testimonial/ss/dk3.png",
@@ -238,7 +238,7 @@ const testimonial = {
       designation: "DGM",
       companyName: "Ries Engineering S.C",
       description:
-        "As someone who's attended multiple sales workshops, I can assert that Riyas Hakkim's sessions are truly a cut above the rest. His ability to blend emotional intelligence with sales tactics is not just innovative but incredibly effective. It's an experience that's not only educational but genuinely transformative.",
+        "I've been to many sales workshops, and Riyas Hakkim's sessions stand out. He combines emotional intelligence with sales tactics in a way that's not just innovative but really works. It's not just educational; it's truly transformative.",
     },
     {
       desktopImg: "/Testimonial/ss/dk1.png",
@@ -265,7 +265,7 @@ const testimonial = {
       designation: "DGM",
       companyName: "Ries Engineering S.C",
       description:
-        "As someone who's attended multiple sales workshops, I can assert that Riyas Hakkim's sessions are truly a cut above the rest. His ability to blend emotional intelligence with sales tactics is not just innovative but incredibly effective. It's an experience that's not only educational but genuinely transformative.",
+        "I've been to many sales workshops, and Riyas Hakkim's sessions stand out. He combines emotional intelligence with sales tactics in a way that's not just innovative but really works. It's not just educational; it's truly transformative.",
     },
     {
       desktopImg: "/Testimonial/ss/dk1.png",
@@ -292,7 +292,7 @@ const testimonial = {
       designation: "DGM",
       companyName: "Ries Engineering S.C",
       description:
-        "As someone who's attended multiple sales workshops, I can assert that Riyas Hakkim's sessions are truly a cut above the rest. His ability to blend emotional intelligence with sales tactics is not just innovative but incredibly effective. It's an experience that's not only educational but genuinely transformative.",
+        "I've been to many sales workshops, and Riyas Hakkim's sessions stand out. He combines emotional intelligence with sales tactics in a way that's not just innovative but really works. It's not just educational; it's truly transformative.",
     },
     {
       desktopImg: "/Testimonial/ss/dk1.png",
@@ -319,7 +319,7 @@ const testimonial = {
       designation: "DGM",
       companyName: "Ries Engineering S.C",
       description:
-        "As someone who's attended multiple sales workshops, I can assert that Riyas Hakkim's sessions are truly a cut above the rest. His ability to blend emotional intelligence with sales tactics is not just innovative but incredibly effective. It's an experience that's not only educational but genuinely transformative.",
+        "I've been to many sales workshops, and Riyas Hakkim's sessions stand out. He combines emotional intelligence with sales tactics in a way that's not just innovative but really works. It's not just educational; it's truly transformative.",
     },
     {
       desktopImg: "/Testimonial/ss/dk1.png",
@@ -346,7 +346,7 @@ const testimonial = {
       designation: "DGM",
       companyName: "Ries Engineering S.C",
       description:
-        "As someone who's attended multiple sales workshops, I can assert that Riyas Hakkim's sessions are truly a cut above the rest. His ability to blend emotional intelligence with sales tactics is not just innovative but incredibly effective. It's an experience that's not only educational but genuinely transformative.",
+        "I've been to many sales workshops, and Riyas Hakkim's sessions stand out. He combines emotional intelligence with sales tactics in a way that's not just innovative but really works. It's not just educational; it's truly transformative.",
     },
     {
       desktopImg: "/Testimonial/ss/dk1.png",
@@ -373,7 +373,7 @@ const testimonial = {
       designation: "DGM",
       companyName: "Ries Engineering S.C",
       description:
-        "As someone who's attended multiple sales workshops, I can assert that Riyas Hakkim's sessions are truly a cut above the rest. His ability to blend emotional intelligence with sales tactics is not just innovative but incredibly effective. It's an experience that's not only educational but genuinely transformative.",
+        "I've been to many sales workshops, and Riyas Hakkim's sessions stand out. He combines emotional intelligence with sales tactics in a way that's not just innovative but really works. It's not just educational; it's truly transformative.",
     },
     {
       desktopImg: "/Testimonial/ss/dk1.png",
@@ -400,7 +400,7 @@ const testimonial = {
       designation: "DGM",
       companyName: "Ries Engineering S.C",
       description:
-        "As someone who's attended multiple sales workshops, I can assert that Riyas Hakkim's sessions are truly a cut above the rest. His ability to blend emotional intelligence with sales tactics is not just innovative but incredibly effective. It's an experience that's not only educational but genuinely transformative.",
+        "I've been to many sales workshops, and Riyas Hakkim's sessions stand out. He combines emotional intelligence with sales tactics in a way that's not just innovative but really works. It's not just educational; it's truly transformative.",
     },
     {
       desktopImg: "/Testimonial/ss/dk1.png",
@@ -427,7 +427,7 @@ const testimonial = {
       designation: "DGM",
       companyName: "Ries Engineering S.C",
       description:
-        "As someone who's attended multiple sales workshops, I can assert that Riyas Hakkim's sessions are truly a cut above the rest. His ability to blend emotional intelligence with sales tactics is not just innovative but incredibly effective. It's an experience that's not only educational but genuinely transformative.",
+        "I've been to many sales workshops, and Riyas Hakkim's sessions stand out. He combines emotional intelligence with sales tactics in a way that's not just innovative but really works. It's not just educational; it's truly transformative.",
     },
     {
       desktopImg: "/Testimonial/ss/dk1.png",
@@ -454,7 +454,7 @@ const testimonial = {
       designation: "DGM",
       companyName: "Ries Engineering S.C",
       description:
-        "As someone who's attended multiple sales workshops, I can assert that Riyas Hakkim's sessions are truly a cut above the rest. His ability to blend emotional intelligence with sales tactics is not just innovative but incredibly effective. It's an experience that's not only educational but genuinely transformative.",
+        "I've been to many sales workshops, and Riyas Hakkim's sessions stand out. He combines emotional intelligence with sales tactics in a way that's not just innovative but really works. It's not just educational; it's truly transformative.",
     },
     {
       desktopImg: "/Testimonial/ss/dk1.png",
@@ -481,7 +481,7 @@ const testimonial = {
       designation: "DGM",
       companyName: "Ries Engineering S.C",
       description:
-        "As someone who's attended multiple sales workshops, I can assert that Riyas Hakkim's sessions are truly a cut above the rest. His ability to blend emotional intelligence with sales tactics is not just innovative but incredibly effective. It's an experience that's not only educational but genuinely transformative.",
+        "I've been to many sales workshops, and Riyas Hakkim's sessions stand out. He combines emotional intelligence with sales tactics in a way that's not just innovative but really works. It's not just educational; it's truly transformative.",
     },
     {
       desktopImg: "/Testimonial/ss/dk1.png",
@@ -508,7 +508,7 @@ const testimonial = {
       designation: "DGM",
       companyName: "Ries Engineering S.C",
       description:
-        "As someone who's attended multiple sales workshops, I can assert that Riyas Hakkim's sessions are truly a cut above the rest. His ability to blend emotional intelligence with sales tactics is not just innovative but incredibly effective. It's an experience that's not only educational but genuinely transformative.",
+        "I've been to many sales workshops, and Riyas Hakkim's sessions stand out. He combines emotional intelligence with sales tactics in a way that's not just innovative but really works. It's not just educational; it's truly transformative.",
     },
     {
       desktopImg: "/Testimonial/ss/dk1.png",
@@ -535,7 +535,7 @@ const testimonial = {
       designation: "DGM",
       companyName: "Ries Engineering S.C",
       description:
-        "As someone who's attended multiple sales workshops, I can assert that Riyas Hakkim's sessions are truly a cut above the rest. His ability to blend emotional intelligence with sales tactics is not just innovative but incredibly effective. It's an experience that's not only educational but genuinely transformative.",
+        "I've been to many sales workshops, and Riyas Hakkim's sessions stand out. He combines emotional intelligence with sales tactics in a way that's not just innovative but really works. It's not just educational; it's truly transformative.",
     },
     {
       desktopImg: "/Testimonial/ss/dk1.png",
@@ -562,7 +562,7 @@ const testimonial = {
       designation: "DGM",
       companyName: "Ries Engineering S.C",
       description:
-        "As someone who's attended multiple sales workshops, I can assert that Riyas Hakkim's sessions are truly a cut above the rest. His ability to blend emotional intelligence with sales tactics is not just innovative but incredibly effective. It's an experience that's not only educational but genuinely transformative.",
+        "I've been to many sales workshops, and Riyas Hakkim's sessions stand out. He combines emotional intelligence with sales tactics in a way that's not just innovative but really works. It's not just educational; it's truly transformative.",
     },
     {
       desktopImg: "/Testimonial/ss/dk1.png",
@@ -589,7 +589,7 @@ const testimonial = {
       designation: "DGM",
       companyName: "Ries Engineering S.C",
       description:
-        "As someone who's attended multiple sales workshops, I can assert that Riyas Hakkim's sessions are truly a cut above the rest. His ability to blend emotional intelligence with sales tactics is not just innovative but incredibly effective. It's an experience that's not only educational but genuinely transformative.",
+        "I've been to many sales workshops, and Riyas Hakkim's sessions stand out. He combines emotional intelligence with sales tactics in a way that's not just innovative but really works. It's not just educational; it's truly transformative.",
     },
     {
       desktopImg: "/Testimonial/ss/dk1.png",
@@ -616,7 +616,7 @@ const testimonial = {
       designation: "DGM",
       companyName: "Ries Engineering S.C",
       description:
-        "As someone who's attended multiple sales workshops, I can assert that Riyas Hakkim's sessions are truly a cut above the rest. His ability to blend emotional intelligence with sales tactics is not just innovative but incredibly effective. It's an experience that's not only educational but genuinely transformative.",
+        "I've been to many sales workshops, and Riyas Hakkim's sessions stand out. He combines emotional intelligence with sales tactics in a way that's not just innovative but really works. It's not just educational; it's truly transformative.",
     },
     {
       desktopImg: "/Testimonial/ss/dk1.png",
@@ -643,7 +643,7 @@ const testimonial = {
       designation: "DGM",
       companyName: "Ries Engineering S.C",
       description:
-        "As someone who's attended multiple sales workshops, I can assert that Riyas Hakkim's sessions are truly a cut above the rest. His ability to blend emotional intelligence with sales tactics is not just innovative but incredibly effective. It's an experience that's not only educational but genuinely transformative.",
+        "I've been to many sales workshops, and Riyas Hakkim's sessions stand out. He combines emotional intelligence with sales tactics in a way that's not just innovative but really works. It's not just educational; it's truly transformative.",
     },
     {
       desktopImg: "/Testimonial/ss/dk1.png",
@@ -670,7 +670,7 @@ const testimonial = {
       designation: "DGM",
       companyName: "Ries Engineering S.C",
       description:
-        "As someone who's attended multiple sales workshops, I can assert that Riyas Hakkim's sessions are truly a cut above the rest. His ability to blend emotional intelligence with sales tactics is not just innovative but incredibly effective. It's an experience that's not only educational but genuinely transformative.",
+        "I've been to many sales workshops, and Riyas Hakkim's sessions stand out. He combines emotional intelligence with sales tactics in a way that's not just innovative but really works. It's not just educational; it's truly transformative.",
     },
     {
       desktopImg: "/Testimonial/ss/dk1.png",
@@ -697,7 +697,7 @@ const testimonial = {
       designation: "DGM",
       companyName: "Ries Engineering S.C",
       description:
-        "As someone who's attended multiple sales workshops, I can assert that Riyas Hakkim's sessions are truly a cut above the rest. His ability to blend emotional intelligence with sales tactics is not just innovative but incredibly effective. It's an experience that's not only educational but genuinely transformative.",
+        "I've been to many sales workshops, and Riyas Hakkim's sessions stand out. He combines emotional intelligence with sales tactics in a way that's not just innovative but really works. It's not just educational; it's truly transformative.",
     },
     {
       desktopImg: "/Testimonial/ss/dk1.png",
@@ -724,7 +724,7 @@ const testimonial = {
       designation: "DGM",
       companyName: "Ries Engineering S.C",
       description:
-        "As someone who's attended multiple sales workshops, I can assert that Riyas Hakkim's sessions are truly a cut above the rest. His ability to blend emotional intelligence with sales tactics is not just innovative but incredibly effective. It's an experience that's not only educational but genuinely transformative.",
+        "I've been to many sales workshops, and Riyas Hakkim's sessions stand out. He combines emotional intelligence with sales tactics in a way that's not just innovative but really works. It's not just educational; it's truly transformative.",
     },
     {
       desktopImg: "/Testimonial/ss/dk1.png",
@@ -751,7 +751,7 @@ const testimonial = {
       designation: "DGM",
       companyName: "Ries Engineering S.C",
       description:
-        "As someone who's attended multiple sales workshops, I can assert that Riyas Hakkim's sessions are truly a cut above the rest. His ability to blend emotional intelligence with sales tactics is not just innovative but incredibly effective. It's an experience that's not only educational but genuinely transformative.",
+        "I've been to many sales workshops, and Riyas Hakkim's sessions stand out. He combines emotional intelligence with sales tactics in a way that's not just innovative but really works. It's not just educational; it's truly transformative.",
     },
     {
       desktopImg: "/Testimonial/ss/dk1.png",
@@ -778,7 +778,7 @@ const testimonial = {
       designation: "DGM",
       companyName: "Ries Engineering S.C",
       description:
-        "As someone who's attended multiple sales workshops, I can assert that Riyas Hakkim's sessions are truly a cut above the rest. His ability to blend emotional intelligence with sales tactics is not just innovative but incredibly effective. It's an experience that's not only educational but genuinely transformative.",
+        "I've been to many sales workshops, and Riyas Hakkim's sessions stand out. He combines emotional intelligence with sales tactics in a way that's not just innovative but really works. It's not just educational; it's truly transformative.",
     },
     {
       desktopImg: "/Testimonial/ss/dk1.png",
@@ -805,7 +805,7 @@ const testimonial = {
       designation: "DGM",
       companyName: "Ries Engineering S.C",
       description:
-        "As someone who's attended multiple sales workshops, I can assert that Riyas Hakkim's sessions are truly a cut above the rest. His ability to blend emotional intelligence with sales tactics is not just innovative but incredibly effective. It's an experience that's not only educational but genuinely transformative.",
+        "I've been to many sales workshops, and Riyas Hakkim's sessions stand out. He combines emotional intelligence with sales tactics in a way that's not just innovative but really works. It's not just educational; it's truly transformative.",
     },
     {
       desktopImg: "/Testimonial/ss/dk1.png",
@@ -832,7 +832,7 @@ const testimonial = {
       designation: "DGM",
       companyName: "Ries Engineering S.C",
       description:
-        "As someone who's attended multiple sales workshops, I can assert that Riyas Hakkim's sessions are truly a cut above the rest. His ability to blend emotional intelligence with sales tactics is not just innovative but incredibly effective. It's an experience that's not only educational but genuinely transformative.",
+        "I've been to many sales workshops, and Riyas Hakkim's sessions stand out. He combines emotional intelligence with sales tactics in a way that's not just innovative but really works. It's not just educational; it's truly transformative.",
     },
     {
       desktopImg: "/Testimonial/ss/dk1.png",
@@ -859,7 +859,7 @@ const testimonial = {
       designation: "DGM",
       companyName: "Ries Engineering S.C",
       description:
-        "As someone who's attended multiple sales workshops, I can assert that Riyas Hakkim's sessions are truly a cut above the rest. His ability to blend emotional intelligence with sales tactics is not just innovative but incredibly effective. It's an experience that's not only educational but genuinely transformative.",
+        "I've been to many sales workshops, and Riyas Hakkim's sessions stand out. He combines emotional intelligence with sales tactics in a way that's not just innovative but really works. It's not just educational; it's truly transformative.",
     },
   ],
 };

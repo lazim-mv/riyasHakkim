@@ -49,7 +49,7 @@ const container4 = {
     {
       img: "/e3global/container4/1.png",
       name: "Riyas Hakkim",
-      description: "Founder / Emotional SalesLeadership Coach",
+      description: "Founder / Emotional Sales Leadership Coach",
     },
     {
       img: "/e3global/container4/2.png",
