@@ -90,7 +90,10 @@ const Container12 = ({ mobile, mainPage, aboutPage }) => {
               }
             />
             {mainPage && (
-              <SectionDescription sectionText={container5.description} />
+              <SectionDescription
+                sectionText={container5.description}
+                width={mobile ? "87.2vw" : "auto"}
+              />
             )}
           </div>
         </div>
