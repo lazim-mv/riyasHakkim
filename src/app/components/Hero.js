@@ -16,7 +16,7 @@ const Hero = ({ mobile, isIOS }) => {
             style={{
               right:
                 isIOS && mobile
-                  ? "4.8vw"
+                  ? "5vw"
                   : !isIOS && mobile
                   ? "8vw"
                   : !isIOS && !mobile
