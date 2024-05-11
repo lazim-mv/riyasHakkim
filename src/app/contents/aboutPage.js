@@ -49,10 +49,9 @@ const container5 = {
   buttonText: "Know More",
   imgData: [
     {
-      img: "/aboutPage/thumbanails/1.png",
-      href: "https://www.youtube.com/watch?v=gvmomKDqs-s",
+      img: "/aboutPage/thumbanails/7.png",
+      href: "https://www.youtube.com/watch?v=coMrsI25Pi4",
     },
-
     {
       img: "/aboutPage/thumbanails/2.png",
       href: "https://youtu.be/Nupr5vMRoIo?si=caTVi7nC1xKBK1Id",
@@ -74,8 +73,8 @@ const container5 = {
       href: "https://www.youtube.com/watch?v=c28BH10ssVg",
     },
     {
-      img: "/aboutPage/thumbanails/7.png",
-      href: "https://www.youtube.com/watch?v=coMrsI25Pi4",
+      img: "/aboutPage/thumbanails/1.png",
+      href: "https://www.youtube.com/watch?v=gvmomKDqs-s",
     },
   ],
 };
