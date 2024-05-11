@@ -49,7 +49,7 @@ const Testimonial = ({ mobile, mainPage }) => {
   const imageSources = [
     "/brands/1.svg",
     "/brands/2.svg",
-    "/brands/3.svg",
+    // "/brands/3.svg",
     "/brands/4.svg",
     "/brands/5.svg",
     "/brands/6.svg",
