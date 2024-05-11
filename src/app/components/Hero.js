@@ -5,7 +5,7 @@ import mobileHeroImg from "../../../public/mHero1.png";
 import { BtnComponent, SectionDescription } from "./ButtonComponent";
 import { heroData } from "../contents/contents";
 
-const Hero = ({ mobile }) => {
+const Hero = ({ mobile,isIOS }) => {
   return (
     <div className="heroContianer">
       <div className="heroContent">

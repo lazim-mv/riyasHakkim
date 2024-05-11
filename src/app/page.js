@@ -37,16 +37,9 @@ export default function Home() {
   return (
     // <UnderMaintainance />
     <main className="">
-      <div style={{ height: "100vh" }}>
-        {ss ? (
-          <p style={{ marginTop: "200px" }}>This is an iOS device.</p>
-        ) : (
-          <p style={{ marginTop: "200px" }}>This is not an iOS device.</p>
-        )}
-      </div>
       <Header />
       <MobileHeader />
-      <Hero mobile={isSmallScreen} />
+      <Hero mobile={isSmallScreen} isIOS={ss} />
       <Container2 mobile={isSmallScreen} />
       <Container3 mobile={isSmallScreen} />
 
