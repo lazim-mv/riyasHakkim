@@ -10,7 +10,7 @@ import Image from "next/image";
 import { useWindowSize } from "../utils/windowSize";
 import Brands from "./Brands";
 
-const Testimonial = ({ mobile }) => {
+const Testimonial = ({ mobile, mainPage }) => {
   const cardData = testimonial.testimonialData;
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -62,6 +62,10 @@ const Testimonial = ({ mobile }) => {
     "/brands/13.svg",
     "/brands/14.svg",
     "/brands/15.svg",
+    "/brands/16.svg",
+    "/brands/17.svg",
+    "/brands/18.svg",
+    "/brands/19.svg",
   ];
 
   const repeatedImageSources = Array.from({ length: 20 }, () => [
@@ -121,17 +125,19 @@ const Testimonial = ({ mobile }) => {
           </div>
         </div>
       </div>
-      <div className="brands">
-        <h6 className="brandsHeading">We&apos;ve Partnered with</h6>
-        <div className="clientsImgContainer">
-          <Brands
-            imageSources={repeatedImageSources}
-            initialAnimateValue="-160%"
-            hoverDuration="600"
-            duration="650"
-          />
+      {mainPage && (
+        <div className="brands">
+          <h6 className="brandsHeading">We&apos;ve Partnered with</h6>
+          <div className="clientsImgContainer">
+            <Brands
+              imageSources={repeatedImageSources}
+              initialAnimateValue="-160%"
+              hoverDuration="600"
+              duration="650"
+            />
+          </div>
         </div>
-      </div>
+      )}
     </>
   );
 };

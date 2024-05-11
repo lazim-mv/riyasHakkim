@@ -39,14 +39,14 @@ export default function Home() {
       <Container11 mobile={isSmallScreen} />
 
       <Container8 />
-      <Testimonial mobile={isSmallScreen} />
+      <Testimonial mobile={isSmallScreen} mainPage={true} />
       <ContactComponent />
       <Footer />
     </main>
   );
 }
-//  <Container9 mobile={isSmallScreen} /> 
-//  <Container6 mobile={isSmallScreen} /> 
+//  <Container9 mobile={isSmallScreen} />
+//  <Container6 mobile={isSmallScreen} />
 
 //  <BtnComponent
 //   buttonText="hello"

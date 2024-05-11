@@ -29,7 +29,7 @@ const container3 = {
       img: "/aboutPage/icons/4.svg",
       cardHeading: "Values",
       description:
-        "Almighty God first Transparency & Accountability People oriented Honesty",
+        "Almighty god first, transparency and accountability, people oriented, honesty",
     },
   ],
 };
