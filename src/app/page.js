@@ -19,13 +19,31 @@ import UnderMaintainance from "./components/UnderMaintainance";
 import { container4Data, container7Data } from "./contents/contents";
 import { useWindowSize } from "./utils/windowSize";
 import Container12 from "./components/Container12/Container12";
+import { isIOS } from "./utils/iosCheck";
+import { useEffect, useState } from "react";
 
 export default function Home() {
   const { windowSize, isSmallScreen } = useWindowSize();
+  const [ss, setss] = useState();
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      setss(isIOS());
+    }
+  }, []);
+
+  console.log(isIOS(), "isIos");
 
   return (
     // <UnderMaintainance />
     <main className="">
+      <div style={{ height: "100vh" }}>
+        {ss ? (
+          <p style={{ marginTop: "200px" }}>This is an iOS device.</p>
+        ) : (
+          <p style={{ marginTop: "200px" }}>This is not an iOS device.</p>
+        )}
+      </div>
       <Header />
       <MobileHeader />
       <Hero mobile={isSmallScreen} />

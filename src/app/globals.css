@@ -1200,7 +1200,9 @@ a {
   .tradeMark {
     position: absolute;
     bottom: 1.9904761904761905vw;
-    right: 8.8vw;
+    right: 4.8vw;
+    width: max-content;
+    height: max-content;
   }
 
   .tradeMark span {
