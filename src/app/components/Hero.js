@@ -5,13 +5,25 @@ import mobileHeroImg from "../../../public/mHero1.png";
 import { BtnComponent, SectionDescription } from "./ButtonComponent";
 import { heroData } from "../contents/contents";
 
-const Hero = ({ mobile,isIOS }) => {
+const Hero = ({ mobile, isIOS }) => {
   return (
     <div className="heroContianer">
       <div className="heroContent">
         <h1 className="heroTitle">
           {heroData.heroTitle}
-          <div className="tradeMark" style={{right:isIOS ? "4.8vw" : "8vw"}}>
+          <div
+            className="tradeMark"
+            style={{
+              right:
+                isIOS && mobile
+                  ? "4.8vw"
+                  : !isIOS && mobile
+                  ? "8vw"
+                  : !isIOS && !mobile
+                  ? "4.497354497354497vw"
+                  : "4.497354497354497vw",
+            }}
+          >
             <span>TM</span>
           </div>
         </h1>
