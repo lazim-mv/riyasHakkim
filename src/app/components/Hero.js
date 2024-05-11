@@ -11,7 +11,7 @@ const Hero = ({ mobile,isIOS }) => {
       <div className="heroContent">
         <h1 className="heroTitle">
           {heroData.heroTitle}
-          <div className="tradeMark">
+          <div className="tradeMark" style={{right:isIOS ? "4.8vw" : "8vw"}}>
             <span>TM</span>
           </div>
         </h1>
