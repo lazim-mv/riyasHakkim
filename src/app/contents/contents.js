@@ -261,7 +261,7 @@ const testimonial = {
     {
       desktopImg: "/Testimonial/ss/dk6.png",
       mobileImg: "Testimonial/ss/mb6.png",
-      cardHeading: "Name",
+      cardHeading: "Faisal Saqaf",
       designation: "Founder",
       companyName: "Torque Lubricants",
       description:
@@ -342,7 +342,7 @@ const testimonial = {
     {
       desktopImg: "/Testimonial/ss/dk6.png",
       mobileImg: "Testimonial/ss/mb6.png",
-      cardHeading: "Name",
+      cardHeading: "Faisal Saqaf",
       designation: "Founder",
       companyName: "Torque Lubricants",
       description:
@@ -423,7 +423,7 @@ const testimonial = {
     {
       desktopImg: "/Testimonial/ss/dk6.png",
       mobileImg: "Testimonial/ss/mb6.png",
-      cardHeading: "Name",
+      cardHeading: "Faisal Saqaf",
       designation: "Founder",
       companyName: "Torque Lubricants",
       description:
@@ -504,7 +504,7 @@ const testimonial = {
     {
       desktopImg: "/Testimonial/ss/dk6.png",
       mobileImg: "Testimonial/ss/mb6.png",
-      cardHeading: "Name",
+      cardHeading: "Faisal Saqaf",
       designation: "Founder",
       companyName: "Torque Lubricants",
       description:
@@ -585,7 +585,7 @@ const testimonial = {
     {
       desktopImg: "/Testimonial/ss/dk6.png",
       mobileImg: "Testimonial/ss/mb6.png",
-      cardHeading: "Name",
+      cardHeading: "Faisal Saqaf",
       designation: "Founder",
       companyName: "Torque Lubricants",
       description:
@@ -666,7 +666,7 @@ const testimonial = {
     {
       desktopImg: "/Testimonial/ss/dk6.png",
       mobileImg: "Testimonial/ss/mb6.png",
-      cardHeading: "Name",
+      cardHeading: "Faisal Saqaf",
       designation: "Founder",
       companyName: "Torque Lubricants",
       description:
@@ -747,7 +747,7 @@ const testimonial = {
     {
       desktopImg: "/Testimonial/ss/dk6.png",
       mobileImg: "Testimonial/ss/mb6.png",
-      cardHeading: "Name",
+      cardHeading: "Faisal Saqaf",
       designation: "Founder",
       companyName: "Torque Lubricants",
       description:
@@ -828,7 +828,7 @@ const testimonial = {
     {
       desktopImg: "/Testimonial/ss/dk6.png",
       mobileImg: "Testimonial/ss/mb6.png",
-      cardHeading: "Name",
+      cardHeading: "Faisal Saqaf",
       designation: "Founder",
       companyName: "Torque Lubricants",
       description:
@@ -909,7 +909,7 @@ const testimonial = {
     {
       desktopImg: "/Testimonial/ss/dk6.png",
       mobileImg: "Testimonial/ss/mb6.png",
-      cardHeading: "Name",
+      cardHeading: "Faisal Saqaf",
       designation: "Founder",
       companyName: "Torque Lubricants",
       description:
@@ -990,7 +990,7 @@ const testimonial = {
     {
       desktopImg: "/Testimonial/ss/dk6.png",
       mobileImg: "Testimonial/ss/mb6.png",
-      cardHeading: "Name",
+      cardHeading: "Faisal Saqaf",
       designation: "Founder",
       companyName: "Torque Lubricants",
       description:
