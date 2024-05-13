@@ -1092,6 +1092,39 @@ const container11Data = {
   ],
 };
 
+const socialIcons = [
+  {
+    img: "/Footer/aa/youtube.svg",
+    mbImg: "/Footer/ss/MBYOUTUBE.svg",
+    href: "https://www.youtube.com/@riyashr",
+  },
+  {
+    img: "/Footer/aa/instagram.svg",
+    mbImg: "/Footer/ss/MBINSTAGRAM.svg",
+    href: "https://www.instagram.com/riyasbinhakkim/?hl=en",
+  },
+  {
+    img: "/Footer/aa/tiktok.svg",
+    mbImg: "/Footer/ss/MBtiktok.svg",
+    href: "https://www.tiktok.com/@riyas.hakkim?lang=en",
+  },
+  {
+    img: "/Footer/aa/linkedin.svg",
+    mbImg: "/Footer/ss/MBlinkedIn.svg",
+    href: "https://ae.linkedin.com/in/riyashakkim",
+  },
+  {
+    img: "/Footer/aa/threads.svg",
+    mbImg: "/Footer/ss/MBthreads.svg",
+    href: "https://www.threads.net/@riyasbinhakkim/post/C4shCoIxNUm",
+  },
+  {
+    img: "/Footer/aa/fb.svg",
+    mbImg: "/Footer/ss/MBFacebbok.svg",
+    href: "https://www.facebook.com/riyas.hakkim.92?mibextid=LQQJ4d",
+  },
+];
+
 export {
   heroData,
   container2Data,
@@ -1105,4 +1138,5 @@ export {
   container10Data,
   container11Data,
   testimonial,
+  socialIcons,
 };

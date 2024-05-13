@@ -52,7 +52,7 @@ export default function Home() {
       <Container8 />
       <Testimonial mobile={isSmallScreen} mainPage={true} />
       <ContactComponent />
-      <Footer />
+      <Footer mobile={isSmallScreen} />
     </main>
   );
 }

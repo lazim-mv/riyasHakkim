@@ -1,34 +1,10 @@
 import React from "react";
 import { CardHeading, SectionDescription } from "./ButtonComponent";
 import Image from "next/image";
+import { socialIcons } from "../contents/contents";
 
-const Footer = () => {
-  const socialIcons = [
-    {
-      img: "/Footer/aa/youtube.svg",
-      href: "https://www.youtube.com/@riyashr",
-    },
-    {
-      img: "/Footer/aa/instagram.svg",
-      href: "https://www.instagram.com/riyasbinhakkim/?hl=en",
-    },
-    {
-      img: "/Footer/aa/tiktok.svg",
-      href: "https://www.tiktok.com/@riyas.hakkim?lang=en",
-    },
-    {
-      img: "/Footer/aa/linkedin.svg",
-      href: "https://ae.linkedin.com/in/riyashakkim",
-    },
-    {
-      img: "/Footer/aa/threads.svg",
-      href: "https://www.threads.net/@riyasbinhakkim/post/C4shCoIxNUm",
-    },
-    {
-      img: "/Footer/aa/fb.svg",
-      href: "https://www.facebook.com/riyas.hakkim.92?mibextid=LQQJ4d",
-    },
-  ];
+const Footer = ({ mobile }) => {
+
 
   return (
     <>
@@ -67,7 +43,7 @@ const Footer = () => {
             {socialIcons.map((data, index) => (
               <a href={data.href} target="_blank" key={index}>
                 <Image
-                  src={data.img}
+                  src={mobile ? data.mbImg : data.img}
                   width={130}
                   height={101}
                   alt={`Social Icon ${index + 1}`}

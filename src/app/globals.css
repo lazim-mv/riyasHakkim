@@ -1660,7 +1660,7 @@ a {
   }
 
   .social {
-    width: 30.933333333333334vw;
+    width: 40.933333333333334vw;
   }
 
   .socialIcons {
@@ -1672,6 +1672,11 @@ a {
     margin-top: 2.666666666666667vw;
     width: 8vw;
     height: 8vw;
+  }
+
+  .socialIcons img {
+    width: 10.666666666666668vw;
+    height: 10.666666666666668vw;
   }
 
   .copyRight {

@@ -20,6 +20,7 @@ import Footer from "@/app/components/Footer";
 import Testimonial from "@/app/components/Testimonial";
 import Container12 from "@/app/components/Container12/Container12";
 import StatsComponent from "@/app/components/Stats/StatsComponent";
+import { socialIcons } from "@/app/contents/contents";
 
 const Page = () => {
   const [windowWidth, setWindowWidth] = useState("");
@@ -62,32 +63,7 @@ const Page = () => {
     }
   };
 
-  const socialIcons = [
-    {
-      img: "/Footer/aa/youtube.svg",
-      href: "https://www.youtube.com/@riyashr",
-    },
-    {
-      img: "/Footer/aa/instagram.svg",
-      href: "https://www.instagram.com/riyasbinhakkim/?hl=en",
-    },
-    {
-      img: "/Footer/aa/tiktok.svg",
-      href: "https://www.tiktok.com/@riyas.hakkim?lang=en",
-    },
-    {
-      img: "/Footer/aa/linkedin.svg",
-      href: "https://ae.linkedin.com/in/riyashakkim",
-    },
-    {
-      img: "/Footer/aa/threads.svg",
-      href: "https://www.threads.net/@riyasbinhakkim/post/C4shCoIxNUm",
-    },
-    {
-      img: "/Footer/aa/fb.svg",
-      href: "https://www.facebook.com/riyas.hakkim.92?mibextid=LQQJ4d ",
-    },
-  ];
+
   return (
     <>
       <Header />
@@ -127,7 +103,7 @@ const Page = () => {
               {socialIcons.map((data, index) => (
                 <a href={data.href} target="_blank" key={index}>
                   <Image
-                    src={data.img}
+                    src={windowWidth <= 768 ? data.mbImg : data.img}
                     width={130}
                     height={101}
                     alt={`Social Icon ${index + 1}`}
@@ -305,7 +281,7 @@ const Page = () => {
       <Container12 aboutPage={true} />
       <Testimonial />
       <Contact />
-      <Footer />
+      <Footer mobile={windowWidth <= 768 ? true : false} />
     </>
   );
 };

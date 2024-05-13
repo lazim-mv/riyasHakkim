@@ -164,7 +164,7 @@ const Page = () => {
       <Testimonial />
       <Container9 />
       <Contact />
-      <Footer />
+      <Footer mobile={windowWidth <= 768 ? true : false} />
     </>
   );
 };

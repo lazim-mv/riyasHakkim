@@ -336,7 +336,7 @@ const Page = () => {
         </div>
       </div>
       <ContactComponent />
-      <Footer />
+      <Footer mobile={windowWidth <= 768 ? true : false} />
     </>
   );
 };

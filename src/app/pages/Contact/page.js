@@ -81,39 +81,6 @@ function Contact() {
     console.log(formData);
   };
 
-  const socialIcons = [
-    {
-      img: "/Footer/aa/youtube.svg",
-      href: "https://www.youtube.com/@riyashr",
-      name: "Youtube",
-    },
-    {
-      img: "/Footer/aa/instagram.svg",
-      href: "https://www.instagram.com/riyasbinhakkim/?hl=en",
-      name: "Instagram",
-    },
-    {
-      img: "/Footer/aa/tiktok.svg",
-      href: "https://www.tiktok.com/@riyas.hakkim?lang=en",
-      name: "TikTok",
-    },
-    {
-      img: "/Footer/aa/linkedin.svg",
-      href: "https://ae.linkedin.com/in/riyashakkim",
-      name: "Linked In",
-    },
-    {
-      img: "/Footer/aa/threads.svg",
-      href: "https://www.threads.net/@riyasbinhakkim/post/C4shCoIxNUm",
-      name: "Threads",
-    },
-    {
-      img: "/Footer/aa/fb.svg",
-      href: "https://www.facebook.com/riyas.hakkim.92?mibextid=LQQJ4d ",
-      name: "Facebook",
-    },
-  ];
-
   return (
     <>
       <Header />
@@ -292,7 +259,7 @@ function Contact() {
       </div>
 
       <ContactComponent />
-      <Footer />
+      <Footer mobile={windowWidth <= 768 ? true : false} />
     </>
   );
 }
