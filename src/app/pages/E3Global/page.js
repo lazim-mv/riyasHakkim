@@ -37,12 +37,14 @@ const Page = () => {
 
   const socialIcons = [
     {
-      img: "/Footer/aa/instagram.svg",
-      href: "https://instagram.com/e3_globalzone/",
+      img: "/Footer/aa/DKINSTAGRAM.svg",
+      mbImg: "/Footer/ss/MBINSTAGRAM.svg",
+      href: "https://www.instagram.com/riyasbinhakkim/?hl=en",
     },
     {
-      img: "/Footer/aa/linkedin.svg",
-      href: "https://www.linkedin.com/in/e3-global-zone-545369306 ",
+      img: "/Footer/aa/DKlinkedIn.svg",
+      mbImg: "/Footer/ss/MBlinkedIn.svg",
+      href: "https://ae.linkedin.com/in/riyashakkim",
     },
   ];
 
@@ -127,7 +129,7 @@ const Page = () => {
               {socialIcons.map((data, index) => (
                 <a href={data.href} target="_blank" key={index}>
                   <Image
-                    src={data.img}
+                    src={windowWidth <= 768 ? data.mbImg : data.img}
                     width={130}
                     height={101}
                     alt={`Social Icon ${index + 1}`}
