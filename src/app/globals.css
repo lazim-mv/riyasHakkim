@@ -1009,6 +1009,10 @@ a {
   width: 100%;
 }
 
+
+.cardContent p{
+  text-transform: capitalize;
+}
 /* Footer end */
 
 @media only screen and (max-width: 767px) {
