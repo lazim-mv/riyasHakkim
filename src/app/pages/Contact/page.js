@@ -11,6 +11,7 @@ import {
   SectionTitle,
 } from "@/app/components/ButtonComponent";
 import ContactComponent from "@/app/components/ContactComponent";
+import { socialIcons } from "@/app/contents/contents";
 
 const Header = dynamic(() => import("@/app/components/Header"));
 const MobileHeader = dynamic(() => import("@/app/components/MobileHeader"));
