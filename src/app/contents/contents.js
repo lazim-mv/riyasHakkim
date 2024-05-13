@@ -1097,31 +1097,37 @@ const socialIcons = [
     img: "/Footer/aa/DKYOUTUBE.svg",
     mbImg: "/Footer/ss/MBYOUTUBE.svg",
     href: "https://www.youtube.com/@riyashr",
+    name: "Youtube",
   },
   {
     img: "/Footer/aa/DKINSTAGRAM.svg",
     mbImg: "/Footer/ss/MBINSTAGRAM.svg",
     href: "https://www.instagram.com/riyasbinhakkim/?hl=en",
+    name: "Instagram",
   },
   {
     img: "/Footer/aa/DKtiktok.svg",
     mbImg: "/Footer/ss/MBtiktok.svg",
     href: "https://www.tiktok.com/@riyas.hakkim?lang=en",
+    name: "Tiktok",
   },
   {
     img: "/Footer/aa/DKlinkedIn.svg",
     mbImg: "/Footer/ss/MBlinkedIn.svg",
     href: "https://ae.linkedin.com/in/riyashakkim",
+    name: "LinkedIn",
   },
   {
     img: "/Footer/aa/DKthreads.svg",
     mbImg: "/Footer/ss/MBthreads.svg",
     href: "https://www.threads.net/@riyasbinhakkim/post/C4shCoIxNUm",
+    name: "Threads",
   },
   {
     img: "/Footer/aa/DKFacebbok.svg",
     mbImg: "/Footer/ss/MBFacebbok.svg",
     href: "https://www.facebook.com/riyas.hakkim.92?mibextid=LQQJ4d",
+    name: "Facebook",
   },
 ];
 

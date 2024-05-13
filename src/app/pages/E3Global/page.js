@@ -39,12 +39,12 @@ const Page = () => {
     {
       img: "/Footer/aa/DKINSTAGRAM.svg",
       mbImg: "/Footer/ss/MBINSTAGRAM.svg",
-      href: "https://www.instagram.com/riyasbinhakkim/?hl=en",
+      href: "https://instagram.com/e3_globalzone/",
     },
     {
       img: "/Footer/aa/DKlinkedIn.svg",
       mbImg: "/Footer/ss/MBlinkedIn.svg",
-      href: "https://ae.linkedin.com/in/riyashakkim",
+      href: "https://www.linkedin.com/in/e3-global-zone-545369306",
     },
   ];
 
