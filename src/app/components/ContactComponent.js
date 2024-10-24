@@ -1,14 +1,14 @@
-"use client"
+"use client";
 import React from "react";
 import { BtnComponent, SectionTitle } from "./ButtonComponent";
 import { useWindowSize } from "../utils/windowSize";
 
-const ContactComponent = () => {
+const ContactComponent = ({ marginTop }) => {
   const { windowSize, isSmallScreen } = useWindowSize();
 
   return (
     <>
-      <div className="contactContainer">
+      <div className="contactContainer" style={{ marginTop: marginTop }}>
         <div className="contactContentContainer">
           <SectionTitle
             sectionText="Ready to elevate your sales journey?"

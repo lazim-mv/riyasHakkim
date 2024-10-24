@@ -9,7 +9,7 @@ const Container4 = () => {
   return (
     <div className={styles.container}>
       <SectionTitle
-        sectionText="Key Features"
+        sectionText="Additional Benefits"
         padding="0 0 1.3227513227513228vw 0"
         margin="auto"
         line={"20.767195767195766vw"}

@@ -13,7 +13,7 @@ const Container1 = () => {
     <div className={styles.container1}>
       <div className={styles.imgContainer1}>
         <div className={styles.bgBlur}></div>
-        <Image src={img1} alt="image1" width={675} height={510} />
+        <Image src={img1} alt="image1" width={675} height={510} className={styles.heroImg} />
       </div>
       <div className={styles.contents}>
         <div className={styles.humaxLogo}>

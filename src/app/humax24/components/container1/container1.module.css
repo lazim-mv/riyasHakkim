@@ -6,6 +6,7 @@
     margin-top: 6.613756613756613vw;
     margin-bottom: 13.227513227513226vw;
     overflow-y: hidden;
+    background: #121212;
 }
 
 .imgContainer1 {
@@ -13,6 +14,11 @@
     height: 33.664021164021165vw;
     margin-top: 7.341269841269842vw;
     position: relative;
+}
+
+.heroImg {
+    width: 44.642857142857146vw;
+    height: 33.664021164021165vw;
 }
 
 .bgBlur {

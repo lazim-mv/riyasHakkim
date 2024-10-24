@@ -12,7 +12,7 @@ const Container3 = () => {
     <div className={styles.container}>
       <div className={styles.contents}>
         <SectionTitle
-          sectionText="Key Features"
+          sectionText="Our Speakers"
           padding="0 0 1.3227513227513228vw 0"
           margin="auto"
           line={"20.767195767195766vw"}

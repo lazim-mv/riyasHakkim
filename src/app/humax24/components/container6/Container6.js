@@ -6,6 +6,7 @@ import Image from "next/image";
 import dynamic from "next/dynamic";
 import Footer from "@/app/components/Footer";
 import ContactComponent from "@/app/components/ContactComponent";
+import GlowButton from "../common/GlowButton";
 
 const CountdownComponent = dynamic(() => import("../countdown/Countdown"), {
   ssr: false,
@@ -20,10 +21,11 @@ const Container6 = () => {
           <div className={styles.row}>
             <h2 className={styles.title}>Our Event Start in</h2>
             <CountdownComponent />
+            <GlowButton title="Book Ticket" />
           </div>
         </div>
       </div>
-      <ContactComponent />
+      <ContactComponent marginTop="0" />
       <Footer />
     </>
   );
