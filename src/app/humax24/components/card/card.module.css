@@ -1,0 +1,38 @@
+.card {
+    width: 14.1vw;
+    height: 9.920634920634921vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.3227513227513228vw 1.0682010582010581vw;
+    background-color: #121212;
+}
+
+.card img {
+    width: 2.314814814814815vw;
+    height: 2.314814814814815vw;
+
+    margin-bottom: 0.992063492063492vw;
+}
+
+.card p {
+    text-align: center;
+}
+
+.container4Card {
+    background-color: transparent;
+    width: 14.484126984126986vw;
+    height: auto;
+}
+
+.container4Card img {
+    width: 4.62962962962963vw;
+    height: 4.62962962962963vw;
+}
+
+.container4Card h3 {
+    text-align: center;
+    margin-bottom: 0.26455026455026454vw;
+}

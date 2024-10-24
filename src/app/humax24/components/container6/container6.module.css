@@ -1,0 +1,38 @@
+.imgContainer {
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 39.682539682539684vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.imgContainer img {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100vw;
+    height: 39.682539682539684vw;
+    z-index: -1;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3.968253968253968vw;
+    margin-bottom: 5.8vw;
+}
+
+.title {
+    font-size: 3.1746031746031744vw;
+    line-height: 3.650793650793651vw;
+    color: #FFFFFF;
+    font-weight: 700;
+    letter-spacing: 0.3306878306878307vw;
+    margin-right: 4vw;
+}

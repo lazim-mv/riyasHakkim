@@ -15,6 +15,7 @@ function Header() {
     { text: "About", href: "/pages/About" },
     { text: "Programs", href: "/pages/Programs" },
     { text: "E3 Global Zone", href: "/pages/E3Global" },
+    { text: "Contact Us", href: "/pages/Cotact" },
   ];
 
   // useEffect(() => {
@@ -81,15 +82,17 @@ function Header() {
           </div>
         ))}
       </div>
-      <a href="/pages/Contact">
+      <a href="/humax24">
         <BtnComponent
-          bg="#C8952E"
+          bg="#C8952E1A"
           color="#ffffff"
           width="11.64021164021164vw"
           height="3.2407407407407405vw"
-          buttonText="Contact Now"
+          buttonText="Humax'2024"
           margin="0 0 0 5.013020833333334vw"
           h5Margin="0"
+          borderColor="#C8952E66"
+          borderRadius="3.2407407407407405vw"
         />
       </a>
     </div>

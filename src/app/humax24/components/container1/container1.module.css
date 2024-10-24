@@ -1,0 +1,73 @@
+.container1 {
+    padding: 0 8.597883597883598vw;
+    display: flex;
+    justify-content: space-between;
+    gap: 6.878306878306878vw;
+    margin-top: 6.613756613756613vw;
+    margin-bottom: 13.227513227513226vw;
+}
+
+.imgContainer1 {
+    width: 44.642857142857146vw;
+    height: 33.664021164021165vw;
+    margin-top: 7.341269841269842vw;
+}
+
+
+
+.contents {
+    width: 30.555555555555557vw;
+    height: 32.870370370370374vw;
+    margin-top: 3.3068783068783065vw;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.humaxLogo {
+    width: 15.939153439153438vw;
+    height: 5.291005291005291vw;
+    margin-bottom: 1.8518518518518516vw;
+}
+
+.textContent .desc1 {
+    color: rgba(255, 255, 255, .6);
+    margin-bottom: 2.1164021164021163vw;
+    font-size: 1.5873015873015872vw;
+    line-height: 1.8253968253968256vw;
+}
+
+.textContent h1 {
+    font-size: 2.6455026455026456vw;
+    line-height: 3.0423280423280423vw;
+    margin-bottom: 0.5291005291005291vw;
+}
+
+.eventDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 1.0582010582010581vw;
+    margin-bottom: 2.1164021164021163vw;
+}
+
+.event {
+    display: flex;
+    align-items: center;
+    gap: 0.7936507936507936vw;
+}
+
+.eventIconContainer {
+    width: 3.3068783068783065vw;
+    height: 3.3068783068783065vw;
+    border-radius: 3.3068783068783065vw;
+    border: 1px solid #9E9E9E;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eventIconContainer img {
+    width: 1.3227513227513228vw;
+    height: 1.3227513227513228vw;
+}

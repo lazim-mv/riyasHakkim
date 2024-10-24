@@ -1,0 +1,60 @@
+.container {
+    padding: var(--containerPadding);
+
+    display: flex;
+    gap: 1.984126984126984vw;
+    margin-bottom: 13.227513227513226vw;
+}
+
+.leftContainer {
+    background-color: #121212;
+    width: 55.158730158730165vw;
+    padding-top: 3.3068783068783065vw;
+    padding-bottom: 3.3068783068783065vw;
+    padding-left: 3.3068783068783065vw;
+}
+
+.row {
+    display: flex;
+    margin-top: 1.984126984126984vw;
+    gap: 5.291005291005291vw;
+}
+
+.col1 {
+    width: 14.682539682539684vw;
+}
+
+.col1 img {
+    width: 13.492063492063492vw;
+    height: 3.3068783068783065vw;
+    margin-bottom: calc(1.984126984126984vw /2);
+}
+
+.col2 {
+    width: 23.743386243386244vw;
+}
+
+.col2 img {
+    width: 6.481481481481481vw;
+    height: 3.3068783068783065vw;
+
+}
+
+.rightContainer {
+    background-color: #121212;
+    width: 23.015873015873016vw;
+
+    padding-top: 3.3068783068783065vw;
+    padding-bottom: 3.3068783068783065vw;
+    padding-left: 3.3068783068783065vw;
+}
+
+.col3 {
+    margin-top: 1.984126984126984vw;
+}
+
+.col3 img {
+    width: 14.947089947089948vw;
+    height: 3.3068783068783065vw;
+
+}

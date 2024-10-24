@@ -1,0 +1,13 @@
+.container2 {
+    padding: 0 9.920634920634921vw;
+    margin-bottom: 13.227513227513226vw;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 1.984126984126984vw;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 4.62962962962963vw;
+}

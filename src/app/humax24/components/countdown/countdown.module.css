@@ -1,0 +1,79 @@
+.row {
+    display: flex;
+    min-width: 7.936507936507936vw;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.row span {
+    font-size: 3.1746031746031744vw;
+    line-height: 3.650793650793651vw;
+    color: #FFFFFF;
+    font-weight: 700;
+    letter-spacing: 0.3306878306878307vw;
+}
+
+.days {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.days .dataAndDots {
+    padding-bottom: 1.984126984126984vw;
+    margin-bottom: 1.984126984126984vw;
+    margin-right: 2.6455026455026456vw;
+    border-bottom: 1px solid rgba(255, 255, 255, .6);
+    min-width: 6vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.days .dot {
+    position: absolute;
+    left: 8vw;
+}
+
+.hours {
+    position: relative;
+}
+
+.hours .dataAndDots {
+    margin-left: 2.6455026455026456vw;
+    min-width: 6vw;
+}
+
+.hours .dot2 {
+    position: absolute;
+    left: 11vw;
+}
+
+
+.minutes {
+    position: relative;
+}
+
+.minutes .dataAndDots {
+    margin-left: 2.6455026455026456vw;
+    min-width: 6vw;
+}
+
+.minutes .dot2 {
+    position: absolute;
+    left: 11vw;
+}
+
+.seconds {
+    position: relative;
+}
+
+.seconds .dataAndDots {
+    margin-left: 2.6455026455026456vw;
+    min-width: 6vw;
+}

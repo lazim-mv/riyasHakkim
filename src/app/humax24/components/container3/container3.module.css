@@ -1,0 +1,60 @@
+.default {
+    --containerPadding: 0 9.920634920634921vw;
+    --containerMarginTop: 14.550264550264549vw;
+    --backgroundContainerPadding: 6.510416666666667vw 9.765625vw;
+    --mobileContainerMarginTop: 16vw;
+    --mobileContainerPadding: 0 6.4vw;
+    --mobileBackgroundContainerPadding: 10.666666666666668vw 6.4vw;
+    --borderRadius: 0.6613756613756614vw;
+    --mobileBorderRadius: 2.666666666666667vw;
+}
+
+
+.container {
+    padding: var(--backgroundContainerPadding);
+    margin-bottom: 13.227513227513226vw;
+
+    display: flex;
+    gap: 5.291005291005291vw;
+    justify-content: space-between;
+    background: #121212;
+}
+
+.contents {
+    width: 31.746031746031743vw;
+}
+
+.container p {
+    margin: 2.1164021164021163vw 0;
+}
+
+.profileContainer {
+    display: flex;
+    gap: 2.6455026455026456vw;
+
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 18.584656084656086vw;
+}
+
+.profile h3 {
+    text-align: center;
+    margin-top: 1.3227513227513228vw;
+    margin-bottom: 0.26455026455026454vw;
+}
+
+.profile p {
+    text-align: center;
+    margin: 0;
+    height: 5.489417989417989vw;
+}
+
+.profile img {
+    width: 18.584656084656086vw;
+    height: 18.584656084656086vw;
+}

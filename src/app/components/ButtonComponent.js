@@ -11,6 +11,7 @@ const BtnComponent = ({
   margin,
   arrow,
   h5Margin,
+  borderRadius,
   arrowColor,
   height,
 }) => {
@@ -24,6 +25,7 @@ const BtnComponent = ({
         width: width ? width : "13.425925925925927vw",
         height: height ? height : "3.6375661375661372vw",
         margin: margin,
+        borderRadius: borderRadius,
       }}
     >
       <div className="visibleWrapperContainer">

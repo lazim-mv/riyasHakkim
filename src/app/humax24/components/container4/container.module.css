@@ -1,0 +1,10 @@
+.container {
+    padding: var(--containerPadding);
+    margin-bottom: 13.227513227513226vw;
+}
+
+.cards {
+    display: flex;
+    gap: 1.984126984126984vw;
+    margin-top: 4.62962962962963vw;
+}
