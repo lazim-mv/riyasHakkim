@@ -3,7 +3,7 @@ import styles from "./container5.module.css";
 import Image from "next/image";
 import img1 from "../../../../../public/humax/container5/1.svg";
 import img2 from "../../../../../public/humax/container5/2.svg";
-import img3 from "../../../../../public/humax/container5/3.svg";
+import img3 from "../../../../../public/humax/container5/3.png";
 
 const Container5 = () => {
   return (
@@ -27,7 +27,7 @@ const Container5 = () => {
       <div className={styles.rightContainer}>
         <h3>Event Managed By:</h3>
         <div className={styles.col3}>
-          <Image src={img3} alt="Logo of e3 global zone" />
+          <Image src={img3} alt="Halal Days" />
         </div>
       </div>
     </div>
