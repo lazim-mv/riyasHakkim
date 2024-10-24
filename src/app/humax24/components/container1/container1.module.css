@@ -5,12 +5,26 @@
     gap: 6.878306878306878vw;
     margin-top: 6.613756613756613vw;
     margin-bottom: 13.227513227513226vw;
+    overflow-y: hidden;
 }
 
 .imgContainer1 {
     width: 44.642857142857146vw;
     height: 33.664021164021165vw;
     margin-top: 7.341269841269842vw;
+    position: relative;
+}
+
+.bgBlur {
+    position: absolute;
+    width: 23.14814814814815vw;
+    height: 23.14814814814815vw;
+    background-color: #C8952E;
+    filter: blur(420px);
+    bottom: 0;
+    left: 14vw;
+    z-index: -1;
+    rotate: 45deg;
 }
 
 

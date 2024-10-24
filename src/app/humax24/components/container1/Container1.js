@@ -12,6 +12,7 @@ const Container1 = () => {
   return (
     <div className={styles.container1}>
       <div className={styles.imgContainer1}>
+        <div className={styles.bgBlur}></div>
         <Image src={img1} alt="image1" width={675} height={510} />
       </div>
       <div className={styles.contents}>
