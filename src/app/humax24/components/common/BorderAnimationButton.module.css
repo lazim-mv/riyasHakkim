@@ -79,7 +79,7 @@
     }
 
     .btn:hover::after {
-        /* border: 0.5333333333333333vw solid #C8952E; */
-        border: none;
+        border: 0.5333333333333333vw solid #C8952E;
+        /* border: none; */
     }
 }
