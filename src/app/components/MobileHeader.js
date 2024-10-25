@@ -25,6 +25,7 @@ function MobileHeader() {
     { text: "About", href: "/pages/About" },
     { text: "Programs", href: "/pages/Programs" },
     { text: "E3 Global Zone", href: "/pages/E3Global" },
+    { text: "Contact Now", href: "/pages/Contact" },
   ];
 
   return (
@@ -122,14 +123,14 @@ function MobileHeader() {
               </a>
             ))}
             <a
-              href="/pages/Contact"
+              href="/humax24"
               style={{ display: isMenuOpen ? "block" : "none" }}
             >
               <BtnComponent
                 bg="#C8952E"
                 color="#ffffff"
                 width="11.45833333333333vw"
-                buttonText="Contact Now"
+                buttonText="Humax'2024"
               />
             </a>
           </div>
