@@ -10,7 +10,7 @@ import GlowButton from "../common/GlowButton";
 
 const Container1 = () => {
   const calendarLink =
-    "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Event+Name&dates=20241214T093000Z/20241214T173000Z&details=Join+us+for+the+event!&location=Event+Location";
+    "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Humax:2024&dates=20241214T040000Z/20241214T120000Z&details=Join+us+for+the+event!&location=https://maps.app.goo.gl/QGdB1S6HSw1anTAAA";
 
   return (
     <div className={styles.container1}>
@@ -32,7 +32,7 @@ const Container1 = () => {
           <h1>Welcome to Humax&apos;24:</h1>
           <p className={styles.desc1}>Maximizing Humane Experience</p>
           <div className={styles.eventDetails}>
-            <a href={calendarLink}>
+            <a className={styles.anchorTag} href={calendarLink}>
               <div className={styles.event}>
                 <div className={styles.eventIconContainer}>
                   <Image src={calendar} alt="Calendar Icon" loading="eager" />
@@ -40,7 +40,10 @@ const Container1 = () => {
                 <p>Saturday 14 Dec 2024, 09:30 AM - 05:30 PM</p>
               </div>
             </a>
-            <a href="https://maps.app.goo.gl/QGdB1S6HSw1anTAAA">
+            <a
+              className={styles.anchorTag}
+              href="https://maps.app.goo.gl/QGdB1S6HSw1anTAAA"
+            >
               <div className={styles.event}>
                 <div className={styles.eventIconContainer}>
                   <Image src={location} alt="Location Icon" loading="eager" />
@@ -48,7 +51,7 @@ const Container1 = () => {
                 <p>Malabar Marina Convention Centre, Calicut</p>
               </div>
             </a>
-            <a href="tel:919895493028">
+            <a className={styles.anchorTag} href="tel:919895493028">
               <div className={styles.event}>
                 <div className={styles.eventIconContainer}>
                   <Image src={call} alt="Call Icon" loading="eager" />

@@ -36,7 +36,7 @@ export default function Home() {
 
   return (
     // <UnderMaintainance />
-    <main className="">
+    <>
       <Header />
       <MobileHeader />
       <Hero mobile={isSmallScreen} isIOS={ss} />
@@ -53,7 +53,7 @@ export default function Home() {
       <Testimonial mobile={isSmallScreen} mainPage={true} />
       <ContactComponent />
       <Footer mobile={isSmallScreen} />
-    </main>
+    </>
   );
 }
 //  <Container9 mobile={isSmallScreen} />

@@ -33,7 +33,7 @@
     }
 
     .btnContainer p {
-        animation: shine 4s infinite linear;
+        animation: shine 2s infinite linear;
 
     }
 }

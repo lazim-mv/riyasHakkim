@@ -154,7 +154,7 @@
         overflow-y: hidden;
         background: #121212;
         position: relative;
-        z-index: -1;
+        z-index: 1;
     }
 
     .imgContainer1 {
@@ -177,7 +177,7 @@
         filter: blur(480px);
         bottom: 0;
         left: 14vw;
-        z-index: 1;
+        z-index: -1;
         rotate: 45deg;
     }
 
@@ -203,11 +203,12 @@
     }
 
     .textContent .desc1 {
-        color: rgba(255, 255, 255);
-        margin-bottom: var(--mspacing20);
-        font-size: 6.4vw;
-        line-height: 7.359999999999999vw;
-        font-weight: 700;
+        font-size: 3.733333333333334vw;
+        font-weight: 400;
+        line-height: 5.6000000000000005vw;
+        color: rgba(255, 255, 255, 0.8);
+        font-family: var(--font-OpenSans);
+        font-feature-settings: "liga" 0;
     }
 
     .textContent h1 {
@@ -222,6 +223,9 @@
         flex-direction: column;
         gap: var(--mspacing20);
         margin-bottom: var(--mspacing24);
+        margin-top: var(--mspacing24);
+        position: relative;
+        z-index: 10;
     }
 
     .event {
@@ -230,15 +234,15 @@
         gap: var(--mspacing8);
     }
 
-    .event:nth-child(1) p {
+    .anchorTag:nth-child(1) p {
         width: 41.06666666666667vw;
     }
 
-    .event:nth-child(2) p {
+    .anchorTag:nth-child(2) p {
         width: 51.2vw;
     }
 
-    .event:nth-child(3) p {
+    .anchorTag:nth-child(3) p {
         width: 36vw;
     }
 
