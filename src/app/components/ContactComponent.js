@@ -27,7 +27,7 @@ const ContactComponent = ({ marginTop }) => {
             />
           </a>
         </div>
-        <hr />
+        {/* <hr /> */}
       </div>
     </>
   );

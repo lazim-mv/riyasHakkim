@@ -1,3 +1,51 @@
+.default {
+    --spacing12: 0.7936507936507936vw;
+    --spacing20: 1.3227513227513228vw;
+    --spacing24: 1.5873015873015872vw;
+    --spacing30: 1.984126984126984vw;
+    --spacing32: 2.1164021164021163vw;
+    --spacing36: 2.380952380952381vw;
+    --spacing40: 2.6455026455026456vw;
+    --spacing50: 3.3068783068783065vw;
+    --spacing60: 3.968253968253968vw;
+    --spacing70: 4.62962962962963vw;
+    --spacing80: 5.291005291005291vw;
+    --spacing90: 5.952380952380952vw;
+    --spacing100: 6.613756613756613vw;
+    --spacing120: 7.936507936507936vw;
+    --spacing150: 9.920634920634921vw;
+    --spacing200: 13.227513227513228vw;
+    --spacing250: 16.534391534391533vw;
+    --spacing300: 19.84126984126984vw;
+    --spacing384: 25.396825396825395vw;
+    --spacing400: 26.455026455026456vw;
+    --spacing500: 33.06878306878307vw;
+
+    --mspacing4: 1.0666666666666667vw;
+    --mspacing8: 2.1333333333333333vw;
+    --mspacing10: 2.666666666666667vw;
+    --mspacing12: 3.2vw;
+    --mspacing14: 3.733333333333334vw;
+    --mspacing15: 4vw;
+    --mspacing16: 4.266666666666667vw;
+    --mspacing18: 4.8vw;
+    --mspacing20: 5.333333333333334vw;
+    --mspacing24: 6.4vw;
+    --mspacing30: 8vw;
+    --mspacing32: 8.533333333333333vw;
+    --mspacing40: 10.666666666666668vw;
+    --mspacing50: 13.333333333333334vw;
+    --mspacing60: 16vw;
+    --mspacing68: 18.133333333333333vw;
+    --mspacing70: 18.666666666666668vw;
+    --mspacing80: 20.8vw;
+    --mspacing100: 26.4vw;
+    --mspacing120: 32vw;
+    --mspacing150: 39.99999999999999vw;
+    --mspacing300: 80vw;
+}
+
+
 .container {
     padding: var(--containerPadding);
 
@@ -56,5 +104,71 @@
 .col3 img {
     width: 14.947089947089948vw;
     height: 3.3068783068783065vw;
+}
 
+@media only screen and (max-width: 767px) {
+    .container {
+        padding: 0 var(--mspacing24);
+
+        display: flex;
+        flex-direction: column;
+        gap: var(--mspacing24);
+        margin-bottom: var(--mspacing60);
+    }
+
+    .leftContainer {
+        background-color: #121212;
+        width: 100%;
+        padding-top: var(--mspacing30);
+        padding-bottom: var(--mspacing30);
+        padding-left: var(--mspacing20);
+        padding-right: var(--mspacing20);
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        margin-top: var(--mspacing20);
+        gap: var(--mspacing30);
+    }
+
+    .col1 {
+        width: auto;
+    }
+
+    .col1 img {
+        width: 43.46666666666666vw;
+        height: 10.666666666666668vw;
+        margin-bottom: var(--mspacing10);
+    }
+
+
+    .col2 {
+        width: auto;
+    }
+
+    .col2 img {
+        width: 21.066666666666666vw;
+        height: 10.666666666666668vw;
+
+    }
+
+    .rightContainer {
+        background-color: #121212;
+        width: 100%;
+
+        padding-top: var(--mspacing30);
+        padding-bottom: var(--mspacing30);
+        padding-left: var(--mspacing20);
+        padding-right: var(--mspacing20);
+    }
+
+    .col3 {
+        margin-top: var(--mspacing20);
+    }
+
+    .col3 img {
+        width: 48.21333333333334vw;
+        height: 10.666666666666668vw;
+    }
 }

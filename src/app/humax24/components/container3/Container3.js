@@ -6,8 +6,11 @@ import GlowButton from "../common/GlowButton";
 import Image from "next/image";
 import img1 from "../../../../../public/humax/container3/1.png";
 import img2 from "../../../../../public/humax/container3/2.png";
+import { useWindowSize } from "@/app/utils/windowSize";
 
 const Container3 = () => {
+  const { windowSize, isSmallScreen } = useWindowSize();
+
   return (
     <div className={styles.container}>
       <div className={styles.contents}>
@@ -15,7 +18,7 @@ const Container3 = () => {
           sectionText="Our Speakers"
           padding="0 0 1.3227513227513228vw 0"
           margin="auto"
-          line={"20.767195767195766vw"}
+          line={isSmallScreen ? "26.666666666666668vw" : "20.767195767195766vw"}
           textAllign="left"
         />
         <p>

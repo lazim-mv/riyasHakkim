@@ -1,3 +1,50 @@
+.default {
+    --spacing12: 0.7936507936507936vw;
+    --spacing20: 1.3227513227513228vw;
+    --spacing24: 1.5873015873015872vw;
+    --spacing30: 1.984126984126984vw;
+    --spacing32: 2.1164021164021163vw;
+    --spacing36: 2.380952380952381vw;
+    --spacing40: 2.6455026455026456vw;
+    --spacing50: 3.3068783068783065vw;
+    --spacing60: 3.968253968253968vw;
+    --spacing70: 4.62962962962963vw;
+    --spacing80: 5.291005291005291vw;
+    --spacing90: 5.952380952380952vw;
+    --spacing100: 6.613756613756613vw;
+    --spacing120: 7.936507936507936vw;
+    --spacing150: 9.920634920634921vw;
+    --spacing200: 13.227513227513228vw;
+    --spacing250: 16.534391534391533vw;
+    --spacing300: 19.84126984126984vw;
+    --spacing384: 25.396825396825395vw;
+    --spacing400: 26.455026455026456vw;
+    --spacing500: 33.06878306878307vw;
+
+    --mspacing4: 1.0666666666666667vw;
+    --mspacing8: 2.1333333333333333vw;
+    --mspacing10: 2.666666666666667vw;
+    --mspacing12: 3.2vw;
+    --mspacing14: 3.733333333333334vw;
+    --mspacing15: 4vw;
+    --mspacing16: 4.266666666666667vw;
+    --mspacing18: 4.8vw;
+    --mspacing20: 5.333333333333334vw;
+    --mspacing24: 6.4vw;
+    --mspacing30: 8vw;
+    --mspacing32: 8.533333333333333vw;
+    --mspacing40: 10.666666666666668vw;
+    --mspacing50: 13.333333333333334vw;
+    --mspacing60: 16vw;
+    --mspacing68: 18.133333333333333vw;
+    --mspacing70: 18.666666666666668vw;
+    --mspacing80: 20.8vw;
+    --mspacing100: 26.4vw;
+    --mspacing120: 32vw;
+    --mspacing150: 39.99999999999999vw;
+    --mspacing300: 80vw;
+}
+
 .card {
     width: 14.1vw;
     height: 9.920634920634921vw;
@@ -36,4 +83,50 @@
 .container4Card h3 {
     text-align: center;
     margin-bottom: 0.26455026455026454vw;
+}
+
+@media only screen and (max-width: 767px) {
+    .card {
+        width: 41vw;
+        height: 29.86666666666667vw;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: var(--mspacing15) var(--mspacing10);
+        background-color: #121212;
+    }
+
+    .card img {
+        width: 8.914666666666667vw;
+        height: 8.914666666666667vw;
+
+        margin-bottom: 2.2106666666666666vw;
+    }
+
+    .card p {
+        text-align: center;
+    }
+
+    .container4Card {
+        width: 41vw;
+        background: transparent;
+        height: auto;
+        padding: 0;
+    }
+
+    .container4Card img {
+        width: 13.333333333333334vw;
+        height: 13.333333333333334vw;
+    }
+
+    .container4Card h3 {
+        text-align: center;
+        margin-bottom: 1.3333333333333335vw;
+    }
+
+    .container4Card p {
+        height: 11.200000000000001vw;
+    }
 }

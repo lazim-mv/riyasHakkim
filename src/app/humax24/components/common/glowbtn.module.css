@@ -26,6 +26,13 @@
     white-space: nowrap;
 }
 
+@media only screen and (max-width: 767px) {
+    .btnContainer {
+        width: 36.266666666666666vw;
+        height: 10.666666666666668vw;
+    }
+}
+
 @-moz-keyframes shine {
     0% {
         background-position: -11.904761904761903vw;

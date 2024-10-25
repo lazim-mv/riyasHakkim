@@ -9,6 +9,7 @@ import Container5 from "./components/container5/Container5";
 import Container6 from "./components/container6/Container6";
 import { headers } from "next/headers";
 import { redirect } from "next/navigation";
+import MobileHeader from "../components/MobileHeader";
 
 const page = () => {
   const header = headers();
@@ -19,6 +20,7 @@ const page = () => {
   return (
     <div>
       <Header />
+      <MobileHeader />
       <Container1 />
       <Container2 />
       <Container3 />
