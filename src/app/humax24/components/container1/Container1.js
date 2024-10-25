@@ -35,7 +35,7 @@ const Container1 = () => {
             <a href={calendarLink}>
               <div className={styles.event}>
                 <div className={styles.eventIconContainer}>
-                  <Image src={calendar} alt="Calendar Icon" />
+                  <Image src={calendar} alt="Calendar Icon" loading="eager" />
                 </div>
                 <p>Saturday 14 Dec 2024, 09:30 AM - 05:30 PM</p>
               </div>
@@ -43,7 +43,7 @@ const Container1 = () => {
             <a href="https://maps.app.goo.gl/QGdB1S6HSw1anTAAA">
               <div className={styles.event}>
                 <div className={styles.eventIconContainer}>
-                  <Image src={location} alt="Location Icon" />
+                  <Image src={location} alt="Location Icon" loading="eager" />
                 </div>
                 <p>Malabar Marina Convention Centre, Calicut</p>
               </div>
@@ -51,7 +51,7 @@ const Container1 = () => {
             <a href="tel:919895493028">
               <div className={styles.event}>
                 <div className={styles.eventIconContainer}>
-                  <Image src={call} alt="Call Icon" />
+                  <Image src={call} alt="Call Icon" loading="eager" />
                 </div>
                 <p>+971 52 105 7169, +91 98954 93028</p>
               </div>

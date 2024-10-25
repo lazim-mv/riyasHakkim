@@ -62,11 +62,24 @@
         /* margin-top: 4vw; */
     }
 
+    .btn::before {
+        left: -25%;
+        top: -120%;
+        height: 350%;
+        width: 150%;
+    }
+
+    .btn:hover::before {
+        animation: rotate 3s infinite linear;
+    }
+
+
     .btn::after {
         border-radius: 10.666666666666668vw;
     }
 
     .btn:hover::after {
-        border: 0.5333333333333333vw solid #C8952E;
+        /* border: 0.5333333333333333vw solid #C8952E; */
+        border: none;
     }
 }
