@@ -9,11 +9,20 @@ import call from "../../../../../public/humax/call.svg";
 import GlowButton from "../common/GlowButton";
 
 const Container1 = () => {
+  const calendarLink =
+    "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Event+Name&dates=20241214T093000Z/20241214T173000Z&details=Join+us+for+the+event!&location=Event+Location";
+
   return (
     <div className={styles.container1}>
       <div className={styles.imgContainer1}>
         <div className={styles.bgBlur}></div>
-        <Image src={img1} alt="image1" width={675} height={510} className={styles.heroImg} />
+        <Image
+          src={img1}
+          alt="image1"
+          width={675}
+          height={510}
+          className={styles.heroImg}
+        />
       </div>
       <div className={styles.contents}>
         <div className={styles.humaxLogo}>
@@ -23,24 +32,30 @@ const Container1 = () => {
           <h1>Welcome to Humax&apos;24:</h1>
           <p className={styles.desc1}>Maximizing Humane Experience</p>
           <div className={styles.eventDetails}>
-            <div className={styles.event}>
-              <div className={styles.eventIconContainer}>
-                <Image src={calendar} alt="Calendar Icon" />
+            <a href={calendarLink}>
+              <div className={styles.event}>
+                <div className={styles.eventIconContainer}>
+                  <Image src={calendar} alt="Calendar Icon" />
+                </div>
+                <p>Saturday 14 Dec 2024, 09:30 AM - 05:30 PM</p>
               </div>
-              <p>Saturday 14 Dec 2024, 09:30 AM - 05:30 PM</p>
-            </div>
-            <div className={styles.event}>
-              <div className={styles.eventIconContainer}>
-                <Image src={location} alt="Location Icon" />
+            </a>
+            <a href="https://maps.app.goo.gl/QGdB1S6HSw1anTAAA">
+              <div className={styles.event}>
+                <div className={styles.eventIconContainer}>
+                  <Image src={location} alt="Location Icon" />
+                </div>
+                <p>Malabar Marina Convention Centre, Calicut</p>
               </div>
-              <p>Malabar Marina Convention Centre, Calicut</p>
-            </div>
-            <div className={styles.event}>
-              <div className={styles.eventIconContainer}>
-                <Image src={call} alt="Call Icon" />
+            </a>
+            <a href="tel:919895493028">
+              <div className={styles.event}>
+                <div className={styles.eventIconContainer}>
+                  <Image src={call} alt="Call Icon" />
+                </div>
+                <p>+971 52 105 7169, +91 98954 93028</p>
               </div>
-              <p>+971 52 105 7169, +91 98954 93028</p>
-            </div>
+            </a>
           </div>
         </div>
 

@@ -336,7 +336,7 @@ a {
 }
 
 .logoContainer {
-  margin-right: 8.138020833333332vw;
+  margin-right: 0;
 }
 
 .logoContainer img {
@@ -1213,7 +1213,7 @@ a {
     margin-top: 21.333333333333336vw;
     flex-direction: column;
     height: calc(221.39999999999998vw - 21.333333333333336vw);
-    background: #0d0d0d;
+    background: #121212;
     padding-bottom: 0;
   }
 

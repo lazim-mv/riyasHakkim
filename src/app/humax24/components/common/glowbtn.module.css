@@ -31,6 +31,11 @@
         width: 36.266666666666666vw;
         height: 10.666666666666668vw;
     }
+
+    .btnContainer p {
+        animation: shine 4s infinite linear;
+
+    }
 }
 
 @-moz-keyframes shine {
@@ -71,12 +76,12 @@
 
 @keyframes shine {
     0% {
-        background-position: -11.904761904761903vw;
+        background-position: 0vw;
     }
 
 
 
     100% {
-        background-position: 11.904761904761903vw;
+        background-position: 20vw;
     }
 }

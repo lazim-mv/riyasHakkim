@@ -3,6 +3,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 import { BtnComponent } from "./ButtonComponent";
 import { usePathname } from "next/navigation";
+import BorderAnimationButton from "../humax24/components/common/BorderAnimationButton";
 
 function MobileHeader() {
   const pathname = usePathname();
@@ -31,7 +32,7 @@ function MobileHeader() {
   return (
     <div
       style={{
-        backgroundColor: "#0D0D0D",
+        backgroundColor: "#121212",
         height: "21.333333333333336vw",
         position: "fixed",
         top: 0,
@@ -126,12 +127,16 @@ function MobileHeader() {
               href="/humax24"
               style={{ display: isMenuOpen ? "block" : "none" }}
             >
-              <BtnComponent
-                bg="#C8952E"
+              {/* <BtnComponent
+                bg="#C8952E1A"
                 color="#ffffff"
                 width="11.45833333333333vw"
                 buttonText="Humax'2024"
-              />
+                borderRadius="11.2407407407407405vw"
+                borderColor="#C8952E66"
+              /> */}
+
+              <BorderAnimationButton />
             </a>
           </div>
         </div>

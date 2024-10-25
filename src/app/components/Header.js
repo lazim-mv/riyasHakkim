@@ -5,6 +5,7 @@ import React, { useEffect, useState } from "react";
 import { BtnComponent } from "./ButtonComponent";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
+import BorderAnimationButton from "../humax24/components/common/BorderAnimationButton";
 
 function Header() {
   const pathname = usePathname();
@@ -15,7 +16,7 @@ function Header() {
     { text: "About", href: "/pages/About" },
     { text: "Programs", href: "/pages/Programs" },
     { text: "E3 Global Zone", href: "/pages/E3Global" },
-    { text: "Contact Us", href: "/pages/Cotact" },
+    { text: "Contact Us", href: "/pages/Contact" },
   ];
 
   // useEffect(() => {
@@ -47,7 +48,7 @@ function Header() {
   return (
     <div className="hContainer">
       <div className="headerLine"></div>
-      <a href="/">
+      <a href="/" style={{ width: "max-content" }}>
         <div className="logoContainer">
           <Image
             src="/logo.svg"
@@ -82,8 +83,8 @@ function Header() {
           </div>
         ))}
       </div>
-      <a href="/humax24">
-        <BtnComponent
+
+      {/* <BtnComponent
           bg="#C8952E1A"
           color="#ffffff"
           width="11.64021164021164vw"
@@ -93,7 +94,9 @@ function Header() {
           h5Margin="0"
           borderColor="#C8952E66"
           borderRadius="3.2407407407407405vw"
-        />
+        /> */}
+      <a href="/humax24">
+        <BorderAnimationButton />
       </a>
     </div>
   );
