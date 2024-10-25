@@ -69,9 +69,9 @@
         width: 150%;
     }
 
-    .btn:hover::before {
+    /* .btn:hover::before {
         animation: rotate 3s infinite linear;
-    }
+    } */
 
 
     .btn::after {
