@@ -234,6 +234,10 @@
         gap: var(--mspacing8);
     }
 
+    .anchorTag {
+        cursor: none;
+    }
+
     .anchorTag:nth-child(1) p {
         width: 41.06666666666667vw;
     }
