@@ -61,8 +61,9 @@ const Container1 = () => {
             </a>
           </div>
         </div>
-
-        <GlowButton title="Book Ticket" />
+        <a href="https://humax.riyashakkim.com/">
+          <GlowButton title="Book Ticket" />
+        </a>
       </div>
     </div>
   );

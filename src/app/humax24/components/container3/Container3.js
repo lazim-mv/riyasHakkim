@@ -30,7 +30,9 @@ const Container3 = () => {
           leadership strategies and insights on cultivating resilience. Don’t
           miss this chance to learn from these exceptional leaders!
         </p>
-        <GlowButton title="Book Ticket" />
+        <a href="https://humax.riyashakkim.com/">
+          <GlowButton title="Book Ticket" />
+        </a>
       </div>
       <div className={styles.profileContainer}>
         <div className={styles.profile}>
