@@ -21,9 +21,7 @@ const Container6 = () => {
           <div className={styles.row}>
             <h2 className={styles.title}>Our Event Start in</h2>
             <CountdownComponent />
-            <a href="https://humax.riyashakkim.com/">
-              <GlowButton title="Book Ticket" />
-            </a>
+            <GlowButton title="Book Ticket" />
           </div>
         </div>
       </div>

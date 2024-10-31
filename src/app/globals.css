@@ -1056,6 +1056,10 @@ a {
   text-transform: capitalize;
 }
 
+.bookTicket {
+  width: max-content;
+}
+
 /* Footer end */
 
 @media only screen and (max-width: 767px) {
@@ -1736,5 +1740,10 @@ a {
     text-align: left !important;
     line-height: normal;
     padding: var(--mobileContainerPadding);
+  }
+
+  .bookTicket {
+    width: max-content;
+    cursor: none;
   }
 }
