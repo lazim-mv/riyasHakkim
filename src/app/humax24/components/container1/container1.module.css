@@ -265,4 +265,8 @@
         width: var(--mspacing16);
         height: var(--mspacing16);
     }
+
+    .bookTicket {
+        cursor: none;
+    }
 }
