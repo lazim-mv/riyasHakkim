@@ -1058,6 +1058,7 @@ a {
 
 .bookTicket {
   width: max-content;
+  display: flex;
 }
 
 /* Footer end */
