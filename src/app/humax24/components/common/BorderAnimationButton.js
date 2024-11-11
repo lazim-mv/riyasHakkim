@@ -3,7 +3,7 @@ import styles from "./BorderAnimationButton.module.css"
 
 const BorderAnimationButton = () => {
   return (
-    <div class={styles.btn}></div>
+    <div className={styles.btn}></div>
   )
 }
 

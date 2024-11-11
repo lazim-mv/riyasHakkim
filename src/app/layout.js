@@ -2,7 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
-const inter = Inter({ subsets: ["latin"] });
+
 
 export const metadata = {
   title: "Riyas Hakkim - India's First Emotional Sales Leadership Coach",
@@ -28,8 +28,9 @@ export default function RootLayout({ children }) {
         <meta property="og:image:type" content="image/png" />
         <meta property="og:image:width" content="1024" />
         <meta property="og:image:height" content="1024" />
+
       </head>
-      <body className={inter.className}>
+      <body>
         {children} <SpeedInsights />
       </body>
     </html>

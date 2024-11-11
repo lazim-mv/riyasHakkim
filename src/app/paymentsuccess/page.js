@@ -5,10 +5,12 @@ import Footer from "../components/Footer";
 import Image from "next/image";
 import img1 from "../../../public/humax/thankyou.svg";
 import styles from "./paymentsuccess.module.css";
+import MetaPixel from "../components/MetaMetrics/MetaPixel";
 
 const Page = () => {
   return (
     <>
+      <MetaPixel />
       <Header />
       <MobileHeader />
       <div className={styles.container}>

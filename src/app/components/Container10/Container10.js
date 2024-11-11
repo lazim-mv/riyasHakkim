@@ -18,7 +18,7 @@ const Container10 = ({ mobile }) => {
   console.log(totalData, "clicked");
   const clicks = isSmallScreen ? totalData - 1 : totalData - 3;
   const dynamicValue = isSmallScreen ? 70 : 27.2;
-  console.log(dynamicValue, currentIndex, isSmallScreen, "clicke");
+  // console.log(dynamicValue, currentIndex, isSmallScreen, "clicke");
 
   const nextImage = () => {
     if (currentIndex < clicks) {

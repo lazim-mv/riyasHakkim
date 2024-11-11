@@ -33,7 +33,7 @@ const Container12 = ({ mobile, mainPage, aboutPage }) => {
   console.log(totalData, "clicked");
   const clicks = windowWidth <= 767 ? totalData - 1 : totalData - 3;
   const dynamicValue = windowWidth <= 767 ? 70 : 27.2;
-  console.log(dynamicValue, currentIndex, mobile, "clicke");
+  // console.log(dynamicValue, currentIndex, mobile, "clicke");
 
   const nextImage = () => {
     if (currentIndex < clicks) {
