@@ -1,16 +1,35 @@
+"use client";
 import Image from "next/image";
 import styles from "./container1.module.css";
-
 import img1 from "../../../../../public/humax/1.png";
+import iconDownload from "../../../../../public/humax/download.svg";
 import humaxLogo from "../../../../../public/humax/humaxLogo.svg";
 import calendar from "../../../../../public/humax/calendar.svg";
 import location from "../../../../../public/humax/location.svg";
 import call from "../../../../../public/humax/call.svg";
 import GlowButton from "../common/GlowButton";
+import { useEffect } from "react";
 
 const Container1 = () => {
   const calendarLink =
     "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Humax:2024&dates=20241214T040000Z/20241214T120000Z&details=Join+us+for+the+event!&location=https://maps.app.goo.gl/QGdB1S6HSw1anTAAA";
+
+  const brochureLink = "/humx/HumaxEvent.pdf";
+
+  useEffect(() => {
+    if (window.location.hash === "#downloadBrochure") {
+      downloadBrochure();
+    }
+  }, []);
+
+  const downloadBrochure = () => {
+    const link = document.createElement("a");
+    link.href = brochureLink;
+    link.download = "HumaxEvent.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
 
   return (
     <div className={styles.container1}>
@@ -62,7 +81,14 @@ const Container1 = () => {
           </div>
         </div>
 
-        <GlowButton title="Book Ticket" />
+        <div className={styles.buttonContainer}>
+          <GlowButton title="Book Ticket" />
+          <a onClick={(e) => { e.preventDefault(); downloadBrochure(); }} className={styles.downloadButton}>
+            <div className={styles.downloadButtonInner}>
+              <Image className={styles.downloadIcon} src={iconDownload} width={20} height={20} />Download Brochure
+            </div>
+          </a>
+        </div>
       </div>
     </div>
   );

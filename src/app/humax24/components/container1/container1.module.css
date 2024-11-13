@@ -140,6 +140,32 @@
     height: 1.3227513227513228vw;
 }
 
+.buttonContainer {
+    display: flex;
+    gap: 1.0582010582010581vw;
+}
+
+.buttonContainer a {
+    cursor: pointer;
+}
+
+.downloadButtonInner {
+    border: 1px solid #96202A;
+    color: #96202A;
+    padding: var(--spacing12) var(--spacing30);
+    width: max-content;
+    max-height: 3.373015873015873vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.26455026455026454vw;
+}
+
+.downloadIcon {
+    width: var(--spacing20);
+    height: var(--spacing20);
+}
+
 @media only screen and (max-width: 767px) {
     .container1 {
         padding: var(--mspacing24);
@@ -268,5 +294,30 @@
 
     .bookTicket {
         cursor: none;
+    }
+
+    .buttonContainer {
+        gap: var(--mspacing16);
+    }
+
+    .buttonContainer a {
+        color: none;
+    }
+
+    .downloadButtonInner {
+        border: 1px solid #96202A;
+        color: #96202A;
+        padding: var(--mspacing10) var(--mspacing16);
+        width: max-content;
+        max-height: 10.666666666666668vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: var(--mspacing4);
+    }
+
+    .downloadIcon {
+        width: var(--mspacing16);
+        height: var(--mspacing16);
     }
 }
