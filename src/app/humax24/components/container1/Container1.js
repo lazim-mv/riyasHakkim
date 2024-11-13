@@ -14,7 +14,7 @@ const Container1 = () => {
   const calendarLink =
     "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Humax:2024&dates=20241214T040000Z/20241214T120000Z&details=Join+us+for+the+event!&location=https://maps.app.goo.gl/QGdB1S6HSw1anTAAA";
 
-  const brochureLink = "/humx/HumaxEvent.pdf";
+  const brochureLink = "/humax/HumaxEvent.pdf";
 
   useEffect(() => {
     if (window.location.hash === "#downloadBrochure") {
